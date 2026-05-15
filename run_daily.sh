@@ -2,7 +2,7 @@
 # Ежедневный парсинг квартир + публикация на GitHub Pages
 # Запускается cron'ом в 8:00 каждый день
 
-PROJECT_DIR="/Users/nastyabaturlina/Downloads/tel-aviv-apartments"
+PROJECT_DIR="/Users/nastyabaturlina/tel-aviv-apartments"
 PYTHON="/usr/bin/python3"
 GIT="/usr/bin/git"
 LOG="$PROJECT_DIR/scraper_log.txt"
