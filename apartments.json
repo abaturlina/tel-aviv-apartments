@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T14:18:49.941165"
+    "added_at": "2026-05-15T16:05:41.016833"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T14:56:45.396464"
+    "added_at": "2026-05-15T16:04:54.054955"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T15:03:43.586055"
+    "added_at": "2026-05-15T16:03:03.312061"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T15:03:46.074463"
+    "added_at": "2026-05-15T16:03:05.572701"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T15:03:51.075249"
+    "added_at": "2026-05-15T16:03:10.285785"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,15 +405,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T15:03:55.899240"
+    "added_at": "2026-05-15T16:03:15.024002"
   },
   {
     "id": "6fa86d5db2dd",
     "url": "https://www.janglo.net/item/L6e44jsBWN0",
     "source": "janglo",
-    "address": "Ben Yehuda St 31, Tel Aviv, Israel",
-    "lat": 32.1553132,
-    "lng": 34.8343654,
+    "address": "Ben Yehouda st 31 Tel Aviv",
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T15:04:03.085362"
+    "added_at": "2026-05-15T16:03:22.297426"
   },
   {
     "id": "d9446912aedf",
@@ -471,6 +471,6 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-15T15:04:20.539458"
+    "added_at": "2026-05-15T16:03:38.995282"
   }
 ]
