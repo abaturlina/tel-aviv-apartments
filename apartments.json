@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:05:41.016833"
+    "added_at": "2026-05-15T21:13:22.362910"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:04:54.054955"
+    "added_at": "2026-05-15T21:12:41.929411"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:03:03.312061"
+    "added_at": "2026-05-15T21:10:48.591367"
   },
   {
     "id": "1dd32523cff8",
@@ -351,15 +351,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:03:05.572701"
+    "added_at": "2026-05-15T21:10:51.136923"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": 32.052493,
-    "lng": 34.7620775,
+    "lat": 32.0566577,
+    "lng": 34.7627909,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:03:10.285785"
+    "added_at": "2026-05-15T21:10:56.086543"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:03:15.024002"
+    "added_at": "2026-05-15T21:11:03.256462"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T16:03:22.297426"
+    "added_at": "2026-05-15T21:11:14.279311"
   },
   {
     "id": "d9446912aedf",
@@ -471,6 +471,108 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-15T16:03:38.995282"
+    "added_at": "2026-05-15T21:11:36.636035"
+  },
+  {
+    "id": "238cbdfcbb1c",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/qv7vc7pa",
+    "source": "yad2",
+    "address": "Nofei Yam, Tel-Aviv",
+    "lat": 32.1179160625,
+    "lng": 34.7886303125,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": true,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 102,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_1pa_010262_20260506135007.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_1pa_010928_20260506135105.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_1pa_010813_20260506135208.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_4pa_010405_20260506135422.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_10_oupAe_VWjR_20260506.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_11_7QwVQ5rNtv_20260506.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_10_H_ZhiQKdt8_20260506.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_12_svuPUWV3fd_20260506.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_12_FIThaMp9o0_20260506.jpeg",
+      "https://img.yad2.co.il/Pic/202605/06/2_6/o/y2_13_ruSN5fBJAW_20260506.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-15T21:03:14.325263"
+  },
+  {
+    "id": "a445fa76c2a9",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/wsguzt4e",
+    "source": "yad2",
+    "address": "Avuka 23, Ganey Tzahala, Tel-Aviv",
+    "lat": 32.126523,
+    "lng": 34.82998,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 7500,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 70,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010525_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010645_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010655_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010994_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010741_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010056_20260502175312.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010765_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010856_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010945_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010653_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010472_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010289_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010081_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010354_20260502175313.jpeg",
+      "https://img.yad2.co.il/Pic/202605/02/2_6/o/y2_1pa_010513_20260502175313.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-15T21:03:43.833272"
+  },
+  {
+    "id": "63e909431b77",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/uzkkbr10",
+    "source": "yad2",
+    "address": "Yizhak (Ziko) Graziani 10, Sarona Gardens, Tel-Aviv",
+    "lat": 32.0675382451613,
+    "lng": 34.7844905290323,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9800,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 30,
+    "size_sqm": 76,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010956_20260326122203.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010814_20260326122213.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010416_20260326122233.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010316_20260326122234.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010863_20260326122222.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010383_20260326122232.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010131_20260326122234.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_010417_20260326122247.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-15T21:04:39.373022"
   }
 ]
