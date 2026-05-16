@@ -542,7 +542,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T21:03:43.833272"
+    "added_at": "2026-05-16T22:13:39.910195"
   },
   {
     "id": "63e909431b77",
@@ -573,7 +573,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T21:04:39.373022"
+    "added_at": "2026-05-16T21:41:31.912937"
   },
   {
     "id": "5542ae38f9d3",
@@ -674,5 +674,38 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-05-16T09:07:25.625788"
+  },
+  {
+    "id": "cc92f4c9a990",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/vbgndbmu",
+    "source": "yad2",
+    "address": "Mishol Yaakov 7, Lev Tel Aviv, Tel-Aviv",
+    "lat": 32.0735788181818,
+    "lng": 34.7739125454546,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11500,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 2,
+    "size_sqm": 65,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_995542_20260421080606.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_992666_20260421080603.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_995042_20260421080605.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_992352_20260421080540.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_993069_20260421080559.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_992604_20260421080609.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_996952_20260421080613.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_994037_20260421080605.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_999854_20260421080616.jpeg",
+      "https://img.yad2.co.il/Pic/202604/21/2_6/o/y2_1pa_996646_20260421080603.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-16T22:23:15.186000"
   }
 ]
