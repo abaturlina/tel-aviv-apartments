@@ -274,8 +274,8 @@
     "url": "https://telaviv.craigslist.org/apa/d/mamad-sheinkin-chic-comfort-city-stay/7933617849.html",
     "source": "craigslist",
     "address": "Tel Aviv, Israel",
-    "lat": 32.1091657,
-    "lng": 34.8111176,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": 2,
     "price": 2700.0,
@@ -291,15 +291,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:25:47.760804"
+    "added_at": "2026-05-17T21:45:43.287327"
   },
   {
     "id": "5d148c9382a7",
     "url": "https://www.janglo.net/item/jAjkHp50Y5e",
     "source": "janglo",
     "address": "Old North Tel Aviv",
-    "lat": 32.080927,
-    "lng": 34.7807922,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9900.0,
@@ -320,15 +320,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:24:27.269520"
+    "added_at": "2026-05-17T21:41:26.831683"
   },
   {
     "id": "1dd32523cff8",
     "url": "https://www.janglo.net/item/R1fOTFud454",
     "source": "janglo",
     "address": "Sderot Levi Eshkol 55 Tel Aviv-Jaffa",
-    "lat": 32.0443395,
-    "lng": 34.7509908,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -351,15 +351,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:24:29.378781"
+    "added_at": "2026-05-17T21:41:30.552764"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": 32.052493,
-    "lng": 34.7620775,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -379,15 +379,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:24:33.701880"
+    "added_at": "2026-05-17T21:41:36.659065"
   },
   {
     "id": "87f7d7b8640b",
     "url": "https://www.janglo.net/item/prMsp7LwsFS",
     "source": "janglo",
     "address": "Geula St 19 Tel Aviv-Jaffa",
-    "lat": 32.0443395,
-    "lng": 34.7509908,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:24:37.999560"
+    "added_at": "2026-05-17T21:41:42.270594"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,15 +439,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T11:24:44.136389"
+    "added_at": "2026-05-17T21:41:52.047276"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-17T11:24:58.893284"
+    "added_at": "2026-05-17T21:42:14.443391"
   },
   {
     "id": "238cbdfcbb1c",
@@ -504,7 +504,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-15T21:03:14.325263"
+    "added_at": "2026-05-17T21:21:08.868843"
   },
   {
     "id": "a445fa76c2a9",
@@ -542,7 +542,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-16T22:13:39.910195"
+    "added_at": "2026-05-17T21:27:17.042515"
   },
   {
     "id": "63e909431b77",
@@ -573,7 +573,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-16T21:41:31.912937"
+    "added_at": "2026-05-17T21:28:26.982646"
   },
   {
     "id": "5542ae38f9d3",
@@ -707,5 +707,93 @@
     "notes": "",
     "status": "over_budget",
     "added_at": "2026-05-16T22:23:15.186000"
+  },
+  {
+    "id": "9e86e15ca57a",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/6wcby4xm",
+    "source": "yad2",
+    "address": "Huna 16, HaTikva, Tel-Aviv",
+    "lat": 32.050956,
+    "lng": 34.79226,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 5250,
+    "mamad": true,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 80,
+    "photos": [],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-17T21:18:26.212482"
+  },
+  {
+    "id": "0bd3489802dc",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/qq2bcko8",
+    "source": "yad2",
+    "address": "Yunitsman, Glilot, Tel-Aviv",
+    "lat": 32.142209,
+    "lng": 34.7976212222222,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9000,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 2,
+    "size_sqm": 81,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010413_20260517145653.jpeg",
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010627_20260517145653.jpeg",
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010510_20260517145653.jpeg",
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010039_20260517145653.jpeg",
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010281_20260517145653.jpeg",
+      "https://img.yad2.co.il/Pic/202605/17/2_6/o/y2_1pa_010776_20260517145653.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-17T21:21:22.769891"
+  },
+  {
+    "id": "8c6bec805878",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/l6ojrgpr",
+    "source": "yad2",
+    "address": "Pinhas Sapir, Tzamarot Ayalon, Tel-Aviv",
+    "lat": 32.088628,
+    "lng": 34.797001,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11300,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 6,
+    "size_sqm": 104,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_1_995811_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_2_993774_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_3_992818_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_4_996577_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_4_998950_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_5_995528_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_5_995306_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_6_993116_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_7_NI_994123_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_7_995113_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_8_994263_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_9_992297_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_9_991667_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_10_994852_20260406.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-17T21:27:59.087640"
   }
 ]
