@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:17:26.172987"
+    "added_at": "2026-05-18T14:11:52.438910"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:16:50.334901"
+    "added_at": "2026-05-18T14:11:16.126569"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:15:23.423891"
+    "added_at": "2026-05-18T14:09:44.144142"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:15:25.541442"
+    "added_at": "2026-05-18T14:09:46.485251"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:15:29.659591"
+    "added_at": "2026-05-18T14:09:50.916610"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:15:33.870970"
+    "added_at": "2026-05-18T14:09:55.466284"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T10:15:40.140946"
+    "added_at": "2026-05-18T14:10:02.546278"
   },
   {
     "id": "d9446912aedf",
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-18T10:15:55.016152"
+    "added_at": "2026-05-18T14:10:19.374419"
   },
   {
     "id": "238cbdfcbb1c",
@@ -504,7 +504,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T21:21:08.868843"
+    "added_at": "2026-05-18T14:04:28.112308"
   },
   {
     "id": "a445fa76c2a9",
@@ -728,7 +728,7 @@
     "photos": [],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T21:18:26.212482"
+    "added_at": "2026-05-18T14:02:00.602312"
   },
   {
     "id": "0bd3489802dc",
@@ -757,7 +757,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-17T21:21:22.769891"
+    "added_at": "2026-05-18T14:04:21.058239"
   },
   {
     "id": "8c6bec805878",
@@ -969,5 +969,38 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-05-18T10:15:11.330858"
+  },
+  {
+    "id": "c109b679a647",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/0lfykb3d",
+    "source": "yad2",
+    "address": "HaSolelim 3, Bitzaron & Ramat Israel, Tel-Aviv",
+    "lat": 32.070593,
+    "lng": 34.795947,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9900,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 30,
+    "size_sqm": 82,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010175_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010009_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010325_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010295_20260515004012.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010641_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010411_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010046_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010387_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010973_20260515004013.jpeg",
+      "https://img.yad2.co.il/Pic/202605/15/2_6/o/y2_1pa_010717_20260515004013.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-18T14:04:07.428803"
   }
 ]
