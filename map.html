@@ -353,7 +353,12 @@ var PIDX   = {};   // id → current photo index
 var lbId   = null; // current lightbox apt id
 var lbIdx  = 0;
 var view   = 'gallery';
-var leafletMap = null, markers = null;
+var leafletMap = null, markers = null, landmarkLayer = null;
+
+var LANDMARKS = [
+  { lat: 32.0553, lng: 34.7629, icon: '🏠', label: 'Старая квартира',  address: 'Nitsana St 20, Tel Aviv' },
+  { lat: 32.0621, lng: 34.7688, icon: '🏡', label: 'Текущая квартира', address: 'Mohiliver St 31, Tel Aviv' },
+];
 
 // ── Load data ─────────────────────────────────────────────────────────────────
 fetch('apartments.json?' + Date.now())
@@ -535,6 +540,26 @@ function renderMap() {
       maxZoom: 19,
     }).addTo(leafletMap);
     markers = L.layerGroup().addTo(leafletMap);
+
+    // Landmark layer — never cleared, added once
+    landmarkLayer = L.layerGroup().addTo(leafletMap);
+    LANDMARKS.forEach(function(lm) {
+      var lIcon = L.divIcon({
+        className: '',
+        html: '<div style="background:#7C3AED;color:#fff;padding:4px 10px;border-radius:14px;' +
+              'font-family:Inter,sans-serif;font-size:12px;font-weight:700;white-space:nowrap;' +
+              'box-shadow:0 2px 10px rgba(124,58,237,0.5);display:flex;align-items:center;gap:5px">' +
+              lm.icon + ' ' + lm.label + '</div>',
+        iconSize: [160, 28], iconAnchor: [80, 14], popupAnchor: [0, -20],
+      });
+      L.marker([lm.lat, lm.lng], { icon: lIcon })
+        .addTo(landmarkLayer)
+        .bindPopup(
+          '<div class="popup-price">' + lm.icon + ' ' + lm.label + '</div>' +
+          '<div class="popup-addr">' + lm.address + '</div>',
+          { maxWidth: 260 }
+        );
+    });
   } else {
     leafletMap.invalidateSize();
   }
