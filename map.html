@@ -195,7 +195,7 @@
   /* ── Photo ── */
   .card-photo {
     position: relative;
-    height: 240px;
+    height: 220px;
     background: #e0e0e0;
     overflow: hidden;
     flex-shrink: 0;
@@ -269,20 +269,6 @@
     color: #fff;
     background: rgba(0,0,0,0.48);
     padding: 2px 8px; border-radius: 10px;
-    pointer-events: none;
-  }
-
-  /* Budget badge — top left */
-  .photo-badge-budget {
-    position: absolute;
-    top: 10px; left: 10px;
-    z-index: 2;
-    background: var(--red);
-    color: #fff;
-    font-size: 10px; font-weight: 700;
-    padding: 3px 9px; border-radius: 5px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     pointer-events: none;
   }
 
@@ -860,11 +846,6 @@ function buildCard(apt) {
     ? 'https://www.google.com/maps?q='+apt.lat+','+apt.lng
     : 'https://www.google.com/maps/search/'+encodeURIComponent(apt.address||'');
 
-  // Budget badge top-left
-  var budgetBadge = (price && price > 10000)
-    ? '<span class="photo-badge-budget">↑ Бюджет</span>'
-    : '';
-
   // ♥ / ✕ top-right of photo
   var photoActions =
     '<div class="photo-actions" onclick="event.stopPropagation()">' +
@@ -897,7 +878,7 @@ function buildCard(apt) {
              ' referrerpolicy="no-referrer"' +
              ' onerror="photoError(\''+apt.id+'\')">' +
         navPrev + navNext + counter +
-        budgetBadge + photoActions +
+        photoActions +
       '</div>';
   } else {
     photoSection =
@@ -906,7 +887,7 @@ function buildCard(apt) {
           '<div class="ph-icon">🏠</div>' +
           '<div class="ph-text">Нет фото</div>' +
         '</div>' +
-        budgetBadge + photoActions +
+        photoActions +
       '</div>';
   }
 
