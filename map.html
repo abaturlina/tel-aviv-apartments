@@ -177,168 +177,137 @@
   #map { width: 100%; height: 100%; }
 
   /* ── Card ── */
-  .apt-card {
-    background: #fff;
+  .card {
+    background: white;
     border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: transform 0.18s, box-shadow 0.18s;
   }
-  .apt-card:hover {
+  .card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 28px rgba(0,0,0,0.14);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.16);
   }
-  .apt-card.interested { outline: 2px solid var(--yellow); }
+  .card.interested { outline: 2px solid var(--yellow); }
 
-  /* ── Photo ── */
+  /* ── Photo area ── */
   .card-photo {
     position: relative;
-    height: 220px;
-    background: #e0e0e0;
     overflow: hidden;
-    flex-shrink: 0;
     cursor: pointer;
-    display: block;
+    flex-shrink: 0;
+    background: #e0e0e0;
   }
   .card-photo img {
-    position: absolute;
-    inset: 0;
     width: 100%;
-    height: 100%;
+    height: 220px;
     object-fit: cover;
     display: block;
     transition: transform 0.35s ease;
-    pointer-events: none;
   }
-  .apt-card:hover .card-photo img { transform: scale(1.04); }
+  .card:hover .card-photo img { transform: scale(1.04); }
 
-  /* Placeholder */
-  .photo-placeholder {
-    position: absolute;
-    inset: 0;
+  /* No-photo placeholder */
+  .card-photo .no-photo {
+    width: 100%;
+    height: 220px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    font-size: 48px;
+    opacity: 0.2;
     background: #e8e8e8;
-    pointer-events: none;
-  }
-  .photo-placeholder .ph-icon { font-size: 52px; opacity: 0.25; }
-  .photo-placeholder .ph-text {
-    font-size: 11px;
-    color: rgba(0,0,0,0.3);
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
   }
 
-  /* Arrows — visible only on card hover */
-  .photo-btn-prev,
-  .photo-btn-next {
+  /* Arrows */
+  .card-photo .prev,
+  .card-photo .next {
     position: absolute;
     top: 50%; transform: translateY(-50%);
-    z-index: 3;
     background: rgba(255,255,255,0.92);
     border: none;
-    color: #1A1A1A;
-    width: 32px; height: 32px;
     border-radius: 50%;
+    width: 32px; height: 32px;
+    font-size: 20px; line-height: 1;
     cursor: pointer;
-    font-size: 18px;
     display: flex; align-items: center; justify-content: center;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    transition: opacity 0.18s, background 0.12s;
     opacity: 0; pointer-events: none;
+    transition: opacity 0.18s;
+    z-index: 3;
   }
-  .photo-btn-prev { left: 10px; }
-  .photo-btn-next { right: 10px; }
-  .apt-card:hover .photo-btn-prev,
-  .apt-card:hover .photo-btn-next { opacity: 1; pointer-events: all; }
-  .photo-btn-prev:hover,
-  .photo-btn-next:hover { background: #fff; }
+  .card-photo .prev { left: 8px; }
+  .card-photo .next { right: 8px; }
+  .card:hover .card-photo .prev,
+  .card:hover .card-photo .next { opacity: 1; pointer-events: all; }
 
-  /* Counter — bottom right */
+  /* Counter */
   .photo-counter {
     position: absolute;
-    bottom: 10px; right: 10px;
-    z-index: 3;
-    font-size: 11px; font-weight: 600;
+    bottom: 8px; right: 8px;
+    background: rgba(0,0,0,0.5);
     color: #fff;
-    background: rgba(0,0,0,0.48);
+    font-size: 11px; font-weight: 600;
     padding: 2px 8px; border-radius: 10px;
     pointer-events: none;
+    z-index: 3;
   }
 
-  /* ♥ / ✕ buttons — top right of photo */
-  .photo-actions {
+  /* ♥ / ✕ */
+  .btn-like,
+  .btn-hide {
     position: absolute;
-    top: 10px; right: 10px;
-    z-index: 4;
-    display: flex; gap: 5px;
-  }
-  .photo-act-btn {
+    top: 8px;
     width: 32px; height: 32px;
-    border-radius: 50%; border: none;
+    border: none; border-radius: 50%;
+    background: rgba(255,255,255,0.92);
     cursor: pointer; font-size: 15px;
     display: flex; align-items: center; justify-content: center;
     box-shadow: 0 2px 6px rgba(0,0,0,0.18);
     transition: transform 0.12s, background 0.12s;
-    background: rgba(255,255,255,0.92);
-    color: #888;
+    z-index: 4;
   }
-  .photo-act-btn:hover       { transform: scale(1.12); }
-  .photo-act-like.active     { background: var(--yellow); color: var(--black); }
-  .photo-act-hide:hover      { background: #fee2e2; color: var(--red); }
+  .btn-like { right: 46px; }
+  .btn-hide { right: 8px; }
+  .btn-like.active  { background: var(--yellow); color: var(--black); }
+  .btn-hide:hover   { background: #fee2e2; color: var(--red); }
 
-  /* ── Card body — white ── */
-  .card-body {
-    padding: 12px 14px 14px;
+  /* ── Card info ── */
+  .card-info {
+    padding: 12px;
+    background: white;
+    color: #1A1A1A;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
     flex: 1;
-    color: var(--black);
-    background: #fff;
   }
-
-  .card-price-row { display: flex; align-items: baseline; gap: 8px; }
-  .card-price     { font-size: 20px; font-weight: 800; color: var(--black); line-height: 1.2; }
-  .card-price-sqm { font-size: 12px; color: #999; font-weight: 400; }
-
-  .card-meta {
-    font-size: 13px; color: #555;
-    display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+  .card-price {
+    font-size: 18px; font-weight: 800;
+    color: #1A1A1A; line-height: 1.2;
   }
-  .card-meta-sep { color: #ccc; }
-
-  .card-address  { font-size: 13px; color: #222; line-height: 1.4; }
-  .card-district { font-size: 11px; color: #999; margin-top: 1px; }
-
-  .card-footer {
-    display: flex; align-items: center; gap: 6px;
-    margin-top: 4px; flex-wrap: wrap;
+  .card-address {
+    font-size: 13px; color: #333;
+    line-height: 1.4;
   }
-  .card-source-badge {
-    font-size: 10px; font-weight: 700;
-    letter-spacing: 0.05em; text-transform: uppercase;
-    padding: 2px 8px; border-radius: 4px;
-    background: #F5F5F5; color: #888;
-    border: 1px solid #E0E0E0;
+  .card-tags {
+    font-size: 12px; color: #777;
   }
-  .card-link-btn {
-    font-family: var(--font);
-    font-size: 11px; font-weight: 600;
-    padding: 5px 12px; border-radius: 6px;
-    border: 1px solid #E0E0E0;
-    cursor: pointer; text-decoration: none;
-    display: inline-flex; align-items: center; gap: 4px;
-    color: #444; background: #fff;
-    transition: border-color 0.15s, color 0.15s; white-space: nowrap;
+  .card-actions {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    margin-top: 4px;
   }
-  .card-link-btn:hover { border-color: #999; color: #111; }
+  .card-actions a {
+    font-size: 12px; font-weight: 500;
+    color: #444; text-decoration: none;
+    padding: 4px 10px;
+    border: 1px solid #ddd; border-radius: 6px;
+    white-space: nowrap;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .card-actions a:hover { border-color: #999; color: #111; }
 
   /* ── Empty state ── */
   .empty-state {
@@ -804,27 +773,20 @@ function updateStats() {
 function photoError(id) {
   var img = document.getElementById('gi-' + id);
   if (!img) return;
-  img.style.display = 'none';
-  var ph = document.createElement('div');
-  ph.className = 'photo-placeholder';
-  ph.innerHTML = '<div class="ph-icon">🏠</div><div class="ph-text">Фото недоступно</div>';
-  img.parentNode.insertBefore(ph, img);
+  img.style.cssText = 'width:100%;height:220px;background:#e8e8e8;display:flex;align-items:center;justify-content:center';
+  img.src = '';
+  img.outerHTML = '<div class="no-photo">🏠</div>';
 }
 
 function galleryNav(aptId, dir, e) {
   if (e) e.stopPropagation();
   var photos = APT_PHOTOS[aptId] || [];
   if (!photos.length) return;
-  PHOTO_IDX[aptId] = ((PHOTO_IDX[aptId]||0) + dir + photos.length) % photos.length;
+  PHOTO_IDX[aptId] = ((PHOTO_IDX[aptId] || 0) + dir + photos.length) % photos.length;
   var img = document.getElementById('gi-' + aptId);
   var ctr = document.getElementById('gn-' + aptId);
-  if (img) {
-    img.style.display = '';
-    var ph = img.previousSibling;
-    if (ph && ph.classList && ph.classList.contains('photo-placeholder')) ph.remove();
-    img.src = photos[PHOTO_IDX[aptId]];
-  }
-  if (ctr) ctr.textContent = (PHOTO_IDX[aptId]+1) + '/' + photos.length;
+  if (img) img.src = photos[PHOTO_IDX[aptId]];
+  if (ctr) ctr.textContent = (PHOTO_IDX[aptId] + 1) + '/' + photos.length;
 }
 
 function ppsqm(apt) {
@@ -832,110 +794,82 @@ function ppsqm(apt) {
 }
 
 function buildCard(apt) {
-  var photos   = apt.photos || [];
+  var photos  = apt.photos || [];
   APT_PHOTOS[apt.id] = photos;
   if (PHOTO_IDX[apt.id] === undefined) PHOTO_IDX[apt.id] = 0;
-  var idx      = PHOTO_IDX[apt.id];
-  var price    = apt.price;
+  var idx     = PHOTO_IDX[apt.id];
+  var isLiked = apt.status === 'interested';
+  var price   = apt.price;
   var priceStr = price ? price.toLocaleString('ru') + ' ₪/мес' : '— ₪';
-  var sqm      = ppsqm(apt);
-  var sea      = seaDist(apt.lat, apt.lng);
-  var seaStr   = seaLabel(sea);
-  var isLiked  = apt.status === 'interested';
-  var mapsUrl  = (apt.lat && apt.lng)
-    ? 'https://www.google.com/maps?q='+apt.lat+','+apt.lng
-    : 'https://www.google.com/maps/search/'+encodeURIComponent(apt.address||'');
+  var mapsUrl = (apt.lat && apt.lng)
+    ? 'https://www.google.com/maps?q=' + apt.lat + ',' + apt.lng
+    : 'https://www.google.com/maps/search/' + encodeURIComponent(apt.address || '');
 
-  // ♥ / ✕ top-right of photo
-  var photoActions =
-    '<div class="photo-actions" onclick="event.stopPropagation()">' +
-      '<button class="photo-act-btn photo-act-like'+(isLiked?' active':'')+'"' +
-              ' onclick="markStatus(\''+apt.id+'\',\''+(isLiked?'new':'interested')+'\')"' +
-              ' title="'+(isLiked?'Убрать':'Нравится')+'">' +
-        (isLiked ? '♥' : '♡') +
-      '</button>' +
-      '<button class="photo-act-btn photo-act-hide"' +
-              ' onclick="markStatus(\''+apt.id+'\',\'rejected\')"' +
-              ' title="Скрыть">✕</button>' +
-    '</div>';
-
-  var photoSection;
+  // Photo area
+  var imgHtml;
   if (photos.length) {
-    var navPrev = photos.length > 1
-      ? '<button class="photo-btn-prev" onclick="galleryNav(\''+apt.id+'\',-1,event)">‹</button>'
-      : '';
-    var navNext = photos.length > 1
-      ? '<button class="photo-btn-next" onclick="galleryNav(\''+apt.id+'\',1,event)">›</button>'
-      : '';
-    var counter = photos.length > 1
-      ? '<span class="photo-counter" id="gn-'+apt.id+'">'+(idx+1)+'/'+photos.length+'</span>'
-      : '';
-    photoSection =
-      '<div class="card-photo" onclick="lbOpen(\''+apt.id+'\',PHOTO_IDX[\''+apt.id+'\'])">' +
-        '<img id="gi-'+apt.id+'"' +
-             ' src="'+photos[idx]+'"' +
-             ' alt="фото" loading="lazy"' +
-             ' referrerpolicy="no-referrer"' +
-             ' onerror="photoError(\''+apt.id+'\')">' +
-        navPrev + navNext + counter +
-        photoActions +
-      '</div>';
+    imgHtml =
+      '<img id="gi-' + apt.id + '"' +
+           ' src="' + photos[idx] + '"' +
+           ' style="width:100%;height:220px;object-fit:cover;display:block"' +
+           ' loading="lazy" referrerpolicy="no-referrer"' +
+           ' onerror="photoError(\'' + apt.id + '\')">';
   } else {
-    photoSection =
-      '<div class="card-photo">' +
-        '<div class="photo-placeholder">' +
-          '<div class="ph-icon">🏠</div>' +
-          '<div class="ph-text">Нет фото</div>' +
-        '</div>' +
-        photoActions +
-      '</div>';
+    imgHtml = '<div class="no-photo">🏠</div>';
   }
 
-  // Address: street + city/district
-  var addrFull  = apt.address || 'Адрес не указан';
-  var parts     = addrFull.split(',').map(function(p){ return p.trim(); }).filter(Boolean);
-  var addrStreet = parts.length > 1 ? parts.slice(0, -1).join(', ') : addrFull;
-  var addrCity   = parts.length > 1 ? parts[parts.length - 1] : '';
-
-  // Meta row: rooms · sqm · floor · sea
-  var meta = [];
-  if (apt.rooms)         meta.push(apt.rooms + ' комн.');
-  if (apt.size_sqm)      meta.push(apt.size_sqm + ' м²');
-  if (apt.floor != null) meta.push(apt.floor + ' эт.');
-  if (seaStr)            meta.push('🌊 ' + seaStr);
-  var metaHtml = meta.join('<span class="card-meta-sep"> · </span>');
-
-  // Amenities
-  var amen = [];
-  if (apt.mamad)     amen.push('mamad ✓');
-  if (apt.parking)   amen.push('parking ✓');
-  if (apt.furnished) amen.push('мебель ✓');
-  var amenHtml = amen.length
-    ? '<div class="card-meta" style="color:#777;font-size:12px">' +
-        amen.join('<span class="card-meta-sep"> · </span>') +
-      '</div>'
+  var prevBtn = photos.length > 1
+    ? '<button class="prev" onclick="galleryNav(\'' + apt.id + '\',-1,event)">&#8249;</button>'
+    : '';
+  var nextBtn = photos.length > 1
+    ? '<button class="next" onclick="galleryNav(\'' + apt.id + '\',1,event)">&#8250;</button>'
+    : '';
+  var counter = photos.length > 1
+    ? '<span class="photo-counter" id="gn-' + apt.id + '">' + (idx + 1) + '/' + photos.length + '</span>'
     : '';
 
-  var srcLabel = (apt.source || '').toUpperCase();
+  var likeBtn =
+    '<button class="btn-like' + (isLiked ? ' active' : '') + '"' +
+            ' onclick="event.stopPropagation();markStatus(\'' + apt.id + '\',\'' + (isLiked ? 'new' : 'interested') + '\')">' +
+      (isLiked ? '&#9829;' : '&#9825;') +
+    '</button>';
+  var hideBtn =
+    '<button class="btn-hide"' +
+            ' onclick="event.stopPropagation();markStatus(\'' + apt.id + '\',\'rejected\')">&#x2715;</button>';
 
-  return '<div class="apt-card'+(isLiked?' interested':'')+'" id="card-'+apt.id+'">' +
-    photoSection +
-    '<div class="card-body">' +
-      '<div class="card-price-row">' +
-        '<span class="card-price">'+priceStr+'</span>' +
-        (sqm ? '<span class="card-price-sqm">'+sqm.toLocaleString('ru')+' ₪/м²</span>' : '') +
+  // Address — strip " — title" suffix added for Facebook entries
+  var addrFull = (apt.address || 'Адрес не указан').split(' — ')[0].trim();
+
+  // Tags row
+  var tags = [];
+  if (apt.rooms)         tags.push(apt.rooms + ' комн.');
+  if (apt.size_sqm)      tags.push(apt.size_sqm + ' м²');
+  if (apt.floor != null) tags.push(apt.floor + ' эт.');
+  if (apt.mamad)         tags.push('mamad ✓');
+  if (apt.parking)       tags.push('parking ✓');
+  if (apt.furnished)     tags.push('мебель ✓');
+  var sea = seaDist(apt.lat, apt.lng);
+  var seaStr = seaLabel(sea);
+  if (seaStr) tags.push('🌊 ' + seaStr);
+
+  return (
+    '<div class="card' + (isLiked ? ' interested' : '') + '" id="card-' + apt.id + '">' +
+      '<div class="card-photo" onclick="lbOpen(\'' + apt.id + '\',' + idx + ')">' +
+        imgHtml +
+        prevBtn + nextBtn + counter +
+        likeBtn + hideBtn +
       '</div>' +
-      (metaHtml ? '<div class="card-meta">'+metaHtml+'</div>' : '') +
-      amenHtml +
-      '<div class="card-address">'+addrStreet+'</div>' +
-      (addrCity ? '<div class="card-district">'+addrCity+'</div>' : '') +
-      '<div class="card-footer">' +
-        (srcLabel ? '<span class="card-source-badge">'+srcLabel+'</span>' : '') +
-        '<a href="'+apt.url+'" target="_blank" class="card-link-btn">↗ Объявление</a>' +
-        '<a href="'+mapsUrl+'" target="_blank" class="card-link-btn">📍 Maps</a>' +
+      '<div class="card-info">' +
+        '<div class="card-price">' + priceStr + '</div>' +
+        '<div class="card-address">' + addrFull + '</div>' +
+        (tags.length ? '<div class="card-tags">' + tags.join(' · ') + '</div>' : '') +
+        '<div class="card-actions">' +
+          '<a href="' + apt.url + '" target="_blank">Объявление &#8594;</a>' +
+          '<a href="' + mapsUrl + '" target="_blank">&#128205; Maps</a>' +
+        '</div>' +
       '</div>' +
-    '</div>' +
-  '</div>';
+    '</div>'
+  );
 }
 
 function renderGallery() {
