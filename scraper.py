@@ -9,6 +9,7 @@ Tel Aviv Apartment Scraper
   python scraper.py "https://www.yad2.co.il/realestate/rent?city=5000&rooms=3-3"
   python scraper.py --file urls.txt
   python scraper.py --list
+  python scraper.py --facebook
 """
 
 import sys
@@ -17,9 +18,19 @@ import hashlib
 import argparse
 import time
 import re
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+
+# Загружаем .env вручную (без python-dotenv)
+_env_file = Path(__file__).parent / ".env"
+if _env_file.exists():
+    for _line in _env_file.read_text().splitlines():
+        _line = _line.strip()
+        if _line and not _line.startswith("#") and "=" in _line:
+            _k, _v = _line.split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
 
 try:
     import requests
@@ -35,11 +46,11 @@ except ImportError:
 DATA_FILE = Path("apartments.json")
 
 CRITERIA = {
-    "rooms": 3,
+    "rooms": [3, 3.5],
     "mamad_required": True,
     "furnished_required": True,  # unfurnished → skip
     "price_good": 10000,
-    "price_max": 12000,
+    "price_max": 15000,
 }
 
 # Разрешённые районы: Тель-Авив и ближайшие (английский и иврит, в нижнем регистре)
@@ -114,7 +125,7 @@ def calculate_status(apt):
         return "new"
     if price > CRITERIA["price_max"]:
         return "skip"
-    if rooms != CRITERIA["rooms"]:
+    if rooms not in CRITERIA["rooms"]:
         return "skip"
     if CRITERIA["mamad_required"] and not mamad:
         return "skip"
@@ -635,7 +646,7 @@ def process_onmap_search_api(url, apartments):
     price_m   = re.search(r'price_\d+-(\d+)', url)
     rooms_m   = re.search(r'rooms_(\d+)', url)
     max_price = int(price_m.group(1)) if price_m else CRITERIA["price_max"]
-    rooms_filter = int(rooms_m.group(1)) if rooms_m else CRITERIA["rooms"]
+    rooms_filter = int(rooms_m.group(1)) if rooms_m else CRITERIA["rooms"][0]
 
     base_params = {
         "option":     "rent,rent-short",
@@ -723,7 +734,7 @@ def process_onmap_search_api(url, apartments):
 
         if apt["status"] == "skip":
             reasons = []
-            if apt.get("rooms") != CRITERIA["rooms"]:
+            if apt.get("rooms") not in CRITERIA["rooms"]:
                 reasons.append(f"комнаты={apt['rooms']}")
             if apt.get("price") and apt["price"] > CRITERIA["price_max"]:
                 reasons.append(f"цена={apt['price']}")
@@ -950,6 +961,301 @@ def parse_janglo(soup, url, next_data=None, page_text=""):
         "photos":   photos,
         "source":   "janglo",
     }
+
+
+# ─── Facebook Marketplace через Apify API ────────────────────────────────────
+
+APIFY_ACTOR   = "apify~facebook-marketplace-scraper"
+APIFY_FB_URL  = (
+    "https://www.facebook.com/marketplace/telaviv/propertyrentals"
+    "?maxPrice=15000&minBedrooms=3&sortBy=price_descend&exact=false"
+)
+APIFY_MAX_ITEMS = 50
+
+
+def _get_apify_token():
+    val = os.environ.get("APIFY_TOKEN", "")
+    # Поддерживаем как просто токен, так и полный URL вида ?token=...
+    m = re.search(r'token=([^\s&]+)', val)
+    return m.group(1) if m else val
+
+
+def _apify_request(method, path, **kwargs):
+    token = _get_apify_token()
+    if not token:
+        raise RuntimeError("APIFY_TOKEN не задан в .env")
+    base = "https://api.apify.com/v2"
+    sep  = "&" if "?" in path else "?"
+    url  = f"{base}{path}{sep}token={token}"
+    resp = requests.request(method, url, timeout=30, **kwargs)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _parse_fb_item(item):
+    """
+    Разбирает один элемент из датасета Apify Facebook Marketplace Scraper.
+
+    Реальная структура ответа актора:
+      listing_price.amount          → цена (строка "15000.00")
+      custom_title                  → "3 beds · 2 baths"
+      marketplace_listing_title     → заголовок на иврите/английском
+      location.reverse_geocode.city_page.display_name → город (EN)
+      primary_listing_photo.photo_image_url → фото
+      listingUrl                    → ссылка на объявление
+    """
+    # Цена из listing_price.amount
+    price = None
+    lp = item.get("listing_price") or {}
+    if isinstance(lp, dict):
+        raw = lp.get("amount") or lp.get("formatted_amount") or ""
+        m = re.search(r'[\d.]+', str(raw).replace(",", ""))
+        if m:
+            price = float(m.group())
+    elif isinstance(lp, (int, float)):
+        price = float(lp)
+
+    # Комнаты из custom_title ("3 beds · 2 baths")
+    # В израильском Facebook "beds" = חדרים (комнаты, не спальни)
+    rooms = None
+    custom_title = item.get("custom_title") or ""
+    beds_m = re.search(r'(\d+(?:\.\d+)?)\s*bed', custom_title, re.I)
+    if beds_m:
+        rooms = float(beds_m.group(1))
+        rooms = int(rooms) if rooms == int(rooms) else rooms
+
+    # Fallback: ищем חדרים в заголовке
+    if rooms is None:
+        title = item.get("marketplace_listing_title") or ""
+        m = re.search(r'(\d+(?:\.\d+)?)\s*חדר', title)
+        if m:
+            rooms = float(m.group(1))
+            rooms = int(rooms) if rooms == int(rooms) else rooms
+
+    # Город из location.reverse_geocode.city_page.display_name
+    loc = item.get("location") or {}
+    if isinstance(loc, dict):
+        rg = loc.get("reverse_geocode") or {}
+        cp = rg.get("city_page") or {}
+        address = cp.get("display_name") or rg.get("city") or "Tel Aviv, Israel"
+    else:
+        address = "Tel Aviv, Israel"
+
+    # Добавляем заголовок к адресу для контекста
+    title = item.get("marketplace_listing_title") or ""
+    if title:
+        address = f"{address} — {title[:80]}"
+
+    # URL
+    url = item.get("listingUrl") or item.get("url") or item.get("link") or ""
+    item_id = item.get("id") or ""
+    if not url and item_id:
+        url = f"https://www.facebook.com/marketplace/item/{item_id}"
+
+    # Фото из primary_listing_photo.photo_image_url
+    photos = []
+    plp = item.get("primary_listing_photo") or {}
+    if isinstance(plp, dict):
+        img_url = plp.get("photo_image_url") or ""
+        if img_url.startswith("http"):
+            photos = [img_url]
+    # Дополнительные фото из listing_photos
+    for lph in (item.get("listing_photos") or []):
+        if isinstance(lph, dict):
+            u = (lph.get("photo_image_url") or lph.get("url") or "")
+            if u.startswith("http") and u not in photos:
+                photos.append(u)
+
+    # Текст для поиска ключевых слов
+    corpus = " ".join([
+        item.get("marketplace_listing_title") or "",
+        item.get("description") or "",
+        item.get("custom_title") or "",
+    ])
+    mamad     = text_has(corpus, KEYWORDS["mamad"])
+    parking   = text_has(corpus, KEYWORDS["parking"])
+    furnished = text_has(corpus, KEYWORDS["furnished"])
+    gym       = text_has(corpus, KEYWORDS["gym"])
+    bathtub   = text_has(corpus, KEYWORDS["bathtub"])
+
+    floor = None
+    floor_m = re.search(r'(?:floor|קומה)[:\s]+(\d+)', corpus, re.I)
+    if floor_m:
+        floor = int(floor_m.group(1))
+
+    bedrooms = max(0, int(rooms) - 1) if rooms is not None else None
+
+    return {
+        "url":       url,
+        "price":     price,
+        "rooms":     rooms,
+        "bedrooms":  bedrooms,
+        "size_sqm":  None,
+        "floor":     floor,
+        "address":   str(address)[:200],
+        "mamad":     mamad,
+        "parking":   parking,
+        "furnished": furnished,
+        "gym":       gym,
+        "bathtub":   bathtub,
+        "lat":       None,
+        "lng":       None,
+        "photos":    photos,
+        "source":    "facebook",
+    }
+
+
+def process_facebook_marketplace(apartments):
+    """
+    Запускает Apify actor для Facebook Marketplace, ждёт результат,
+    парсит и добавляет квартиры в apartments.
+    """
+    token = _get_apify_token()
+    if not token:
+        print("❌ APIFY_TOKEN не задан в .env")
+        return 0
+
+    print(f"🚀 Запускаю Apify actor: {APIFY_ACTOR}")
+    print(f"   URL: {APIFY_FB_URL}")
+    print(f"   Макс. листингов: {APIFY_MAX_ITEMS}")
+
+    # Запускаем actor
+    try:
+        run_data = _apify_request(
+            "POST",
+            f"/acts/{APIFY_ACTOR}/runs",
+            json={
+                "startUrls": [{"url": APIFY_FB_URL}],
+                "maxItems":  APIFY_MAX_ITEMS,
+            },
+        )
+    except Exception as e:
+        print(f"❌ Ошибка запуска actor: {e}")
+        return 0
+
+    run_id      = run_data.get("data", {}).get("id")
+    dataset_id  = run_data.get("data", {}).get("defaultDatasetId")
+    print(f"   Run ID: {run_id}")
+
+    # Ждём завершения (polling каждые 15 сек, макс 10 мин)
+    print("⏳ Ожидаю завершения парсинга...")
+    for attempt in range(40):
+        time.sleep(15)
+        try:
+            status_data = _apify_request("GET", f"/acts/{APIFY_ACTOR}/runs/last")
+            status = status_data.get("data", {}).get("status", "")
+        except Exception as e:
+            print(f"   ⚠️  Ошибка проверки статуса: {e}")
+            continue
+
+        print(f"   [{attempt+1}] Статус: {status}")
+        if status in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
+            break
+    else:
+        print("⚠️  Timeout ожидания — пробую получить частичные результаты")
+
+    if status == "FAILED":
+        print("❌ Actor завершился с ошибкой")
+        return 0
+
+    # Получаем результаты
+    if not dataset_id:
+        print("❌ Не удалось определить dataset_id")
+        return 0
+
+    try:
+        items_data = _apify_request(
+            "GET",
+            f"/datasets/{dataset_id}/items",
+            params={"limit": APIFY_MAX_ITEMS, "format": "json"},
+        )
+    except Exception as e:
+        print(f"❌ Ошибка получения результатов: {e}")
+        return 0
+
+    items = items_data if isinstance(items_data, list) else items_data.get("items", [])
+    print(f"📋 Получено {len(items)} листингов из Facebook Marketplace")
+
+    processed = 0
+    for i, item in enumerate(items, 1):
+        print(f"\n[{i}/{len(items)}] ────────────────────────────")
+
+        apt_data = _parse_fb_item(item)
+        apt_url  = apt_data["url"]
+
+        if not apt_url or "facebook.com" not in apt_url:
+            print("⏭️  Нет URL — пропускаю")
+            continue
+
+        apt = {
+            "id":        make_id(apt_url),
+            "url":       apt_url,
+            "source":    "facebook",
+            "address":   apt_data.get("address", "Tel Aviv, Israel"),
+            "lat":       apt_data.get("lat"),
+            "lng":       apt_data.get("lng"),
+            "rooms":     apt_data.get("rooms"),
+            "bedrooms":  apt_data.get("bedrooms"),
+            "price":     apt_data.get("price"),
+            "mamad":     apt_data.get("mamad", False),
+            "parking":   apt_data.get("parking", False),
+            "gym":       apt_data.get("gym", False),
+            "bathtub":   apt_data.get("bathtub", False),
+            "furnished": apt_data.get("furnished", False),
+            "floor":     apt_data.get("floor"),
+            "size_sqm":  apt_data.get("size_sqm"),
+            "photos":    apt_data.get("photos", []),
+            "notes":     "",
+            "status":    "new",
+            "added_at":  datetime.now().isoformat(),
+        }
+
+        # Для Facebook: mamad/furnished недоступны в превью → проверяем только цену, комнаты, город
+        price = apt.get("price")
+        rooms = apt.get("rooms")
+        addr  = apt.get("address", "")
+
+        skip_reasons = []
+        if price is None:
+            skip_reasons.append("нет цены")
+        elif price > CRITERIA["price_max"]:
+            skip_reasons.append(f"цена={int(price):,}")
+        if rooms is not None and rooms not in CRITERIA["rooms"]:
+            skip_reasons.append(f"комнаты={rooms}")
+        if not is_allowed_area(addr):
+            skip_reasons.append(f"чужой район ({addr[:40]})")
+
+        if skip_reasons:
+            print(f"⏭️  Пропускаю: {', '.join(skip_reasons)}")
+            continue
+
+        # Статус по цене (mamad/furnished — на проверку вручную)
+        if price <= CRITERIA["price_good"]:
+            apt["status"] = "good"
+        else:
+            apt["status"] = "over_budget"
+        apt["notes"] = "⚠️ Проверь mamad и furnished вручную (Facebook не показывает в превью)"
+
+        existing_idx = find_existing(apartments, apt_url)
+        if existing_idx is not None:
+            print("🔄 Обновляю существующую запись")
+            old = apartments[existing_idx]
+            if old.get("status") in ("interested", "rejected", "contacted"):
+                apt["status"] = old["status"]
+            apartments[existing_idx] = apt
+        else:
+            apartments.append(apt)
+            print("✅ Добавлена новая квартира")
+
+        emoji     = {"good": "🟢", "over_budget": "🟡"}.get(apt["status"], "🔵")
+        price_str = f"{int(apt['price']):,} ILS" if apt["price"] else "не найдена"
+        print(f"\n{emoji} {apt['address']}")
+        print(f"   Цена: {price_str}  Комнаты: {apt['rooms']}  Фото: {len(apt['photos'])}")
+        print(f"   Parking: {'✓' if apt['parking'] else '?'}  ⚠️  Mamad/Furnished: проверить вручную")
+
+        processed += 1
+
+    return processed
 
 
 # ─── Выбор парсера ────────────────────────────────────────────────────────────
@@ -1187,7 +1493,7 @@ def process_url(url, apartments):
 
     if apt["status"] == "skip":
         reasons = []
-        if apt.get("rooms") != CRITERIA["rooms"]:
+        if apt.get("rooms") not in CRITERIA["rooms"]:
             reasons.append(f"комнаты={apt['rooms']}")
         if apt.get("price") and apt["price"] > CRITERIA["price_max"]:
             reasons.append(f"цена={apt['price']}")
@@ -1243,6 +1549,8 @@ def main():
                         help="Показать все сохранённые квартиры")
     parser.add_argument("--refresh", "-r", action="store_true",
                         help="Перепарсить все квартиры из apartments.json; удалить unfurnished и недоступные")
+    parser.add_argument("--facebook", action="store_true",
+                        help="Парсить Facebook Marketplace через Apify API")
     args = parser.parse_args()
 
     if args.refresh:
@@ -1293,6 +1601,17 @@ def main():
         save_apartments(kept)
         return
 
+    if args.facebook:
+        apartments  = load_apartments()
+        count       = process_facebook_marketplace(apartments)
+        if count > 0:
+            save_apartments(apartments)
+            print(f"\n✨ Facebook: добавлено/обновлено {count} квартир")
+            print("🗺️  Открой http://localhost:8080/map.html")
+        else:
+            print("\n⚠️  Facebook Marketplace: ни одна квартира не добавлена")
+        return
+
     if args.list:
         apartments = load_apartments()
         if not apartments:
@@ -1324,6 +1643,7 @@ def main():
         print('   python scraper.py "https://www.homeless.co.il/rent/viewad,738048.aspx"')
         print('   python scraper.py --file urls.txt')
         print('   python scraper.py --list')
+        print('   python scraper.py --facebook')
         return
 
     apartments    = load_apartments()

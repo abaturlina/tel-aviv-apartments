@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 scraper_log.txt
 .claude/
+.env

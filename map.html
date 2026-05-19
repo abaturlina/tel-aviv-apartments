@@ -3,516 +3,1101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Квартиры в Тель-Авиве</title>
+<title>ТА · Квартиры</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   :root {
-    --bg:      #0f0f0f;
-    --surface: #1a1a1a;
-    --border:  #2a2a2a;
-    --bordhi:  #3a3a3a;
-    --text:    #e8e8e8;
-    --dim:     #888;
-    --dimmer:  #555;
-    --good:    #4ade80; --good-bg:  #166534;
-    --over:    #facc15; --over-bg:  #713f12;
-    --new:     #60a5fa; --new-bg:   #1e3a5f;
-    --int:     #f472b6; --int-bg:   #4a1942;
-    --gym:     #a78bfa; --gym-bg:   #2e1065;
-    --bath:    #67e8f9; --bath-bg:  #0c4a6e;
-    --furn:    #86efac; --furn-bg:  #14532d;
-    --sea:     #38bdf8;
-    --mono: 'IBM Plex Mono', monospace;
-    --sans: 'IBM Plex Sans', sans-serif;
+    --yellow: #F5E642;
+    --red:    #E8341C;
+    --black:  #1A1A1A;
+    --white:  #FFFFFF;
+    --font:   'Inter', system-ui, -apple-system, sans-serif;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: var(--sans);
-         height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+
+  body {
+    background: var(--white);
+    color: var(--black);
+    font-family: var(--font);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
 
   /* ── Header ── */
   header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 12px 20px; background: var(--surface);
-    border-bottom: 1px solid var(--border); flex-shrink: 0; gap: 16px; flex-wrap: wrap;
+    background: var(--black);
+    color: var(--white);
+    flex-shrink: 0;
+    padding: 12px 20px 0;
   }
-  h1 { font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing:.05em; white-space:nowrap; }
-  .subtitle { font-size: 11px; color: var(--dim); font-family: var(--mono); }
-
-  /* ── Filter chips ── */
-  .stats { display: flex; gap: 8px; flex-wrap: wrap; }
-  .chip {
-    display: flex; align-items: center; gap: 5px;
-    padding: 4px 10px; border-radius: 3px;
-    font-family: var(--mono); font-size: 11px; border: 1px solid transparent;
-    cursor: pointer; transition: opacity .15s; user-select: none;
+  .header-top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-bottom: 12px;
   }
-  .chip:hover { opacity: .8; }
-  .chip.active { opacity: 1; }
-  .chip:not(.active) { opacity: .35; }
-  .chip.all   { border-color: var(--bordhi); color: var(--text); }
-  .chip.good  { background: var(--good-bg); border-color: var(--good); color: var(--good); }
-  .chip.over  { background: var(--over-bg); border-color: var(--over); color: var(--over); }
-  .chip.nw    { background: var(--new-bg);  border-color: var(--new);  color: var(--new); }
-  .chip.star  { background: var(--int-bg);  border-color: var(--int);  color: var(--int); }
-  .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-
-  /* ── Layout ── */
-  .main { display: flex; flex: 1; overflow: hidden; }
-
-  /* ── Sidebar ── */
-  .sidebar {
-    width: 340px; flex-shrink: 0; background: var(--surface);
-    border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden;
+  .logo {
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--yellow);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
-  .sb-search { padding: 12px; border-bottom: 1px solid var(--border); }
-  .sb-search input {
-    width: 100%; background: var(--bg); border: 1px solid var(--bordhi);
-    color: var(--text); padding: 7px 10px; font-family: var(--mono); font-size: 12px;
-    border-radius: 3px; outline: none;
+
+  /* Mode toggle */
+  .mode-toggle {
+    display: flex;
+    gap: 2px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 3px;
+    flex-shrink: 0;
   }
-  .sb-search input:focus { border-color: var(--new); }
-  .sb-search input::placeholder { color: var(--dimmer); }
-
-  .apt-list { flex: 1; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--bordhi) transparent; }
-
-  .apt-item {
-    padding: 13px 16px; border-bottom: 1px solid var(--border);
-    cursor: pointer; transition: background .1s;
+  .mode-btn {
+    padding: 6px 18px;
+    border-radius: 6px;
+    border: none;
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: transparent;
+    color: rgba(255,255,255,0.5);
   }
-  .apt-item:hover   { background: rgba(255,255,255,.03); }
-  .apt-item.selected { background: rgba(255,255,255,.06); }
+  .mode-btn.active             { background: var(--yellow); color: var(--black); }
+  .mode-btn:not(.active):hover { color: var(--white); }
 
-  .item-row1 { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
-  .item-addr { font-size: 13px; font-weight: 500; line-height: 1.4; flex: 1; }
-  .item-price { font-family: var(--mono); font-size: 13px; font-weight: 500; white-space: nowrap; flex-shrink: 0; }
-  .item-price.good        { color: var(--good); }
-  .item-price.over_budget { color: var(--over); }
-  .item-price.new         { color: var(--new); }
-
-  .item-row2 { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; }
-  .item-meta { font-family: var(--mono); font-size: 10px; color: var(--dim); }
-
-  .no-coords { opacity: .5; }
-  .empty { padding: 40px 20px; text-align: center; color: var(--dimmer); font-family: var(--mono); font-size: 12px; line-height: 1.8; }
-
-  /* ── Tags ── */
-  .tag {
-    font-family: var(--mono); font-size: 10px;
-    padding: 2px 6px; border-radius: 2px; border: 1px solid;
+  /* Stats */
+  .header-stats {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
   }
-  .tag.rooms   { border-color: var(--bordhi); color: var(--dim); }
-  .tag.mamad   { border-color: var(--good);   color: var(--good); background: var(--good-bg); }
-  .tag.nomamad { border-color: #ef4444; color: #ef4444; background: #450a0a; }
-  .tag.park    { border-color: var(--new); color: var(--new); background: var(--new-bg); }
-  .tag.gym     { border-color: var(--gym);  color: var(--gym);  background: var(--gym-bg); }
-  .tag.bath    { border-color: var(--bath); color: var(--bath); background: var(--bath-bg); }
-  .tag.furn    { border-color: var(--furn); color: var(--furn); background: var(--furn-bg); }
-  .tag.sea     { border-color: var(--sea);  color: var(--sea); }
-  .tag.over    { border-color: var(--over); color: var(--over); }
-  .tag.star    { border-color: var(--int);  color: var(--int); }
-  .tag.floor   { border-color: var(--bordhi); color: var(--dim); }
+  .stat-item { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+  .stat-val  { color: var(--white); font-weight: 700; }
+  .stat-sep  { color: rgba(255,255,255,0.2); }
 
-  /* ── Map ── */
-  #map { flex: 1; }
+  /* Filters */
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 10px 0 12px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  select.filter-sel,
+  input.filter-input {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.15s;
+    height: 30px;
+  }
+  select.filter-sel:focus,
+  input.filter-input:focus    { border-color: var(--yellow); }
+  select.filter-sel option    { background: #222; color: var(--white); }
+  input.filter-input::placeholder { color: rgba(255,255,255,0.25); }
+  input.filter-input          { width: 80px; }
 
-  /* ── Popup ── */
+  .btn-reset {
+    background: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 0 14px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+  .btn-reset:hover { opacity: 0.85; }
+
+  .btn-export {
+    background: var(--yellow);
+    border: none;
+    color: var(--black);
+    padding: 0 14px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-left: auto;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .btn-export:hover { opacity: 0.85; }
+
+  /* ── Main ── */
+  .main { flex: 1; overflow: hidden; }
+
+  .gallery-view {
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    align-content: start;
+    background: #F5F5F5;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  @media (max-width: 1280px) { .gallery-view { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 860px)  { .gallery-view { grid-template-columns: repeat(2, 1fr); } }
+  .gallery-view.hidden { display: none; }
+
+  .map-view { height: 100%; }
+  .map-view.hidden { display: none; }
+  #map { width: 100%; height: 100%; }
+
+  /* ── Card ── */
+  .apt-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.18s, box-shadow 0.18s;
+  }
+  .apt-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.14);
+  }
+  .apt-card.interested { outline: 2px solid var(--yellow); }
+
+  /* ── Photo ── */
+  .card-photo {
+    position: relative;
+    height: 240px;
+    background: #e0e0e0;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: block;
+  }
+  .card-photo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+    pointer-events: none;
+  }
+  .apt-card:hover .card-photo img { transform: scale(1.04); }
+
+  /* Placeholder */
+  .photo-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #e8e8e8;
+    pointer-events: none;
+  }
+  .photo-placeholder .ph-icon { font-size: 52px; opacity: 0.25; }
+  .photo-placeholder .ph-text {
+    font-size: 11px;
+    color: rgba(0,0,0,0.3);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* Arrows — visible only on card hover */
+  .photo-btn-prev,
+  .photo-btn-next {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    z-index: 3;
+    background: rgba(255,255,255,0.92);
+    border: none;
+    color: #1A1A1A;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: opacity 0.18s, background 0.12s;
+    opacity: 0; pointer-events: none;
+  }
+  .photo-btn-prev { left: 10px; }
+  .photo-btn-next { right: 10px; }
+  .apt-card:hover .photo-btn-prev,
+  .apt-card:hover .photo-btn-next { opacity: 1; pointer-events: all; }
+  .photo-btn-prev:hover,
+  .photo-btn-next:hover { background: #fff; }
+
+  /* Counter — bottom right */
+  .photo-counter {
+    position: absolute;
+    bottom: 10px; right: 10px;
+    z-index: 3;
+    font-size: 11px; font-weight: 600;
+    color: #fff;
+    background: rgba(0,0,0,0.48);
+    padding: 2px 8px; border-radius: 10px;
+    pointer-events: none;
+  }
+
+  /* Budget badge — top left */
+  .photo-badge-budget {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 2;
+    background: var(--red);
+    color: #fff;
+    font-size: 10px; font-weight: 700;
+    padding: 3px 9px; border-radius: 5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    pointer-events: none;
+  }
+
+  /* ♥ / ✕ buttons — top right of photo */
+  .photo-actions {
+    position: absolute;
+    top: 10px; right: 10px;
+    z-index: 4;
+    display: flex; gap: 5px;
+  }
+  .photo-act-btn {
+    width: 32px; height: 32px;
+    border-radius: 50%; border: none;
+    cursor: pointer; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+    transition: transform 0.12s, background 0.12s;
+    background: rgba(255,255,255,0.92);
+    color: #888;
+  }
+  .photo-act-btn:hover       { transform: scale(1.12); }
+  .photo-act-like.active     { background: var(--yellow); color: var(--black); }
+  .photo-act-hide:hover      { background: #fee2e2; color: var(--red); }
+
+  /* ── Card body — white ── */
+  .card-body {
+    padding: 12px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex: 1;
+    color: var(--black);
+    background: #fff;
+  }
+
+  .card-price-row { display: flex; align-items: baseline; gap: 8px; }
+  .card-price     { font-size: 20px; font-weight: 800; color: var(--black); line-height: 1.2; }
+  .card-price-sqm { font-size: 12px; color: #999; font-weight: 400; }
+
+  .card-meta {
+    font-size: 13px; color: #555;
+    display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+  }
+  .card-meta-sep { color: #ccc; }
+
+  .card-address  { font-size: 13px; color: #222; line-height: 1.4; }
+  .card-district { font-size: 11px; color: #999; margin-top: 1px; }
+
+  .card-footer {
+    display: flex; align-items: center; gap: 6px;
+    margin-top: 4px; flex-wrap: wrap;
+  }
+  .card-source-badge {
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 4px;
+    background: #F5F5F5; color: #888;
+    border: 1px solid #E0E0E0;
+  }
+  .card-link-btn {
+    font-family: var(--font);
+    font-size: 11px; font-weight: 600;
+    padding: 5px 12px; border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    cursor: pointer; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 4px;
+    color: #444; background: #fff;
+    transition: border-color 0.15s, color 0.15s; white-space: nowrap;
+  }
+  .card-link-btn:hover { border-color: #999; color: #111; }
+
+  /* ── Empty state ── */
+  .empty-state {
+    grid-column: 1/-1;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 80px 20px; gap: 14px; color: #aaa; text-align: center;
+  }
+  .empty-state .empty-icon { font-size: 52px; }
+  .empty-state p { font-size: 14px; line-height: 1.7; }
+
+  /* ── Lightbox ── */
+  .lightbox {
+    display: none;
+    position: fixed; inset: 0; z-index: 9000;
+    background: rgba(0,0,0,0.93);
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox.open {
+    display: flex;
+    animation: lbFadeIn 0.18s ease;
+  }
+  @keyframes lbFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  .lb-inner {
+    /* не перехватывает клики фона */
+    pointer-events: none;
+  }
+  .lb-img {
+    pointer-events: none;
+    display: block;
+    width: 90vw;
+    height: 85vh;
+    object-fit: contain;    /* показывать целиком, без обрезки */
+    border-radius: 6px;
+    animation: lbSlideIn 0.18s ease;
+  }
+  @keyframes lbSlideIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  .lb-close {
+    position: fixed; top: 18px; right: 22px;
+    background: rgba(255,255,255,0.12);
+    border: 1.5px solid rgba(255,255,255,0.25);
+    color: #fff;
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    font-size: 22px; line-height: 1;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s;
+    z-index: 9002;
+  }
+  .lb-close:hover { background: rgba(255,255,255,0.25); }
+
+  .lb-arrow {
+    position: fixed;
+    top: 50%; transform: translateY(-50%);
+    background: rgba(255,255,255,0.12);
+    border: 2px solid rgba(255,255,255,0.25);
+    color: #fff;
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    font-size: 28px; line-height: 1;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s, transform 0.15s;
+    z-index: 9002;
+    user-select: none;
+  }
+  .lb-arrow:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateY(-50%) scale(1.08);
+  }
+  .lb-arrow-prev { left: 20px; }
+  .lb-arrow-next { right: 20px; }
+
+  .lb-counter {
+    position: fixed;
+    bottom: 22px; left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255,255,255,0.6);
+    font-size: 13px; font-weight: 500;
+    background: rgba(0,0,0,0.55);
+    padding: 4px 16px; border-radius: 12px;
+    z-index: 9002; pointer-events: none;
+  }
+
+  /* ── Leaflet popup ── */
   .leaflet-popup-content-wrapper {
-    background: var(--surface); border: 1px solid var(--bordhi);
-    border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,.6);
-    padding: 0; min-width: 280px; max-width: 320px;
+    background: var(--black);
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+    padding: 0;
+    min-width: 260px; max-width: 300px;
   }
   .leaflet-popup-content { margin: 0; }
-  .leaflet-popup-tip     { background: var(--surface); }
-  .leaflet-popup-close-button { color: var(--dim) !important; font-size: 18px !important; top: 8px !important; right: 8px !important; }
-
-  /* Gallery */
-  .gallery { position: relative; background: #111; border-radius: 4px 4px 0 0; overflow: hidden; }
-  .gallery img {
-    width: 100%; height: 190px; object-fit: cover; display: block;
-    transition: opacity .2s;
+  .leaflet-popup-tip     { background: var(--black); }
+  .leaflet-popup-close-button {
+    color: rgba(255,255,255,0.35) !important;
+    font-size: 20px !important;
+    top: 8px !important; right: 8px !important;
   }
-  .gallery-empty { height: 0; }
-  .gal-nav {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    display: flex; align-items: center; justify-content: space-between;
-    background: linear-gradient(transparent, rgba(0,0,0,.7));
-    padding: 16px 10px 8px;
+  .popup-photo { position: relative; overflow: hidden; border-radius: 12px 12px 0 0; }
+  .popup-photo img { width: 100%; height: 155px; object-fit: cover; display: block; }
+  .popup-price-badge {
+    position: absolute; bottom: 8px; left: 8px;
+    background: rgba(20,20,20,0.88);
+    padding: 4px 10px; border-radius: 7px;
+    font-size: 15px; font-weight: 800; color: var(--yellow);
+    backdrop-filter: blur(4px);
   }
-  .gal-btn {
-    background: rgba(0,0,0,.5); border: 1px solid rgba(255,255,255,.2);
-    color: #fff; width: 26px; height: 26px; border-radius: 50%;
-    cursor: pointer; font-size: 15px; line-height: 1;
-    display: flex; align-items: center; justify-content: center;
+  .popup-body   { padding: 12px; color: var(--white); }
+  .popup-price-header { font-size: 18px; font-weight: 800; color: var(--yellow); margin-bottom: 6px; }
+  .popup-addr   { font-size: 12px; color: rgba(255,255,255,0.7); margin-bottom: 8px; line-height: 1.45; }
+  .popup-chips  { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+  .popup-actions { display: flex; gap: 5px; }
+  .popup-btn {
+    font-family: var(--font); font-size: 11px; font-weight: 600;
+    padding: 6px 0; border-radius: 6px; border: none;
+    cursor: pointer; text-decoration: none;
+    display: flex; align-items: center; justify-content: center; gap: 3px;
+    transition: opacity 0.15s; flex: 1;
   }
-  .gal-btn:hover { background: rgba(255,255,255,.2); }
-  .gal-counter { font-family: var(--mono); font-size: 11px; color: rgba(255,255,255,.8); }
+  .popup-btn:hover          { opacity: 0.8; }
+  .popup-btn-site           { background: var(--yellow); color: var(--black); }
+  .popup-btn-like           { background: rgba(245,230,66,0.12); color: var(--yellow); }
+  .popup-btn-like.active    { background: var(--yellow); color: var(--black); }
+  .popup-btn-hide           { background: rgba(232,52,28,0.12); color: #EF9A9A; }
 
-  /* Popup body */
-  .popup-body { padding: 14px; }
-  .popup-price { font-family: var(--mono); font-size: 20px; font-weight: 500; margin-bottom: 3px; }
-  .popup-price.good        { color: var(--good); }
-  .popup-price.over_budget { color: var(--over); }
-  .popup-price.new         { color: var(--new); }
-
-  .popup-addr { font-size: 13px; color: var(--text); margin-bottom: 10px; line-height: 1.4; }
-  .popup-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; }
-  .popup-notes { font-size: 12px; color: var(--dim); margin-bottom: 10px; line-height: 1.5; }
-
-  .popup-actions { display: flex; gap: 6px; flex-wrap: wrap; }
-  .btn {
-    font-family: var(--mono); font-size: 11px; padding: 6px 11px;
-    border-radius: 3px; border: 1px solid; cursor: pointer;
-    text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
-    transition: opacity .15s;
-  }
-  .btn:hover { opacity: .8; }
-  .btn-link { background: var(--new-bg); border-color: var(--new); color: var(--new); }
-  .btn-star { background: var(--int-bg); border-color: var(--int); color: var(--int); }
-  .btn-rej  { background: transparent; border-color: var(--bordhi); color: var(--dimmer); }
-
-  /* ── Notice ── */
+  /* Notice */
   .notice {
     position: fixed; bottom: 20px; right: 20px;
-    background: var(--surface); border: 1px solid var(--bordhi);
-    padding: 10px 14px; font-family: var(--mono); font-size: 11px; color: var(--dim);
-    border-radius: 4px; display: none; z-index: 1000; max-width: 360px; line-height: 1.6;
+    background: var(--black); color: var(--white);
+    border: 1px solid rgba(245,230,66,0.25);
+    padding: 12px 16px; border-radius: 10px;
+    font-size: 12px; display: none; z-index: 8000;
+    max-width: 380px; line-height: 1.65;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
   }
+
+  .apt-pin { cursor: pointer; transition: transform 0.1s; }
+  .apt-pin:hover { transform: scale(1.08); }
 </style>
 </head>
 <body>
 
 <header>
-  <div>
-    <h1>🏙 TEL AVIV APARTMENTS</h1>
-    <div class="subtitle" id="last-updated">загрузка...</div>
+  <div class="header-top">
+    <div class="logo">TA·FLATS</div>
+    <div class="mode-toggle">
+      <button class="mode-btn active" id="btn-gallery" onclick="setMode('gallery')">Галерея</button>
+      <button class="mode-btn"        id="btn-map"     onclick="setMode('map')">Карта</button>
+    </div>
+    <div class="header-stats">
+      <span class="stat-item">Всего: <span class="stat-val" id="s-total">0</span></span>
+      <span class="stat-sep">·</span>
+      <span class="stat-item">Средняя: <span class="stat-val" id="s-avg">—</span></span>
+      <span class="stat-sep">·</span>
+      <span class="stat-item">♥ <span class="stat-val" id="s-liked">0</span></span>
+      <span class="stat-sep">·</span>
+      <span class="stat-item" id="s-sources"></span>
+      <span class="stat-item" id="s-updated" style="font-size:11px;color:rgba(255,255,255,0.22)"></span>
+    </div>
   </div>
-  <div class="stats" id="stats-bar">
-    <div class="chip all active"  data-f="all"         onclick="setFilter('all')"><span id="n-all">0</span> всего</div>
-    <div class="chip good active" data-f="good"        onclick="setFilter('good')"><span class="dot"></span><span id="n-good">0</span> до 10k</div>
-    <div class="chip over active" data-f="over_budget" onclick="setFilter('over_budget')"><span class="dot"></span><span id="n-over">0</span> 10–12k</div>
-    <div class="chip nw active"   data-f="new"         onclick="setFilter('new')"><span class="dot"></span><span id="n-new">0</span> новые</div>
-    <div class="chip star active" data-f="interested"  onclick="setFilter('interested')"><span class="dot"></span><span id="n-int">0</span> ⭐</div>
+  <div class="filters">
+    <select class="filter-sel" id="f-district" onchange="applyFilters()">
+      <option value="">Все районы</option>
+    </select>
+    <select class="filter-sel" id="f-rooms" onchange="applyFilters()">
+      <option value="">Все комнаты</option>
+      <option value="2">2 комн.</option>
+      <option value="3">3 комн.</option>
+      <option value="4">4 комн.</option>
+      <option value="5">5 комн.</option>
+    </select>
+    <input class="filter-input" type="number" id="f-price-max" placeholder="Цена до" oninput="applyFilters()">
+    <input class="filter-input" type="number" id="f-sqm-min"   placeholder="м² от"   oninput="applyFilters()">
+    <input class="filter-input" type="number" id="f-sqm-max"   placeholder="м² до"   oninput="applyFilters()">
+    <select class="filter-sel" id="f-status" onchange="applyFilters()">
+      <option value="">Все статусы</option>
+      <option value="good">До 10k ₪</option>
+      <option value="over_budget">10–15k ₪</option>
+      <option value="new">Новые</option>
+      <option value="interested">Понравилось</option>
+      <option value="contacted">Связался</option>
+    </select>
+    <select class="filter-sel" id="f-source" onchange="applyFilters()">
+      <option value="">Все источники</option>
+      <option value="yad2">yad2</option>
+      <option value="homeless">homeless</option>
+      <option value="madlan">madlan</option>
+      <option value="onmap">onmap</option>
+      <option value="craigslist">craigslist</option>
+      <option value="janglo">janglo</option>
+      <option value="facebook">facebook</option>
+    </select>
+    <select class="filter-sel" id="f-sort" onchange="applyFilters()">
+      <option value="date">По дате ↓</option>
+      <option value="price_asc">Цена ↑</option>
+      <option value="price_desc">Цена ↓</option>
+      <option value="sqm">м² ↓</option>
+      <option value="sea">Море ↑</option>
+    </select>
+    <button class="btn-reset" onclick="resetFilters()">Сбросить</button>
+    <button class="btn-export" onclick="exportCSV()">↓ Экспорт CSV</button>
   </div>
 </header>
 
 <div class="main">
-  <div class="sidebar">
-    <div class="sb-search">
-      <input id="search" placeholder="Поиск по адресу..." oninput="onSearch()">
-    </div>
-    <div class="apt-list" id="apt-list"></div>
+  <div class="gallery-view" id="gallery-view"></div>
+  <div class="map-view hidden" id="map-view"><div id="map"></div></div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="lbClickOverlay(event)">
+  <div class="lb-inner">
+    <img class="lb-img" id="lb-img" src="" alt="">
   </div>
-  <div id="map"></div>
+  <button class="lb-close"      onclick="lbClose()"        title="Закрыть (Esc)">✕</button>
+  <button class="lb-arrow lb-arrow-prev" onclick="lbNav(-1)" title="Назад">‹</button>
+  <button class="lb-arrow lb-arrow-next" onclick="lbNav(1)"  title="Вперёд">›</button>
+  <div class="lb-counter" id="lb-counter"></div>
 </div>
 
 <div class="notice" id="notice"></div>
 
 <script>
-// ─── Map init ─────────────────────────────────────────────────────────────────
-const map = L.map('map', { center: [32.075, 34.778], zoom: 13, zoomControl: false });
-L.control.zoom({ position: 'bottomright' }).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© OpenStreetMap, © CartoDB', maxZoom: 19,
-}).addTo(map);
+// ─── State ────────────────────────────────────────────────────────────────────
+var apts        = [];
+var mode        = 'gallery';
+var APT_PHOTOS  = {};
+var PHOTO_IDX   = {};
+var leafletMap  = null;
+var markerLayer = null;
 
-// ─── Coastal strip polygon ────────────────────────────────────────────────────
-// Прибрежная полоса: от Tel Aviv Port (север) до Neve Tzedek (юг), глубина ~2 км
-L.polygon([
-  // Береговая линия, с севера на юг
-  [32.104, 34.763],
-  [32.098, 34.762],
-  [32.090, 34.765],
-  [32.083, 34.766],
-  [32.076, 34.765],
-  [32.068, 34.761],
-  [32.060, 34.756],
-  [32.053, 34.752],
-  // 2 км вглубь: от юга к северу (lon + ~0.022°)
-  [32.053, 34.774],
-  [32.060, 34.778],
-  [32.068, 34.783],
-  [32.076, 34.787],
-  [32.083, 34.788],
-  [32.090, 34.787],
-  [32.098, 34.784],
-  [32.104, 34.785],
-], {
-  color: '#38bdf8', fillColor: '#0ea5e9',
-  fillOpacity: 0.07, weight: 1.5, opacity: 0.3, dashArray: '5 5',
-}).addTo(map).bindTooltip('Целевой район (2 км от моря)', {
-  sticky: true, className: 'coast-tip',
+// ─── Lightbox state ───────────────────────────────────────────────────────────
+var lbPhotos  = [];
+var lbIdx     = 0;
+var lbAptId   = null;
+
+function lbOpen(aptId, startIdx) {
+  var photos = APT_PHOTOS[aptId] || [];
+  if (!photos.length) return;
+  lbPhotos = photos;
+  lbAptId  = aptId;
+  lbIdx    = startIdx || PHOTO_IDX[aptId] || 0;
+  lbShow();
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function lbShow() {
+  var img = document.getElementById('lb-img');
+  img.src = lbPhotos[lbIdx];
+  img.referrerPolicy = 'no-referrer';
+  document.getElementById('lb-counter').textContent = (lbIdx + 1) + ' / ' + lbPhotos.length;
+}
+
+function lbNav(dir) {
+  lbIdx = (lbIdx + dir + lbPhotos.length) % lbPhotos.length;
+  // Animate fade
+  var img = document.getElementById('lb-img');
+  img.style.opacity = '0';
+  img.style.transform = 'scale(0.97)';
+  img.style.transition = 'opacity 0.12s, transform 0.12s';
+  setTimeout(function() {
+    lbShow();
+    img.style.opacity = '1';
+    img.style.transform = 'scale(1)';
+  }, 120);
+}
+
+function lbClose() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+  // Sync gallery counter with lightbox position
+  if (lbAptId !== null) {
+    PHOTO_IDX[lbAptId] = lbIdx;
+    var img = document.getElementById('gi-' + lbAptId);
+    var ctr = document.getElementById('gn-' + lbAptId);
+    if (img) img.src = lbPhotos[lbIdx];
+    if (ctr) ctr.textContent = (lbIdx + 1) + '/' + lbPhotos.length;
+  }
+}
+
+function lbClickOverlay(e) {
+  // Close only if clicking the dark backdrop (not the image or buttons)
+  if (e.target.id === 'lightbox') lbClose();
+}
+
+document.addEventListener('keydown', function(e) {
+  var lb = document.getElementById('lightbox');
+  if (!lb.classList.contains('open')) return;
+  if (e.key === 'Escape' || e.key === 'Esc') lbClose();
+  if (e.key === 'ArrowLeft')  lbNav(-1);
+  if (e.key === 'ArrowRight') lbNav(1);
 });
 
 // ─── Sea distance ─────────────────────────────────────────────────────────────
-const COAST_PTS = [
+var COAST_PTS = [
   [32.100,34.764],[32.090,34.764],[32.083,34.766],
   [32.076,34.765],[32.068,34.762],[32.060,34.757],[32.054,34.753],
 ];
 
 function haversine(la1, lo1, la2, lo2) {
-  const R = 6371000, r = Math.PI/180;
-  const dLa = (la2-la1)*r, dLo = (lo2-lo1)*r;
-  const a = Math.sin(dLa/2)**2 + Math.cos(la1*r)*Math.cos(la2*r)*Math.sin(dLo/2)**2;
-  return Math.round(2*R*Math.atan2(Math.sqrt(a),Math.sqrt(1-a)));
+  var R = 6371000, r = Math.PI / 180;
+  var dLa = (la2-la1)*r, dLo = (lo2-lo1)*r;
+  var a = Math.sin(dLa/2)*Math.sin(dLa/2) +
+          Math.cos(la1*r)*Math.cos(la2*r)*Math.sin(dLo/2)*Math.sin(dLo/2);
+  return Math.round(2*R*Math.atan2(Math.sqrt(a), Math.sqrt(1-a)));
 }
 
 function seaDist(lat, lng) {
   if (!lat || !lng) return null;
-  return Math.min(...COAST_PTS.map(([la,lo]) => haversine(lat,lng,la,lo)));
+  return Math.min.apply(null, COAST_PTS.map(function(p){ return haversine(lat,lng,p[0],p[1]); }));
 }
 
 function seaLabel(m) {
   if (m === null) return null;
-  return m < 1000 ? `🌊 ${m}m` : `🌊 ${(m/1000).toFixed(1)}km`;
+  return m < 1000 ? m + 'm' : (m/1000).toFixed(1) + 'km';
 }
 
-// ─── Gallery state ────────────────────────────────────────────────────────────
-const APT_PHOTOS = {};   // id → [url, ...]
-const PHOTO_IDX  = {};   // id → currentIndex
-
-function galleryNav(id, dir) {
-  const photos = APT_PHOTOS[id] || [];
-  if (!photos.length) return;
-  PHOTO_IDX[id] = ((PHOTO_IDX[id] || 0) + dir + photos.length) % photos.length;
-  const img = document.getElementById('gi-' + id);
-  const ctr = document.getElementById('gn-' + id);
-  if (img) img.src = photos[PHOTO_IDX[id]];
-  if (ctr) ctr.textContent = `${PHOTO_IDX[id]+1}/${photos.length}`;
+// ─── Mode ─────────────────────────────────────────────────────────────────────
+function setMode(m) {
+  mode = m;
+  document.getElementById('btn-gallery').classList.toggle('active', m === 'gallery');
+  document.getElementById('btn-map').classList.toggle('active', m === 'map');
+  document.getElementById('gallery-view').classList.toggle('hidden', m !== 'gallery');
+  document.getElementById('map-view').classList.toggle('hidden', m !== 'map');
+  if (m === 'map') {
+    initMap();
+    renderMarkers();
+    setTimeout(function() { leafletMap && leafletMap.invalidateSize(); }, 60);
+  }
 }
 
-function buildGallery(apt) {
-  const photos = apt.photos || [];
-  if (!photos.length) return '<div class="gallery gallery-empty"></div>';
-  APT_PHOTOS[apt.id] = photos;
-  PHOTO_IDX[apt.id]  = PHOTO_IDX[apt.id] || 0;
-  const idx = PHOTO_IDX[apt.id];
-  const nav = photos.length > 1 ? `
-    <div class="gal-nav">
-      <button class="gal-btn" onclick="galleryNav('${apt.id}',-1)">‹</button>
-      <span class="gal-counter" id="gn-${apt.id}">${idx+1}/${photos.length}</span>
-      <button class="gal-btn" onclick="galleryNav('${apt.id}',1)">›</button>
-    </div>` : '';
-  return `<div class="gallery">
-    <img id="gi-${apt.id}" src="${photos[idx]}" alt="фото квартиры" loading="lazy">
-    ${nav}
-  </div>`;
+// ─── Map ──────────────────────────────────────────────────────────────────────
+function initMap() {
+  if (leafletMap) return;
+  leafletMap = L.map('map', { center: [32.075, 34.778], zoom: 13, zoomControl: false });
+  L.control.zoom({ position: 'bottomright' }).addTo(leafletMap);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a>',
+    maxZoom: 19,
+  }).addTo(leafletMap);
+  L.polygon([
+    [32.104,34.763],[32.098,34.762],[32.090,34.765],[32.083,34.766],
+    [32.076,34.765],[32.068,34.761],[32.060,34.756],[32.053,34.752],
+    [32.053,34.774],[32.060,34.778],[32.068,34.783],[32.076,34.787],
+    [32.083,34.788],[32.090,34.787],[32.098,34.784],[32.104,34.785],
+  ], {
+    color:'#F5E642', fillColor:'#F5E642',
+    fillOpacity:0.06, weight:1.5, opacity:0.28, dashArray:'5 5',
+  }).addTo(leafletMap).bindTooltip('2 км от моря', { sticky:true });
+  markerLayer = L.layerGroup().addTo(leafletMap);
 }
 
-// ─── Data ────────────────────────────────────────────────────────────────────
-let apts = [], filter = 'all', selId = null;
-const markers = {}, layer = L.layerGroup().addTo(map);
-
+// ─── Data ─────────────────────────────────────────────────────────────────────
 async function loadData() {
   try {
     apts = await (await fetch('apartments.json?' + Date.now())).json();
+    buildDistrictOptions();
     render();
-  } catch {
-    document.getElementById('apt-list').innerHTML =
-      '<div class="empty">📭 apartments.json не найден<br><br>Запусти scraper.py<br>чтобы добавить квартиры</div>';
-    document.getElementById('last-updated').textContent = 'нет данных';
+  } catch(e) {
+    document.getElementById('gallery-view').innerHTML =
+      '<div class="empty-state"><div class="empty-icon">📭</div>' +
+      '<p>apartments.json не найден<br>Запусти scraper.py</p></div>';
   }
 }
 
-// ─── Render ──────────────────────────────────────────────────────────────────
-function render() {
-  updateStats(); renderList(); renderMarkers();
-  const latest = apts.map(a=>a.added_at).filter(Boolean).sort().pop();
-  if (latest) {
-    const d = new Date(latest);
-    document.getElementById('last-updated').textContent =
-      `обновлено ${d.toLocaleDateString('ru')} ${d.toLocaleTimeString('ru',{hour:'2-digit',minute:'2-digit'})}`;
-  }
-}
-
-function updateStats() {
-  const c = { all: apts.length, good: 0, over_budget: 0, new: 0, interested: 0 };
-  apts.forEach(a => {
-    if (a.status === 'good')        c.good++;
-    else if (a.status === 'over_budget') c.over_budget++;
-    else if (a.status === 'new')    c.new++;
-    if (a.status === 'interested')  c.interested++;
+function buildDistrictOptions() {
+  var sel = document.getElementById('f-district');
+  while (sel.options.length > 1) sel.remove(1);
+  var seen = {};
+  apts.forEach(function(a) {
+    if (!a.address) return;
+    var parts = a.address.split(',').map(function(p){ return p.trim(); }).filter(Boolean);
+    var dist = parts.length >= 2 ? parts[parts.length - 2] : null;
+    if (dist && dist.length < 40 && !seen[dist]) {
+      seen[dist] = true;
+      var o = document.createElement('option');
+      o.value = dist; o.textContent = dist;
+      sel.appendChild(o);
+    }
   });
-  document.getElementById('n-all').textContent  = c.all;
-  document.getElementById('n-good').textContent = c.good;
-  document.getElementById('n-over').textContent = c.over_budget;
-  document.getElementById('n-new').textContent  = c.new;
-  document.getElementById('n-int').textContent  = c.interested;
+  var opts = Array.from(sel.options).slice(1).sort(function(a,b){ return a.text.localeCompare(b.text); });
+  opts.forEach(function(o){ sel.appendChild(o); });
 }
 
-function visible() {
-  const q = document.getElementById('search').value.toLowerCase();
-  return apts.filter(a =>
-    (filter === 'all' || a.status === filter) &&
-    a.status !== 'rejected' &&
-    (!q || a.address.toLowerCase().includes(q))
-  );
+// ─── Filters ──────────────────────────────────────────────────────────────────
+function getFilters() {
+  return {
+    district: document.getElementById('f-district').value,
+    rooms:    document.getElementById('f-rooms').value,
+    priceMax: +document.getElementById('f-price-max').value || null,
+    sqmMin:   +document.getElementById('f-sqm-min').value  || null,
+    sqmMax:   +document.getElementById('f-sqm-max').value  || null,
+    status:   document.getElementById('f-status').value,
+    source:   document.getElementById('f-source').value,
+    sort:     document.getElementById('f-sort').value,
+  };
 }
 
-function renderList() {
-  const el = document.getElementById('apt-list');
-  const vs = visible();
+function resetFilters() {
+  ['f-district','f-rooms','f-status','f-source'].forEach(function(id){
+    document.getElementById(id).value = '';
+  });
+  ['f-price-max','f-sqm-min','f-sqm-max'].forEach(function(id){
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('f-sort').value = 'date';
+  applyFilters();
+}
+
+function applyFilters() { render(); }
+
+function filtered() {
+  var f = getFilters();
+  var list = apts.filter(function(a) {
+    if (a.status === 'rejected') return false;
+    if (f.district && !(a.address||'').includes(f.district)) return false;
+    if (f.rooms    && a.rooms != +f.rooms) return false;
+    if (f.priceMax && a.price > f.priceMax) return false;
+    if (f.sqmMin   && (a.size_sqm == null || a.size_sqm < f.sqmMin)) return false;
+    if (f.sqmMax   && (a.size_sqm == null || a.size_sqm > f.sqmMax)) return false;
+    if (f.status   && a.status !== f.status) return false;
+    if (f.source   && a.source !== f.source) return false;
+    return true;
+  });
+  if      (f.sort === 'price_asc')  list.sort(function(a,b){ return (a.price||99999)-(b.price||99999); });
+  else if (f.sort === 'price_desc') list.sort(function(a,b){ return (b.price||0)-(a.price||0); });
+  else if (f.sort === 'sqm')        list.sort(function(a,b){ return (b.size_sqm||0)-(a.size_sqm||0); });
+  else if (f.sort === 'sea')        list.sort(function(a,b){
+    return (seaDist(a.lat,a.lng)||99999)-(seaDist(b.lat,b.lng)||99999);
+  });
+  else list.sort(function(a,b){ return (b.added_at||'')>(a.added_at||'')?1:-1; });
+  return list;
+}
+
+// ─── Stats ────────────────────────────────────────────────────────────────────
+function updateStats() {
+  var vis    = filtered();
+  var liked  = apts.filter(function(a){ return a.status==='interested'; }).length;
+  var prices = vis.filter(function(a){ return a.price; }).map(function(a){ return a.price; });
+  var avg    = prices.length
+    ? Math.round(prices.reduce(function(s,p){ return s+p; }, 0) / prices.length) : null;
+  var src = {};
+  apts.forEach(function(a){ if(a.source) src[a.source]=(src[a.source]||0)+1; });
+
+  document.getElementById('s-total').textContent = vis.length;
+  document.getElementById('s-avg').textContent   = avg ? avg.toLocaleString('ru')+' ₪' : '—';
+  document.getElementById('s-liked').textContent = liked;
+  document.getElementById('s-sources').innerHTML = Object.entries(src)
+    .map(function(e){ return e[0]+' <strong style="color:#fff">'+e[1]+'</strong>'; })
+    .join('<span style="color:rgba(255,255,255,0.2);margin:0 3px">·</span>');
+}
+
+// ─── Gallery ──────────────────────────────────────────────────────────────────
+function photoError(id) {
+  var img = document.getElementById('gi-' + id);
+  if (!img) return;
+  img.style.display = 'none';
+  var ph = document.createElement('div');
+  ph.className = 'photo-placeholder';
+  ph.innerHTML = '<div class="ph-icon">🏠</div><div class="ph-text">Фото недоступно</div>';
+  img.parentNode.insertBefore(ph, img);
+}
+
+function galleryNav(aptId, dir, e) {
+  if (e) e.stopPropagation();
+  var photos = APT_PHOTOS[aptId] || [];
+  if (!photos.length) return;
+  PHOTO_IDX[aptId] = ((PHOTO_IDX[aptId]||0) + dir + photos.length) % photos.length;
+  var img = document.getElementById('gi-' + aptId);
+  var ctr = document.getElementById('gn-' + aptId);
+  if (img) {
+    img.style.display = '';
+    var ph = img.previousSibling;
+    if (ph && ph.classList && ph.classList.contains('photo-placeholder')) ph.remove();
+    img.src = photos[PHOTO_IDX[aptId]];
+  }
+  if (ctr) ctr.textContent = (PHOTO_IDX[aptId]+1) + '/' + photos.length;
+}
+
+function ppsqm(apt) {
+  return (!apt.price || !apt.size_sqm) ? null : Math.round(apt.price / apt.size_sqm);
+}
+
+function buildCard(apt) {
+  var photos   = apt.photos || [];
+  APT_PHOTOS[apt.id] = photos;
+  if (PHOTO_IDX[apt.id] === undefined) PHOTO_IDX[apt.id] = 0;
+  var idx      = PHOTO_IDX[apt.id];
+  var price    = apt.price;
+  var priceStr = price ? price.toLocaleString('ru') + ' ₪/мес' : '— ₪';
+  var sqm      = ppsqm(apt);
+  var sea      = seaDist(apt.lat, apt.lng);
+  var seaStr   = seaLabel(sea);
+  var isLiked  = apt.status === 'interested';
+  var mapsUrl  = (apt.lat && apt.lng)
+    ? 'https://www.google.com/maps?q='+apt.lat+','+apt.lng
+    : 'https://www.google.com/maps/search/'+encodeURIComponent(apt.address||'');
+
+  // Budget badge top-left
+  var budgetBadge = (price && price > 10000)
+    ? '<span class="photo-badge-budget">↑ Бюджет</span>'
+    : '';
+
+  // ♥ / ✕ top-right of photo
+  var photoActions =
+    '<div class="photo-actions" onclick="event.stopPropagation()">' +
+      '<button class="photo-act-btn photo-act-like'+(isLiked?' active':'')+'"' +
+              ' onclick="markStatus(\''+apt.id+'\',\''+(isLiked?'new':'interested')+'\')"' +
+              ' title="'+(isLiked?'Убрать':'Нравится')+'">' +
+        (isLiked ? '♥' : '♡') +
+      '</button>' +
+      '<button class="photo-act-btn photo-act-hide"' +
+              ' onclick="markStatus(\''+apt.id+'\',\'rejected\')"' +
+              ' title="Скрыть">✕</button>' +
+    '</div>';
+
+  var photoSection;
+  if (photos.length) {
+    var navPrev = photos.length > 1
+      ? '<button class="photo-btn-prev" onclick="galleryNav(\''+apt.id+'\',-1,event)">‹</button>'
+      : '';
+    var navNext = photos.length > 1
+      ? '<button class="photo-btn-next" onclick="galleryNav(\''+apt.id+'\',1,event)">›</button>'
+      : '';
+    var counter = photos.length > 1
+      ? '<span class="photo-counter" id="gn-'+apt.id+'">'+(idx+1)+'/'+photos.length+'</span>'
+      : '';
+    photoSection =
+      '<div class="card-photo" onclick="lbOpen(\''+apt.id+'\',PHOTO_IDX[\''+apt.id+'\'])">' +
+        '<img id="gi-'+apt.id+'"' +
+             ' src="'+photos[idx]+'"' +
+             ' alt="фото" loading="lazy"' +
+             ' referrerpolicy="no-referrer"' +
+             ' onerror="photoError(\''+apt.id+'\')">' +
+        navPrev + navNext + counter +
+        budgetBadge + photoActions +
+      '</div>';
+  } else {
+    photoSection =
+      '<div class="card-photo">' +
+        '<div class="photo-placeholder">' +
+          '<div class="ph-icon">🏠</div>' +
+          '<div class="ph-text">Нет фото</div>' +
+        '</div>' +
+        budgetBadge + photoActions +
+      '</div>';
+  }
+
+  // Address: street + city/district
+  var addrFull  = apt.address || 'Адрес не указан';
+  var parts     = addrFull.split(',').map(function(p){ return p.trim(); }).filter(Boolean);
+  var addrStreet = parts.length > 1 ? parts.slice(0, -1).join(', ') : addrFull;
+  var addrCity   = parts.length > 1 ? parts[parts.length - 1] : '';
+
+  // Meta row: rooms · sqm · floor · sea
+  var meta = [];
+  if (apt.rooms)         meta.push(apt.rooms + ' комн.');
+  if (apt.size_sqm)      meta.push(apt.size_sqm + ' м²');
+  if (apt.floor != null) meta.push(apt.floor + ' эт.');
+  if (seaStr)            meta.push('🌊 ' + seaStr);
+  var metaHtml = meta.join('<span class="card-meta-sep"> · </span>');
+
+  // Amenities
+  var amen = [];
+  if (apt.mamad)     amen.push('mamad ✓');
+  if (apt.parking)   amen.push('parking ✓');
+  if (apt.furnished) amen.push('мебель ✓');
+  var amenHtml = amen.length
+    ? '<div class="card-meta" style="color:#777;font-size:12px">' +
+        amen.join('<span class="card-meta-sep"> · </span>') +
+      '</div>'
+    : '';
+
+  var srcLabel = (apt.source || '').toUpperCase();
+
+  return '<div class="apt-card'+(isLiked?' interested':'')+'" id="card-'+apt.id+'">' +
+    photoSection +
+    '<div class="card-body">' +
+      '<div class="card-price-row">' +
+        '<span class="card-price">'+priceStr+'</span>' +
+        (sqm ? '<span class="card-price-sqm">'+sqm.toLocaleString('ru')+' ₪/м²</span>' : '') +
+      '</div>' +
+      (metaHtml ? '<div class="card-meta">'+metaHtml+'</div>' : '') +
+      amenHtml +
+      '<div class="card-address">'+addrStreet+'</div>' +
+      (addrCity ? '<div class="card-district">'+addrCity+'</div>' : '') +
+      '<div class="card-footer">' +
+        (srcLabel ? '<span class="card-source-badge">'+srcLabel+'</span>' : '') +
+        '<a href="'+apt.url+'" target="_blank" class="card-link-btn">↗ Объявление</a>' +
+        '<a href="'+mapsUrl+'" target="_blank" class="card-link-btn">📍 Maps</a>' +
+      '</div>' +
+    '</div>' +
+  '</div>';
+}
+
+function renderGallery() {
+  var el = document.getElementById('gallery-view');
+  var vs = filtered();
   if (!vs.length) {
-    el.innerHTML = '<div class="empty">Нет квартир<br>по этому фильтру</div>';
+    el.innerHTML = '<div class="empty-state"><div class="empty-icon">🔍</div>' +
+                   '<p>Нет квартир по этому фильтру</p></div>';
     return;
   }
-
-  el.innerHTML = vs.map(a => {
-    const hasCoords = a.lat && a.lng;
-    const priceStr  = a.price ? a.price.toLocaleString('ru') + ' ₪' : '— ₪';
-    const sea       = seaDist(a.lat, a.lng);
-    const seaStr    = seaLabel(sea);
-    const bdStr     = a.bedrooms != null ? `${a.bedrooms} спал.` : null;
-    const szStr     = a.size_sqm ? `${a.size_sqm} м²` : null;
-    const flStr     = a.floor != null ? `${a.floor} эт.` : null;
-
-    const metaItems = [bdStr, szStr, flStr].filter(Boolean).join(' · ');
-
-    return `<div class="apt-item ${a.id===selId?'selected':''} ${!hasCoords?'no-coords':''}"
-                 onclick="selectApt('${a.id}')">
-      <div class="item-row1">
-        <div class="item-addr">${a.address}</div>
-        <div class="item-price ${a.status}">${priceStr}</div>
-      </div>
-      <div class="item-row2">
-        <span class="tag rooms">${a.rooms||'?'} комн.</span>
-        ${a.mamad  ? '<span class="tag mamad">mamad ✓</span>' : '<span class="tag nomamad">mamad ✗</span>'}
-        ${a.parking? '<span class="tag park">parking</span>' : ''}
-        ${a.gym      ? '<span class="tag gym">gym</span>'        : ''}
-        ${a.bathtub  ? '<span class="tag bath">bath</span>'      : ''}
-        ${a.furnished? '<span class="tag furn">furnished ✓</span>' : ''}
-        ${seaStr     ? `<span class="tag sea">${seaStr}</span>`  : ''}
-        ${a.status==='over_budget' ? '<span class="tag over">↑ бюджет</span>' : ''}
-        ${a.status==='interested'  ? '<span class="tag star">⭐</span>' : ''}
-      </div>
-      ${metaItems ? `<div class="item-meta" style="margin-top:4px">${metaItems}</div>` : ''}
-    </div>`;
-  }).join('');
+  el.innerHTML = vs.map(buildCard).join('');
 }
 
+// ─── Map markers ──────────────────────────────────────────────────────────────
 function renderMarkers() {
-  layer.clearLayers();
-  Object.keys(markers).forEach(k => delete markers[k]);
-
-  visible().forEach(a => {
+  if (!leafletMap || !markerLayer) return;
+  markerLayer.clearLayers();
+  filtered().forEach(function(a) {
     if (!a.lat || !a.lng) return;
-
-    const color = {good:'#4ade80',over_budget:'#facc15',new:'#60a5fa',interested:'#f472b6'}[a.status]||'#888';
-    const icon = L.divIcon({
+    var priceStr = a.price ? a.price.toLocaleString('ru')+' ₪' : '?';
+    var bg = a.status === 'interested' ? '#E8341C' : '#F5E642';
+    var icon = L.divIcon({
       className: '',
-      html: `<div style="
-        width:32px;height:32px;
-        background:${color}20;border:2px solid ${color};
-        border-radius:50% 50% 50% 0;transform:rotate(-45deg);
-        display:flex;align-items:center;justify-content:center;
-        box-shadow:0 2px 8px ${color}40;">
-        <span style="transform:rotate(45deg);font-size:10px;font-weight:600;color:${color};font-family:monospace">
-          ${a.rooms||'?'}
-        </span>
-      </div>`,
-      iconSize: [32,32], iconAnchor: [16,32], popupAnchor: [0,-36],
+      html: '<div class="apt-pin" style="background:'+bg+';color:#1A1A1A;' +
+            'padding:4px 11px;border-radius:16px;' +
+            'font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;' +
+            'white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,0.25);' +
+            'border:2px solid rgba(0,0,0,0.08)">'+priceStr+'</div>',
+      iconSize: [90,26], iconAnchor: [45,13], popupAnchor: [0,-18],
     });
-
-    const m = L.marker([a.lat, a.lng], { icon })
-      .addTo(layer)
-      .bindPopup(() => buildPopup(a), { maxWidth: 340 });
-
-    m.on('click', () => selectApt(a.id, false));
-    markers[a.id] = m;
+    L.marker([a.lat, a.lng], { icon: icon })
+      .addTo(markerLayer)
+      .bindPopup(function(){ return buildPopup(a); }, { maxWidth: 300 });
   });
 }
 
 function buildPopup(a) {
-  const priceStr = a.price ? a.price.toLocaleString('ru') + ' ₪/мес' : 'Цена не указана';
-  const sea      = seaDist(a.lat, a.lng);
-  const seaStr   = seaLabel(sea);
-  const bdStr    = a.bedrooms != null ? `${a.bedrooms} спал.` : null;
-  const szStr    = a.size_sqm ? `${a.size_sqm} м²` : null;
-  const flStr    = a.floor != null ? `${a.floor} эт.` : null;
+  var photos   = a.photos || [];
+  var priceStr = a.price ? a.price.toLocaleString('ru')+' ₪/мес' : '—';
+  var sea      = seaDist(a.lat, a.lng);
+  var seaStr   = seaLabel(sea);
+  var sqm      = ppsqm(a);
+  var isLiked  = a.status === 'interested';
 
-  return `${buildGallery(a)}
-  <div class="popup-body">
-    <div class="popup-price ${a.status}">${priceStr}</div>
-    <div class="popup-addr">${a.address}</div>
-    <div class="popup-tags">
-      <span class="tag rooms">${a.rooms||'?'} комн.</span>
-      ${bdStr ? `<span class="tag rooms">${bdStr}</span>` : ''}
-      ${szStr ? `<span class="tag rooms">${szStr}</span>` : ''}
-      ${flStr ? `<span class="tag floor">${flStr}</span>` : ''}
-      ${seaStr ? `<span class="tag sea">${seaStr}</span>` : ''}
-      ${a.mamad   ? '<span class="tag mamad">mamad ✓</span>'  : '<span class="tag nomamad">mamad ✗</span>'}
-      ${a.parking ? '<span class="tag park">parking ✓</span>' : ''}
-      ${a.gym      ? '<span class="tag gym">gym ✓</span>'         : ''}
-      ${a.bathtub  ? '<span class="tag bath">bath ✓</span>'       : ''}
-      ${a.furnished? '<span class="tag furn">furnished ✓</span>'  : ''}
-    </div>
-    ${a.notes ? `<div class="popup-notes">${a.notes}</div>` : ''}
-    <div class="popup-actions">
-      <a href="${a.url}" target="_blank" class="btn btn-link">↗ Объявление</a>
-      ${a.status !== 'interested'
-        ? `<button class="btn btn-star" onclick="markStatus('${a.id}','interested')">⭐ Интерес</button>`
-        : `<button class="btn btn-rej"  onclick="markStatus('${a.id}','new')">★ Снять</button>`}
-      <button class="btn btn-rej" onclick="markStatus('${a.id}','rejected')">✗</button>
-    </div>
-  </div>`;
+  var chips = [
+    a.rooms    ? '<span class="chip chip-rooms">'+a.rooms+' комн.</span>' : '',
+    a.size_sqm ? '<span class="chip chip-sqm">'+a.size_sqm+' м²</span>'   : '',
+    a.floor != null ? '<span class="chip chip-floor">'+a.floor+' эт.</span>' : '',
+    a.mamad    ? '<span class="chip chip-mamad">mamad ✓</span>' : '',
+    a.parking  ? '<span class="chip chip-park">parking</span>' : '',
+    seaStr     ? '<span class="chip chip-sea">🌊 '+seaStr+'</span>' : '',
+    sqm        ? '<span class="chip chip-sqm">'+sqm.toLocaleString('ru')+' ₪/м²</span>' : '',
+  ].filter(Boolean).join('');
+
+  var photoHtml = photos.length
+    ? '<div class="popup-photo">' +
+        '<img src="'+photos[0]+'" alt="фото" referrerpolicy="no-referrer">' +
+        '<div class="popup-price-badge">'+priceStr+'</div>' +
+      '</div>'
+    : '';
+
+  return photoHtml +
+    '<div class="popup-body">' +
+      (!photos.length ? '<div class="popup-price-header">'+priceStr+'</div>' : '') +
+      '<div class="popup-addr">'+(a.address||'—')+'</div>' +
+      '<div class="popup-chips">'+chips+'</div>' +
+      '<div class="popup-actions">' +
+        '<a href="'+a.url+'" target="_blank" class="popup-btn popup-btn-site">↗</a>' +
+        '<button class="popup-btn popup-btn-like'+(isLiked?' active':'')+'"' +
+                ' onclick="markStatus(\''+a.id+'\',\''+(isLiked?'new':'interested')+'\')">' +
+          (isLiked?'♥':'♡') +
+        '</button>' +
+        '<button class="popup-btn popup-btn-hide" onclick="markStatus(\''+a.id+'\',\'rejected\')">✕</button>' +
+      '</div>' +
+    '</div>';
 }
 
-// ─── Interaction ──────────────────────────────────────────────────────────────
-function selectApt(id, panMap = true) {
-  selId = id;
-  renderList();
-  const a = apts.find(x => x.id === id);
-  if (!a) return;
-  if (a.lat && a.lng) {
-    if (panMap) map.setView([a.lat, a.lng], 15, { animate: true });
-    if (markers[id]) markers[id].openPopup();
+// ─── Render ───────────────────────────────────────────────────────────────────
+function render() {
+  updateStats();
+  if (mode === 'gallery') renderGallery();
+  else                    renderMarkers();
+  var latest = apts.map(function(a){ return a.added_at; }).filter(Boolean).sort().pop();
+  if (latest) {
+    var d = new Date(latest);
+    document.getElementById('s-updated').textContent =
+      'обновлено ' + d.toLocaleDateString('ru') + ' ' +
+      d.toLocaleTimeString('ru', { hour:'2-digit', minute:'2-digit' });
   }
-  document.querySelectorAll('.apt-item.selected')
-    .forEach(el => el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }));
 }
 
-function setFilter(f) {
-  filter = f;
-  document.querySelectorAll('.chip').forEach(el =>
-    el.classList.toggle('active', el.dataset.f === f || f === 'all')
-  );
-  renderList(); renderMarkers();
-}
-
-function onSearch() { renderList(); renderMarkers(); }
-
+// ─── Actions ──────────────────────────────────────────────────────────────────
 function markStatus(id, status) {
-  const a = apts.find(x => x.id === id);
+  var a = apts.find(function(x){ return x.id === id; });
   if (!a) return;
   a.status = status;
-  showNotice(`Статус → ${status}. Для сохранения:<br>
-    <code style="font-size:10px;color:#555">python -c "import json; d=json.load(open('apartments.json'));
-[x.update({'status':'${status}'}) for x in d if x['id']=='${id}'];
-json.dump(d,open('apartments.json','w'),ensure_ascii=False,indent=2)"</code>`);
-  renderList();
-  if (markers[id]) markers[id].setPopupContent(buildPopup(a));
-  renderMarkers();
+  render();
+  showNotice('Статус → <strong>'+status+'</strong>.<br>' +
+    'Для сохранения: <code style="font-size:10px;color:#aaa">' +
+    'python update_status.py '+id+' '+status+'</code>');
+}
+
+function exportCSV() {
+  var liked = apts.filter(function(a){ return a.status === 'interested'; });
+  if (!liked.length) { showNotice('Нет понравившихся квартир.'); return; }
+  var headers = ['address','price','rooms','size_sqm','floor','mamad','parking','furnished','source','url','status','added_at'];
+  var rows = liked.map(function(a) {
+    return headers.map(function(h) {
+      var v = a[h];
+      if (v == null) return '';
+      if (typeof v === 'string' && (v.includes(',') || v.includes('"')))
+        return '"'+v.replace(/"/g,'""')+'"';
+      return v;
+    }).join(',');
+  });
+  var csv  = [headers.join(',')].concat(rows).join('\n');
+  var blob = new Blob(['﻿'+csv], { type:'text/csv;charset=utf-8' });
+  var link = document.createElement('a');
+  link.href     = URL.createObjectURL(blob);
+  link.download = 'apartments_liked_'+new Date().toISOString().slice(0,10)+'.csv';
+  link.click();
+  showNotice('Экспортировано '+liked.length+' квартир в CSV.');
 }
 
 function showNotice(html) {
-  const el = document.getElementById('notice');
+  var el = document.getElementById('notice');
   el.innerHTML = html;
   el.style.display = 'block';
-  setTimeout(() => el.style.display = 'none', 8000);
+  clearTimeout(el._t);
+  el._t = setTimeout(function(){ el.style.display='none'; }, 8000);
 }
 
-// ─── Boot ────────────────────────────────────────────────────────────────────
+// ─── Boot ─────────────────────────────────────────────────────────────────────
 loadData();
 
-// Автообновление каждые 30 с
-setInterval(async () => {
-  try {
-    const fresh = await (await fetch('apartments.json?' + Date.now())).json();
-    if (fresh.length !== apts.length) { apts = fresh; render(); }
-  } catch {}
+setInterval(function() {
+  fetch('apartments.json?'+Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(fresh) {
+      if (fresh.length !== apts.length) {
+        apts = fresh; buildDistrictOptions(); render();
+      }
+    }).catch(function(){});
 }, 30000);
 </script>
 </body>
