@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:12:11.862938"
+    "added_at": "2026-05-20T21:10:39.541977"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:11:25.979358"
+    "added_at": "2026-05-20T21:09:46.201386"
   },
   {
     "id": "5d148c9382a7",
@@ -757,7 +757,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-19T14:03:23.602508"
+    "added_at": "2026-05-20T21:03:54.778858"
   },
   {
     "id": "8c6bec805878",
@@ -1125,7 +1125,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-19T08:34:41.795514"
+    "added_at": "2026-05-20T21:03:01.940465"
   },
   {
     "id": "e032d94510c4",
@@ -1654,5 +1654,112 @@
     "notes": "Проверь mamad и furnished вручную",
     "status": "over_budget",
     "added_at": "2026-05-19T11:59:34.142504"
+  },
+  {
+    "id": "79f00c07ad39",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/umpn0oux",
+    "source": "yad2",
+    "address": "Zrubavel 25, Kerem HaTeimanim, Tel-Aviv",
+    "lat": 32.070405,
+    "lng": 34.766457,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 12000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 1,
+    "size_sqm": 80,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_3_EtKqOE4Pl3_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_4_SXoWd0kcoG_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/10/2_6/o/y2_1pa_997006_20260510142023.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_5_MwzS2B6Whv_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_6_QHGcNWt0lf_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_8_Ri2tFaNaeL_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_7_J_9jWZ0xna_20260519.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_9_O9pY9qTaKg_20260519.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-20T21:04:55.787309"
+  },
+  {
+    "id": "a16a52636299",
+    "url": "https://www.homeless.co.il/rent/viewad,83415.aspx",
+    "source": "homeless",
+    "address": "ברוכים הבאים הומלסים יקרים!",
+    "lat": null,
+    "lng": null,
+    "rooms": 5,
+    "bedrooms": 4,
+    "price": null,
+    "mamad": false,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 350,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202506/300/nvFile4977869.jpg",
+      "https://uploads.homeless.co.il/rent/202506/300/nvFile4978221.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5246446.jpg",
+      "https://uploads.homeless.co.il/rent/202503/300/nvFile4922296.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5226393.jpg",
+      "https://uploads.homeless.co.il/rent/202411/300/nvFile4871774.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5006353.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5163946.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5229937.jpeg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5080150.jpg",
+      "https://uploads.homeless.co.il/rent/202508/300/nvFile5024405.jpg",
+      "https://uploads.homeless.co.il/rent/202409/300/nvFile4817870.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5089515.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5221325.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5049357.jpg"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-05-20T21:07:54.672723"
+  },
+  {
+    "id": "ab85f035ad72",
+    "url": "https://www.homeless.co.il/rent/viewad,83411.aspx",
+    "source": "homeless",
+    "address": "ברוכים הבאים הומלסים יקרים!",
+    "lat": null,
+    "lng": null,
+    "rooms": 1,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": false,
+    "parking": false,
+    "gym": false,
+    "bathtub": true,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 990,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202508/300/nvFile5034721.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5244288.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5119525.jpg",
+      "https://uploads.homeless.co.il/rent/202501/300/nvFile4885277.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5121204.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5243390.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5173968.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5243947.jpeg",
+      "https://uploads.homeless.co.il/rent/202504/300/nvFile4940278.jpg",
+      "https://uploads.homeless.co.il/rent/202409/300/nvFile4815829.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5258962.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079886.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5224650.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5088958.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-05-20T21:08:01.245717"
   }
 ]
