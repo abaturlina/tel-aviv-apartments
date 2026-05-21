@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:39:13.122489"
+    "added_at": "2026-05-21T14:13:14.467717"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:38:29.736422"
+    "added_at": "2026-05-21T14:12:26.695531"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:37:17.144036"
+    "added_at": "2026-05-21T14:11:06.513024"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:37:19.244503"
+    "added_at": "2026-05-21T14:11:08.725407"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:37:23.369209"
+    "added_at": "2026-05-21T14:11:13.659323"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:37:27.638104"
+    "added_at": "2026-05-21T14:11:18.338023"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:37:33.940155"
+    "added_at": "2026-05-21T14:11:25.432831"
   },
   {
     "id": "d9446912aedf",
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-21T08:37:49.089921"
+    "added_at": "2026-05-21T14:11:41.813236"
   },
   {
     "id": "238cbdfcbb1c",
@@ -573,7 +573,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-19T08:33:57.345079"
+    "added_at": "2026-05-21T14:05:23.534590"
   },
   {
     "id": "5542ae38f9d3",
@@ -635,7 +635,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-18T22:03:30.909618"
+    "added_at": "2026-05-21T14:04:55.038103"
   },
   {
     "id": "6e06bafe8bc2",
@@ -1792,5 +1792,89 @@
     "notes": "",
     "status": "over_budget",
     "added_at": "2026-05-21T08:31:38.548690"
+  },
+  {
+    "id": "6984401653cd",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/tg5mndvh",
+    "source": "yad2",
+    "address": "HaHashmonaim 59, Lev Tel Aviv, Tel-Aviv",
+    "lat": 32.0704386614173,
+    "lng": 34.7797975511811,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 8500,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 25,
+    "size_sqm": 84,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010526_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010180_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010912_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010240_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010765_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010459_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010522_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010591_20251214153215.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010800_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010774_20251214153241.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010983_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010666_20251214153214.jpeg",
+      "https://img.yad2.co.il/Pic/202512/14/2_6/o/y2_1pa_010872_20251214153214.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-21T14:05:51.462870"
+  },
+  {
+    "id": "3f7e3efb8d83",
+    "url": "https://www.homeless.co.il/rent/viewad,726264.aspx",
+    "source": "homeless",
+    "address": "דירה 3 חדרים להשכרה בתל אביב יפו, כורזים, נווה שרת",
+    "lat": 32.1202173,
+    "lng": 34.8429555,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 6100.0,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 6,
+    "size_sqm": 74,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202507/1200/nvFile5032428.jpg",
+      "https://uploads.homeless.co.il/rent/202507/550/nvFile5032428.jpg",
+      "https://uploads.homeless.co.il/rent/202507/550/nvFile5032429.jpg",
+      "https://uploads.homeless.co.il/rent/202507/550/nvFile5032430.jpg",
+      "https://uploads.homeless.co.il/rent/202507/550/nvFile5032432.jpg",
+      "https://uploads.homeless.co.il/rent/202507/nvFile5032428.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032428.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032429.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032430.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032432.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032433.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032434.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032435.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032437.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5106267.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5253126.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5163946.jpg",
+      "https://uploads.homeless.co.il/rent/202508/300/nvFile5020448.jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5164185.jpeg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5108918.jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5111902.jpg",
+      "https://uploads.homeless.co.il/rent/202503/300/nvFile4934037.jpg",
+      "https://uploads.homeless.co.il/rent/202201/300/nvFile4147092.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5162466.jpg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-21T14:06:26.524969"
   }
 ]
