@@ -4,8 +4,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,734801.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, דרך שלמה, מפרטי במזרח לפלורנטין ! רא...",
-    "lat": 32.054922,
-    "lng": 34.7749299,
+    "lat": 32.0547987,
+    "lng": 34.7729583,
     "rooms": 3,
     "bedrooms": 2,
     "price": 6380.0,
@@ -31,21 +31,21 @@
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166491.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166493.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166492.jpg",
-      "https://uploads.homeless.co.il/rent/202603/300/nvFile5223032.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202603/300/nvFile5223032.Jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-19T14:05:36.959321"
+    "added_at": "2026-05-21T08:32:46.415486"
   },
   {
     "id": "caccfcc1d829",
@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T21:10:39.541977"
+    "added_at": "2026-05-21T08:39:13.122489"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T21:09:46.201386"
+    "added_at": "2026-05-21T08:38:29.736422"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:10:06.325846"
+    "added_at": "2026-05-21T08:37:17.144036"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:10:08.417406"
+    "added_at": "2026-05-21T08:37:19.244503"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:10:13.375709"
+    "added_at": "2026-05-21T08:37:23.369209"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:10:18.180593"
+    "added_at": "2026-05-21T08:37:27.638104"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,15 +439,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:10:25.525483"
+    "added_at": "2026-05-21T08:37:33.940155"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-20T14:10:42.379672"
+    "added_at": "2026-05-21T08:37:49.089921"
   },
   {
     "id": "238cbdfcbb1c",
@@ -542,7 +542,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:03:21.030501"
+    "added_at": "2026-05-21T08:30:52.711139"
   },
   {
     "id": "63e909431b77",
@@ -728,7 +728,7 @@
     "photos": [],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-18T14:02:00.602312"
+    "added_at": "2026-05-21T08:20:06.338382"
   },
   {
     "id": "0bd3489802dc",
@@ -794,7 +794,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-20T14:02:44.465220"
+    "added_at": "2026-05-21T08:30:12.069086"
   },
   {
     "id": "2e4624de85c6",
@@ -1001,7 +1001,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T14:02:38.271998"
+    "added_at": "2026-05-21T08:30:31.197644"
   },
   {
     "id": "c223edcb5863",
@@ -1761,5 +1761,36 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-05-20T21:08:01.245717"
+  },
+  {
+    "id": "f82d70b5e380",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/ei7szjqb",
+    "source": "yad2",
+    "address": "Neeman Yovel Professor 6, Lamed, Tel-Aviv",
+    "lat": 32.1115565,
+    "lng": 34.7874172857143,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11800,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 100,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_1_qCN907VNoD_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_2_Gz0boKVvrd_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_3_6_qos3g6yH_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_4_NX_EkqKlVG_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_5_KUUkEU16Sh_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_6_kO_DkmFxxK_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_7_jVniCFyAQ9_20260512.jpeg",
+      "https://img.yad2.co.il/Pic/202605/12/2_6/o/y2_8_nAFIfBtzjm_20260512.png"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-21T08:31:38.548690"
   }
 ]
