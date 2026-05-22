@@ -62,7 +62,7 @@
     "gym": false,
     "bathtub": false,
     "furnished": true,
-    "floor": 3,
+    "floor": 2,
     "size_sqm": 100,
     "photos": [
       "https://uploads.homeless.co.il/rent/202602/1200/nvFile5183617.jpg",
@@ -75,11 +75,11 @@
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183619.jpg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183620.Jpeg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183621.Jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220970.jpg"
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5237238.jpeg"
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-17T09:53:12.857868"
+    "added_at": "2026-05-22T08:07:13.790331"
   },
   {
     "id": "0fe9593f928e",
@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:13:14.467717"
+    "added_at": "2026-05-22T08:14:00.254064"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:12:26.695531"
+    "added_at": "2026-05-22T08:13:17.967839"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:11:06.513024"
+    "added_at": "2026-05-22T08:12:04.880666"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:11:08.725407"
+    "added_at": "2026-05-22T08:12:06.903044"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:11:13.659323"
+    "added_at": "2026-05-22T08:12:11.003815"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:11:18.338023"
+    "added_at": "2026-05-22T08:12:15.038259"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:11:25.432831"
+    "added_at": "2026-05-22T08:12:21.766882"
   },
   {
     "id": "d9446912aedf",
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-21T14:11:41.813236"
+    "added_at": "2026-05-22T08:12:37.407673"
   },
   {
     "id": "238cbdfcbb1c",
@@ -573,7 +573,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T14:05:23.534590"
+    "added_at": "2026-05-22T08:05:51.896271"
   },
   {
     "id": "5542ae38f9d3",
@@ -635,7 +635,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-21T14:04:55.038103"
+    "added_at": "2026-05-22T08:04:13.232709"
   },
   {
     "id": "6e06bafe8bc2",
@@ -1032,7 +1032,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-20T14:00:22.698617"
+    "added_at": "2026-05-22T08:02:47.015836"
   },
   {
     "id": "1b3217854121",
@@ -1125,7 +1125,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-20T21:03:01.940465"
+    "added_at": "2026-05-22T08:06:09.687006"
   },
   {
     "id": "e032d94510c4",
