@@ -268,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:50:33.467952"
+    "added_at": "2026-05-24T00:27:21.215235"
   },
   {
     "id": "da8339960936",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:34:44.712857"
+    "added_at": "2026-05-24T00:15:13.301155"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:18:04.613732"
+    "added_at": "2026-05-23T23:42:37.560915"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:18:06.681544"
+    "added_at": "2026-05-23T23:42:39.963463"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:18:11.117703"
+    "added_at": "2026-05-23T23:42:44.637022"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:18:15.356987"
+    "added_at": "2026-05-23T23:42:49.033198"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T15:18:22.007735"
+    "added_at": "2026-05-23T23:42:55.541216"
   },
   {
     "id": "d9446912aedf",
@@ -1033,7 +1033,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-22T08:02:47.015836"
+    "added_at": "2026-05-23T21:40:30.313133"
   },
   {
     "id": "1b3217854121",
@@ -1972,7 +1972,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T09:12:04.027059"
+    "added_at": "2026-05-23T21:40:09.746149"
   },
   {
     "id": "a9532f447086",
@@ -2064,20 +2064,89 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5261864.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg"
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-23T14:05:33.775307"
+    "added_at": "2026-05-23T22:42:01.201619"
+  },
+  {
+    "id": "e5e346b6c50c",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/g7u2ctm0",
+    "source": "yad2",
+    "address": "Nofei Yam, Tel-Aviv",
+    "lat": 32.1179160625,
+    "lng": 34.7886303125,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 102,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_992961_20260519083937.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_993330_20260519084017.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_997929_20260519084117.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_998878_20260519084146.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_995644_20260519084223.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_994955_20260519084326.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_991499_20260519084356.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_994085_20260519084418.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_992457_20260519084442.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_996979_20260519084507.jpeg",
+      "https://img.yad2.co.il/Pic/202605/19/2_6/o/y2_1pa_997597_20260519084522.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-23T21:56:37.321439"
+  },
+  {
+    "id": "299d781f212b",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/enwbctll",
+    "source": "yad2",
+    "address": "Avuka 23, Ganey Tzahala, Tel-Aviv",
+    "lat": 32.126523,
+    "lng": 34.82998,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 7250,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 70,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010722_20260522153801.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010053_20260522153801.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010446_20260522153801.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010214_20260522153801.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010806_20260522153801.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010586_20260522153805.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010270_20260522153805.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010316_20260522153805.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010209_20260522153804.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010810_20260522153805.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010514_20260522153804.jpeg",
+      "https://img.yad2.co.il/Pic/202605/22/2_6/o/y2_1pa_010289_20260522153807.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-23T22:13:04.593724"
   }
 ]
