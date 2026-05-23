@@ -4,8 +4,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,734801.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, דרך שלמה, מפרטי במזרח לפלורנטין ! רא...",
-    "lat": 32.0547987,
-    "lng": 34.7729583,
+    "lat": 32.0549811,
+    "lng": 34.7743787,
     "rooms": 3,
     "bedrooms": 2,
     "price": 6380.0,
@@ -31,21 +31,22 @@
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166491.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166493.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5166492.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202603/300/nvFile5223032.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5261864.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
+      "https://uploads.homeless.co.il/rent/202603/300/nvFile5223032.Jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-21T08:32:46.415486"
+    "added_at": "2026-05-23T10:36:20.403317"
   },
   {
     "id": "caccfcc1d829",
@@ -267,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:15:32.016447"
+    "added_at": "2026-05-23T12:47:27.307027"
   },
   {
     "id": "da8339960936",
@@ -291,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:14:38.311684"
+    "added_at": "2026-05-23T12:31:13.382519"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:13:17.402658"
+    "added_at": "2026-05-23T12:02:02.247197"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:13:19.603408"
+    "added_at": "2026-05-23T12:02:04.436094"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:13:24.000901"
+    "added_at": "2026-05-23T12:02:08.770208"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:13:28.885344"
+    "added_at": "2026-05-23T12:02:12.984950"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:13:36.144005"
+    "added_at": "2026-05-23T12:02:19.855165"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -471,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-22T14:13:52.798879"
+    "added_at": "2026-05-23T12:02:35.398240"
   },
   {
     "id": "238cbdfcbb1c",
@@ -573,7 +574,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T14:07:58.981094"
+    "added_at": "2026-05-23T10:22:26.856119"
   },
   {
     "id": "5542ae38f9d3",
@@ -1125,7 +1126,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-22T08:06:09.687006"
+    "added_at": "2026-05-23T10:20:18.484869"
   },
   {
     "id": "e032d94510c4",
@@ -1942,5 +1943,94 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-05-22T14:12:37.288284"
+  },
+  {
+    "id": "935f3c864853",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/7qpj8l9t",
+    "source": "yad2",
+    "address": "Eiger 14, Neve Shaanan, Tel-Aviv",
+    "lat": 32.058869,
+    "lng": 34.781362,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 6500,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 1,
+    "size_sqm": 75,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010599_20260521192740.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010150_20260521192740.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010388_20260521192740.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010282_20260521192741.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010191_20260521192741.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010272_20260521192745.jpeg",
+      "https://img.yad2.co.il/Pic/202605/21/2_2/o/y2_1pa_010831_20260521192746.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-23T09:12:04.027059"
+  },
+  {
+    "id": "a9532f447086",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/u6jf31rc",
+    "source": "yad2",
+    "address": "Tzamarot Ayalon, Tel-Aviv",
+    "lat": 32.0891571578947,
+    "lng": 34.7968812105263,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": true,
+    "furnished": true,
+    "floor": 12,
+    "size_sqm": 96,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/05/2_6/o/y2_1pa_010664_20260505221712.jpeg",
+      "https://img.yad2.co.il/Pic/202605/05/2_6/o/y2_1pa_010979_20260505221712.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-23T10:28:31.201410"
+  },
+  {
+    "id": "28f1072ad422",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/afro56mc",
+    "source": "yad2",
+    "address": "Rabi Yohanan 8, Suk A-Dir, Tel-Aviv",
+    "lat": 32.0528445,
+    "lng": 34.756234,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11000,
+    "mamad": true,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 80,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010035_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010253_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010496_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010767_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010321_20250706165040.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010911_20250706165040.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010442_20250706165040.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010914_20250706165040.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010486_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010113_20250706165041.jpeg",
+      "https://img.yad2.co.il/Pic/202507/06/2_6/o/y2_1pa_010764_20250706165040.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-23T10:28:37.920245"
   }
 ]
