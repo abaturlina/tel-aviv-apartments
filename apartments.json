@@ -268,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:12:39.575769"
+    "added_at": "2026-05-25T21:12:11.201132"
   },
   {
     "id": "da8339960936",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:11:52.638902"
+    "added_at": "2026-05-25T21:11:40.146563"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:10:31.430386"
+    "added_at": "2026-05-25T21:10:17.946206"
   },
   {
     "id": "1dd32523cff8",
@@ -352,15 +352,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:10:33.667129"
+    "added_at": "2026-05-25T21:10:20.323617"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": 32.052493,
-    "lng": 34.7620775,
+    "lat": 32.0566577,
+    "lng": 34.7627909,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:10:38.050734"
+    "added_at": "2026-05-25T21:10:25.111353"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:10:42.402715"
+    "added_at": "2026-05-25T21:10:29.510268"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:10:48.972246"
+    "added_at": "2026-05-25T21:10:36.560948"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": 32.055902,
+    "lng": 34.7679471,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-25T14:11:04.932018"
+    "added_at": "2026-05-25T21:10:51.844006"
   },
   {
     "id": "238cbdfcbb1c",
@@ -636,7 +636,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-24T21:42:31.152943"
+    "added_at": "2026-05-25T21:03:01.715490"
   },
   {
     "id": "6e06bafe8bc2",
@@ -729,7 +729,7 @@
     "photos": [],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T08:01:28.367047"
+    "added_at": "2026-05-25T21:01:59.214326"
   },
   {
     "id": "0bd3489802dc",
@@ -1904,7 +1904,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-25T08:00:44.433783"
+    "added_at": "2026-05-25T21:01:04.225637"
   },
   {
     "id": "4030938d9f72",
@@ -2064,22 +2064,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5261864.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:05:52.059423"
+    "added_at": "2026-05-25T21:06:16.866976"
   },
   {
     "id": "e5e346b6c50c",
@@ -2360,5 +2359,78 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-05-25T08:09:49.214395"
+  },
+  {
+    "id": "48177c445af0",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/ittnso0o",
+    "source": "yad2",
+    "address": "Misgav Am 14, Kiryat Shalom, Tel-Aviv",
+    "lat": 32.041474,
+    "lng": 34.774569,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 7200,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 5,
+    "size_sqm": 85,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_1_THTSmI9RPw_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_2_G31Ayg9UVv_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_3_rU4kD6s2Yc_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_4_PmlWCjX7aI_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_5_gKVT2sS7XH_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_6_dSKpahOq1m_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_7_MjluVAINQr_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_8_IzVDtnDYkQ_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_9__r_OXuWLrF_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_10_Q0JfdvLpnz_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_11_g3f744aDrQ_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_12_O7jO2CPT3e_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_13_j5rQQqXbNh_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_14_tGZlwsnmKw_20260525.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-25T21:02:54.636373"
+  },
+  {
+    "id": "0df0cacab868",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/5zitoa1f",
+    "source": "yad2",
+    "address": "Yizhak (Ziko) Graziani 10, Sarona Gardens, Tel-Aviv",
+    "lat": 32.0675382451613,
+    "lng": 34.7844905290323,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9200,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 33,
+    "size_sqm": 76,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_11_NVsxkF9chs_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_999488_20260326122203.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_8_miJEAhipUo_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_997426_20260326122233.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_4_Dl8XUR6GIs_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_6_cWG91Jl2Cz_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_7_pyykwzKfH4_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_5_NKURc2V4iT_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_992125_20260326122234.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_9_BlWDxZI2cu_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_10_PUBWaFVItF_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_12_xUe4MO5GH4_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_13_hmDrhF8HU__20260525.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-25T21:04:18.326088"
   }
 ]
