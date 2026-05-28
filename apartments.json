@@ -2038,8 +2038,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,740691.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, ראשית חכמה, שפירא",
-    "lat": 32.053967,
-    "lng": 34.7732118,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": 2,
     "price": 5000.0,
@@ -2064,22 +2064,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-27T09:24:48.259103"
+    "added_at": "2026-05-28T09:51:02.818704"
   },
   {
     "id": "e5e346b6c50c",
@@ -2148,7 +2147,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-25T14:05:05.286624"
+    "added_at": "2026-05-28T09:18:35.567405"
   },
   {
     "id": "6b97e47e9c49",
@@ -2542,6 +2541,35 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-27T09:23:25.637472"
+    "added_at": "2026-05-28T09:02:08.260302"
+  },
+  {
+    "id": "6f39dafa917e",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/n5csfyz5",
+    "source": "yad2",
+    "address": "Menachem Begin 156, Montefiore, Tel-Aviv",
+    "lat": 32.080079,
+    "lng": 34.795913,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9800,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 11,
+    "size_sqm": 87,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010338_20260323115228.jpeg",
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010834_20260323115228.jpeg",
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010512_20260323115228.jpeg",
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010536_20260323115228.jpeg",
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010732_20260323115228.jpeg",
+      "https://img.yad2.co.il/Pic/202603/23/2_6/o/y2_1pa_010496_20260323115228.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-28T09:34:20.868427"
   }
 ]
