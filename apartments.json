@@ -268,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:59:45.311181"
+    "added_at": "2026-05-29T21:11:55.041182"
   },
   {
     "id": "da8339960936",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:59:00.550458"
+    "added_at": "2026-05-29T21:11:20.417878"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:57:44.037198"
+    "added_at": "2026-05-29T21:10:02.022933"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:57:46.218035"
+    "added_at": "2026-05-29T21:10:04.123163"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:57:50.609361"
+    "added_at": "2026-05-29T21:10:08.475334"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:57:54.685925"
+    "added_at": "2026-05-29T21:10:12.774663"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:58:00.967269"
+    "added_at": "2026-05-29T21:10:19.279749"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-29T14:58:15.740773"
+    "added_at": "2026-05-29T21:10:34.490256"
   },
   {
     "id": "238cbdfcbb1c",
@@ -758,7 +758,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-27T08:59:41.945977"
+    "added_at": "2026-05-29T21:04:25.688945"
   },
   {
     "id": "8c6bec805878",
@@ -795,7 +795,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-24T15:20:18.796904"
+    "added_at": "2026-05-29T21:04:32.782974"
   },
   {
     "id": "2e4624de85c6",
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:53:04.979530"
+    "added_at": "2026-05-29T21:05:26.892330"
   },
   {
     "id": "e5e346b6c50c",
@@ -2432,7 +2432,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-26T21:03:58.803647"
+    "added_at": "2026-05-29T21:03:11.066775"
   },
   {
     "id": "9fecfaa33baf",
@@ -2604,6 +2604,38 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:59:49.391280"
+    "added_at": "2026-05-29T21:12:08.204597"
+  },
+  {
+    "id": "28205bba1ca1",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/oweashmz",
+    "source": "yad2",
+    "address": "Menachem Begin 156, Montefiore, Tel-Aviv",
+    "lat": 32.080073,
+    "lng": 34.795907,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 12000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 22,
+    "size_sqm": 94,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010770_20260529155622.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010171_20260529160647.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010275_20260529160758.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010364_20260529161121.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010687_20260529162414.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010727_20260529162603.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010828_20260529162618.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010625_20260529162618.jpeg",
+      "https://img.yad2.co.il/Pic/202605/29/2_2/o/y2_1pa_010280_20260529162802.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-29T21:02:26.333655"
   }
 ]
