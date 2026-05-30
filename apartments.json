@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:40:05.092605"
+    "added_at": "2026-05-30T21:12:02.758788"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:39:25.145349"
+    "added_at": "2026-05-30T21:11:22.644557"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:38:08.468961"
+    "added_at": "2026-05-30T21:09:57.825575"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:38:10.623938"
+    "added_at": "2026-05-30T21:10:00.280094"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:38:14.817622"
+    "added_at": "2026-05-30T21:10:05.021355"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:38:18.991008"
+    "added_at": "2026-05-30T21:10:09.703932"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,15 +439,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:38:25.261831"
+    "added_at": "2026-05-30T21:10:16.843363"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-30T09:38:40.015450"
+    "added_at": "2026-05-30T21:10:33.871598"
   },
   {
     "id": "238cbdfcbb1c",
@@ -757,7 +757,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T21:04:25.688945"
+    "added_at": "2026-05-30T21:03:42.998940"
   },
   {
     "id": "8c6bec805878",
@@ -780,8 +780,8 @@
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_1_995811_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_2_993774_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_3_992818_20260406.jpeg",
-      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_4_996577_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_4_998950_20260406.jpeg",
+      "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_4_996577_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_5_995528_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_5_995306_20260406.jpeg",
       "https://img.yad2.co.il/Pic/202604/06/2_6/o/y2_6_993116_20260406.jpeg",
@@ -794,7 +794,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-29T21:04:32.782974"
+    "added_at": "2026-05-30T21:04:33.597633"
   },
   {
     "id": "2e4624de85c6",
@@ -2064,22 +2064,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:34:15.591693"
+    "added_at": "2026-05-30T21:05:37.943065"
   },
   {
     "id": "e5e346b6c50c",
@@ -2432,7 +2431,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T21:03:11.066775"
+    "added_at": "2026-05-30T21:03:58.657457"
   },
   {
     "id": "9fecfaa33baf",
@@ -2604,7 +2603,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-30T09:40:14.778108"
+    "added_at": "2026-05-30T21:12:04.482375"
   },
   {
     "id": "28205bba1ca1",
@@ -2636,6 +2635,34 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-30T14:29:05.367576"
+    "added_at": "2026-05-30T21:00:16.079138"
+  },
+  {
+    "id": "510dc8811760",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/8tk54nff",
+    "source": "yad2",
+    "address": "Aharon Beker 13, Tel Barukh North, Tel-Aviv",
+    "lat": 32.122663,
+    "lng": 34.817347,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 12000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 0,
+    "size_sqm": 70,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/24/2_6/o/y2_6_HE4Q92pHUF_20260524.jpeg",
+      "https://img.yad2.co.il/Pic/202604/20/2_6/o/o2_6_2_06827_20260420095348.jpg",
+      "https://img.yad2.co.il/Pic/202605/24/2_6/o/y2_5_IlNEYMZiYJ_20260524.jpeg",
+      "https://img.yad2.co.il/Pic/202604/20/2_6/o/o2_6_1_05646_20260420095348.jpg",
+      "https://img.yad2.co.il/Pic/202605/24/2_6/o/y2_7_BQSoFyjoon_20260524.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-05-30T21:05:01.855550"
   }
 ]
