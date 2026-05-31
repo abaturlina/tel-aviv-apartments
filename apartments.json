@@ -267,7 +267,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T11:21:30.907260"
+    "added_at": "2026-05-31T17:59:55.144883"
   },
   {
     "id": "da8339960936",
@@ -291,7 +291,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T11:20:46.577603"
+    "added_at": "2026-05-31T17:43:52.005114"
   },
   {
     "id": "5d148c9382a7",
@@ -320,7 +320,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T10:52:33.909021"
+    "added_at": "2026-05-31T17:27:02.509727"
   },
   {
     "id": "1dd32523cff8",
@@ -351,7 +351,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T10:52:36.072179"
+    "added_at": "2026-05-31T17:27:04.989865"
   },
   {
     "id": "b69437dceddc",
@@ -379,7 +379,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T10:52:40.506485"
+    "added_at": "2026-05-31T17:27:10.242652"
   },
   {
     "id": "87f7d7b8640b",
@@ -405,7 +405,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T10:52:45.453513"
+    "added_at": "2026-05-31T17:27:15.196058"
   },
   {
     "id": "6fa86d5db2dd",
@@ -439,7 +439,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T10:52:51.829566"
+    "added_at": "2026-05-31T17:27:22.132928"
   },
   {
     "id": "d9446912aedf",
@@ -471,7 +471,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-31T10:53:07.462057"
+    "added_at": "2026-05-31T17:43:03.291586"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2064,22 +2064,22 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5240634.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T09:51:37.172555"
+    "added_at": "2026-05-31T16:03:26.094565"
   },
   {
     "id": "e5e346b6c50c",
@@ -2148,7 +2148,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T09:06:46.698937"
+    "added_at": "2026-05-31T14:55:42.439980"
   },
   {
     "id": "6b97e47e9c49",
@@ -2604,7 +2604,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-31T11:21:32.609284"
+    "added_at": "2026-05-31T18:00:07.871194"
   },
   {
     "id": "28205bba1ca1",
@@ -2636,7 +2636,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-30T21:00:16.079138"
+    "added_at": "2026-05-31T14:40:23.812704"
   },
   {
     "id": "510dc8811760",
@@ -2665,5 +2665,42 @@
     "notes": "",
     "status": "over_budget",
     "added_at": "2026-05-30T21:05:01.855550"
+  },
+  {
+    "id": "769d0c8c53a0",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/2x6begvf",
+    "source": "yad2",
+    "address": "Menachem Begin 144, Montefiore, Tel-Aviv",
+    "lat": 32.077662,
+    "lng": 34.793063,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 8900,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 30,
+    "size_sqm": 76,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010393_20260308181242.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010419_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010215_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010629_20260308181242.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010059_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010646_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010703_20260308181242.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010958_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010159_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010929_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010718_20260308181243.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010951_20260308181244.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010534_20260308181244.jpeg",
+      "https://img.yad2.co.il/Pic/202603/08/2_6/o/y2_1pa_010671_20260308181243.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-05-31T15:46:54.965181"
   }
 ]
