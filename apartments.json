@@ -269,7 +269,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:57:28.776294"
+    "added_at": "2026-06-03T14:12:23.843373"
   },
   {
     "id": "da8339960936",
@@ -293,7 +293,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:56:40.959701"
+    "added_at": "2026-06-03T14:11:53.148977"
   },
   {
     "id": "5d148c9382a7",
@@ -322,7 +322,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:55:23.068763"
+    "added_at": "2026-06-03T14:10:29.789986"
   },
   {
     "id": "1dd32523cff8",
@@ -353,7 +353,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:55:25.181316"
+    "added_at": "2026-06-03T14:10:31.894337"
   },
   {
     "id": "b69437dceddc",
@@ -381,7 +381,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:55:29.522187"
+    "added_at": "2026-06-03T14:10:36.438354"
   },
   {
     "id": "87f7d7b8640b",
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:55:33.785970"
+    "added_at": "2026-06-03T14:10:41.283769"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,15 +441,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:55:40.808884"
+    "added_at": "2026-06-03T14:10:48.074389"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": 32.055902,
+    "lng": 34.7679471,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-03T08:55:55.807523"
+    "added_at": "2026-06-03T14:11:04.262438"
   },
   {
     "id": "238cbdfcbb1c",
@@ -759,7 +759,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-02T14:04:37.940887"
+    "added_at": "2026-06-03T14:04:50.705571"
   },
   {
     "id": "8c6bec805878",
@@ -796,7 +796,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-02T21:59:06.813605"
+    "added_at": "2026-06-03T14:04:57.183906"
   },
   {
     "id": "2e4624de85c6",
@@ -2065,21 +2065,22 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:51:43.242589"
+    "added_at": "2026-06-03T14:06:31.166872"
   },
   {
     "id": "e5e346b6c50c",
@@ -2604,7 +2605,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:57:11.952706"
+    "added_at": "2026-06-03T14:12:31.181722"
   },
   {
     "id": "28205bba1ca1",
@@ -2752,24 +2753,27 @@
     "bedrooms": 2,
     "price": 12000,
     "mamad": true,
-    "parking": false,
+    "parking": true,
     "gym": true,
-    "bathtub": false,
+    "bathtub": true,
     "furnished": true,
     "floor": 3,
     "size_sqm": 95,
     "photos": [
-      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010747_20260602215201.jpeg",
+      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1_09706_20260602221307.jpeg",
       "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010842_20260602215202.jpeg",
       "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010987_20260602215202.jpeg",
       "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010010_20260602215202.jpeg",
       "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010549_20260602215202.jpeg",
       "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010876_20260602215204.jpeg",
-      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010209_20260602215208.jpeg"
+      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_1pa_010209_20260602215208.jpeg",
+      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_8_02568_20260602221312.jpeg",
+      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_9_04694_20260602221318.jpeg",
+      "https://img.yad2.co.il/Pic/202606/02/2_2/o/y2_10_05693_20260602221324.jpeg"
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-02T21:10:40.553468"
+    "added_at": "2026-06-03T14:00:46.696026"
   },
   {
     "id": "2187e8d18ed4",
@@ -2838,5 +2842,71 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-06-03T08:55:10.626958"
+  },
+  {
+    "id": "77294a5c0875",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/v9jdps9l",
+    "source": "yad2",
+    "address": "Zecharya 22, The Old North - Northern part, Tel-Aviv",
+    "lat": 32.095973,
+    "lng": 34.776627,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11500,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 2,
+    "size_sqm": 110,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010179_20260525112415.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010751_20260525112415.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010633_20260525112416.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010695_20260525112416.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010868_20260525112416.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010289_20260525112500.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_2/o/y2_1pa_010205_20260525112521.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-03T14:02:30.637166"
+  },
+  {
+    "id": "23238de8f3cb",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/koexfypp",
+    "source": "yad2",
+    "address": "Yizhak (Ziko) Graziani 10, Sarona Gardens, Tel-Aviv",
+    "lat": 32.0675382451613,
+    "lng": 34.7844905290323,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 8500,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 30,
+    "size_sqm": 76,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_11_993367_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_14_995778_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_995516_20260326122203.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_998938_20260326122233.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_5_991626_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202603/26/2_6/o/y2_1pa_998274_20260326122234.jpeg",
+      "https://img.yad2.co.il/Pic/202605/25/2_6/o/y2_10_992146_20260525.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_8_997065_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_9_pCy1X_992775_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_10_998155_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_12_994172_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_13_991117_20260603.jpeg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_15_71C9nD_998630_20260603.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-03T14:03:40.308151"
   }
 ]
