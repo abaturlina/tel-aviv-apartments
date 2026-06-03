@@ -269,7 +269,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:12:23.843373"
+    "added_at": "2026-06-03T21:12:39.827401"
   },
   {
     "id": "da8339960936",
@@ -293,7 +293,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:11:53.148977"
+    "added_at": "2026-06-03T21:12:05.992191"
   },
   {
     "id": "5d148c9382a7",
@@ -322,7 +322,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:10:29.789986"
+    "added_at": "2026-06-03T21:10:42.757754"
   },
   {
     "id": "1dd32523cff8",
@@ -353,7 +353,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:10:31.894337"
+    "added_at": "2026-06-03T21:10:45.027908"
   },
   {
     "id": "b69437dceddc",
@@ -381,7 +381,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:10:36.438354"
+    "added_at": "2026-06-03T21:10:50.043153"
   },
   {
     "id": "87f7d7b8640b",
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:10:41.283769"
+    "added_at": "2026-06-03T21:10:54.549382"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,15 +441,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:10:48.074389"
+    "added_at": "2026-06-03T21:11:01.206741"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-03T14:11:04.262438"
+    "added_at": "2026-06-03T21:11:17.590952"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,22 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg"
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:06:31.166872"
+    "added_at": "2026-06-03T21:06:56.736651"
   },
   {
     "id": "e5e346b6c50c",
@@ -2149,7 +2148,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T08:47:55.932939"
+    "added_at": "2026-06-03T21:03:39.201033"
   },
   {
     "id": "6b97e47e9c49",
@@ -2605,7 +2604,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T14:12:31.181722"
+    "added_at": "2026-06-03T21:12:45.503604"
   },
   {
     "id": "28205bba1ca1",
@@ -2637,7 +2636,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-03T08:25:04.912904"
+    "added_at": "2026-06-03T21:02:07.016481"
   },
   {
     "id": "510dc8811760",
@@ -2871,7 +2870,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-03T14:02:30.637166"
+    "added_at": "2026-06-03T21:00:39.914875"
   },
   {
     "id": "23238de8f3cb",
