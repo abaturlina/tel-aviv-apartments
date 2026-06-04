@@ -269,7 +269,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:29:30.384413"
+    "added_at": "2026-06-05T00:45:34.832177"
   },
   {
     "id": "da8339960936",
@@ -293,7 +293,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:28:52.387279"
+    "added_at": "2026-06-05T00:29:29.431852"
   },
   {
     "id": "5d148c9382a7",
@@ -322,7 +322,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:27:34.140799"
+    "added_at": "2026-06-05T00:00:57.653497"
   },
   {
     "id": "1dd32523cff8",
@@ -353,7 +353,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:27:36.244529"
+    "added_at": "2026-06-05T00:01:00.104669"
   },
   {
     "id": "b69437dceddc",
@@ -381,7 +381,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:27:40.427523"
+    "added_at": "2026-06-05T00:01:04.840776"
   },
   {
     "id": "87f7d7b8640b",
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:27:44.686110"
+    "added_at": "2026-06-05T00:01:09.148337"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,7 +441,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:27:50.876395"
+    "added_at": "2026-06-05T00:01:15.641778"
   },
   {
     "id": "d9446912aedf",
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-04T08:28:05.505920"
+    "added_at": "2026-06-05T00:16:57.054641"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2148,7 +2148,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-03T21:03:39.201033"
+    "added_at": "2026-06-04T21:58:40.031755"
   },
   {
     "id": "6b97e47e9c49",
@@ -2257,7 +2257,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-24T15:33:00.755129"
+    "added_at": "2026-06-04T22:27:21.958012"
   },
   {
     "id": "6918f6828e59",
@@ -2604,7 +2604,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:29:35.852325"
+    "added_at": "2026-06-05T00:45:47.637141"
   },
   {
     "id": "28205bba1ca1",
@@ -2802,7 +2802,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-02T21:59:19.680870"
+    "added_at": "2026-06-04T21:58:11.624035"
   },
   {
     "id": "0ae1a0872487",
@@ -2945,5 +2945,104 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-06-04T08:26:40.691892"
+  },
+  {
+    "id": "c8287599b5d3",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/xjnaqit3",
+    "source": "yad2",
+    "address": "Mishol Yaakov 7, Lev Tel Aviv, Tel-Aviv",
+    "lat": 32.0735788181818,
+    "lng": 34.7739125454546,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11500,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 65,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_1_995972_20260603.jpg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_2_998049_20260603.jpg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_3_993830_20260603.jpg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_4_992859_20260603.jpg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_5_998899_20260603.jpg",
+      "https://img.yad2.co.il/Pic/202606/03/2_6/o/y2_6_992345_20260603.jpg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-04T22:42:54.508593"
+  },
+  {
+    "id": "e3686a28b9a3",
+    "url": "https://www.homeless.co.il/rent/viewad,740629.aspx",
+    "source": "homeless",
+    "address": "דירה 1 חדרים להשכרה, יוסף קארו",
+    "lat": 32.0299968,
+    "lng": 34.8442469,
+    "rooms": 1,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": null,
+    "size_sqm": null,
+    "photos": [],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-04T22:59:16.927507"
+  },
+  {
+    "id": "c059f3660da8",
+    "url": "https://www.homeless.co.il/rent/viewad,734409.aspx",
+    "source": "homeless",
+    "address": "דירה 1 חדרים להשכרה, עצמון",
+    "lat": 32.1453197,
+    "lng": 34.8349388,
+    "rooms": 1,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": null,
+    "size_sqm": null,
+    "photos": [],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-04T22:59:32.166822"
+  },
+  {
+    "id": "cc84a82f9901",
+    "url": "https://www.homeless.co.il/rent/viewad,727319.aspx",
+    "source": "homeless",
+    "address": "דירת גג 1.5 חדרים להשכרה בsdfsd, fsdf, sdfsdfsdf",
+    "lat": null,
+    "lng": null,
+    "rooms": 1.5,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 27,
+    "size_sqm": 234234,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5239969.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5268279.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-04T23:00:30.176625"
   }
 ]
