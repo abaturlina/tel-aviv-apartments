@@ -269,7 +269,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:45:34.832177"
+    "added_at": "2026-06-05T09:11:14.280836"
   },
   {
     "id": "da8339960936",
@@ -293,7 +293,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:29:29.431852"
+    "added_at": "2026-06-05T09:10:28.834523"
   },
   {
     "id": "5d148c9382a7",
@@ -322,7 +322,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:00:57.653497"
+    "added_at": "2026-06-05T09:09:11.495508"
   },
   {
     "id": "1dd32523cff8",
@@ -353,7 +353,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:01:00.104669"
+    "added_at": "2026-06-05T09:09:13.658596"
   },
   {
     "id": "b69437dceddc",
@@ -381,7 +381,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:01:04.840776"
+    "added_at": "2026-06-05T09:09:17.939241"
   },
   {
     "id": "87f7d7b8640b",
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:01:09.148337"
+    "added_at": "2026-06-05T09:09:22.362215"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,15 +441,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:01:15.641778"
+    "added_at": "2026-06-05T09:09:28.811365"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": 32.055902,
+    "lng": 34.7679471,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T00:16:57.054641"
+    "added_at": "2026-06-05T09:09:43.827809"
   },
   {
     "id": "238cbdfcbb1c",
@@ -637,7 +637,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-04T08:21:39.623895"
+    "added_at": "2026-06-05T09:02:53.902906"
   },
   {
     "id": "6e06bafe8bc2",
@@ -2066,20 +2066,20 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg"
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T08:23:39.104144"
+    "added_at": "2026-06-05T09:05:44.616769"
   },
   {
     "id": "e5e346b6c50c",
@@ -2229,7 +2229,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-05-29T14:10:08.329166"
+    "added_at": "2026-06-05T08:39:13.652905"
   },
   {
     "id": "a276ab7b52cf",
@@ -2604,7 +2604,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T00:45:47.637141"
+    "added_at": "2026-06-05T09:10:59.564292"
   },
   {
     "id": "28205bba1ca1",
