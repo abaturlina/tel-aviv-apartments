@@ -300,8 +300,8 @@
     "url": "https://www.janglo.net/item/jAjkHp50Y5e",
     "source": "janglo",
     "address": "Old North Tel Aviv",
-    "lat": 32.080927,
-    "lng": 34.7807922,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9900.0,
@@ -322,7 +322,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:11:23.570124"
+    "added_at": "2026-06-05T23:09:40.610202"
   },
   {
     "id": "1dd32523cff8",
@@ -353,7 +353,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:11:25.828097"
+    "added_at": "2026-06-05T23:10:18.017750"
   },
   {
     "id": "b69437dceddc",
@@ -381,7 +381,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:11:30.735288"
+    "added_at": "2026-06-05T23:10:23.475300"
   },
   {
     "id": "87f7d7b8640b",
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:11:35.478831"
+    "added_at": "2026-06-05T23:10:33.364906"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,7 +441,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:11:42.650011"
+    "added_at": "2026-06-05T23:10:41.154820"
   },
   {
     "id": "d9446912aedf",
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T14:11:59.435982"
+    "added_at": "2026-06-05T23:13:34.829654"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2258,7 +2258,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T22:27:21.958012"
+    "added_at": "2026-06-05T22:55:18.098359"
   },
   {
     "id": "6918f6828e59",
@@ -2803,7 +2803,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-04T21:58:11.624035"
+    "added_at": "2026-06-05T22:03:47.126490"
   },
   {
     "id": "0ae1a0872487",
