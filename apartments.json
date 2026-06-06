@@ -796,7 +796,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-04T08:20:59.404770"
+    "added_at": "2026-06-06T22:17:32.717684"
   },
   {
     "id": "2e4624de85c6",
@@ -2040,8 +2040,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,740691.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, ראשית חכמה, שפירא",
-    "lat": 32.053967,
-    "lng": 34.7732118,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": 2,
     "price": 5000.0,
@@ -2066,22 +2066,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-06T09:39:29.384705"
+    "added_at": "2026-06-07T00:03:00.883465"
   },
   {
     "id": "e5e346b6c50c",
@@ -2774,7 +2773,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-06T08:26:35.223346"
+    "added_at": "2026-06-06T22:00:18.868378"
   },
   {
     "id": "2187e8d18ed4",
@@ -2804,7 +2803,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T22:03:47.126490"
+    "added_at": "2026-06-06T22:19:35.516358"
   },
   {
     "id": "0ae1a0872487",
