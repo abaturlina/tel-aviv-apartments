@@ -322,15 +322,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T23:09:40.610202"
+    "added_at": "2026-06-06T10:40:30.224206"
   },
   {
     "id": "1dd32523cff8",
     "url": "https://www.janglo.net/item/R1fOTFud454",
     "source": "janglo",
     "address": "Sderot Levi Eshkol 55 Tel Aviv-Jaffa",
-    "lat": 32.0443395,
-    "lng": 34.7509908,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -353,15 +353,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T23:10:18.017750"
+    "added_at": "2026-06-06T10:40:32.494197"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": 32.052493,
-    "lng": 34.7620775,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -381,15 +381,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T23:10:23.475300"
+    "added_at": "2026-06-06T10:40:36.994745"
   },
   {
     "id": "87f7d7b8640b",
     "url": "https://www.janglo.net/item/prMsp7LwsFS",
     "source": "janglo",
     "address": "Geula St 19 Tel Aviv-Jaffa",
-    "lat": 32.0443395,
-    "lng": 34.7509908,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -407,7 +407,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T23:10:33.364906"
+    "added_at": "2026-06-06T10:40:41.114051"
   },
   {
     "id": "6fa86d5db2dd",
@@ -441,15 +441,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T23:10:41.154820"
+    "added_at": "2026-06-06T10:40:47.585979"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -473,7 +473,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T23:13:34.829654"
+    "added_at": "2026-06-06T10:56:29.334910"
   },
   {
     "id": "238cbdfcbb1c",
@@ -637,7 +637,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T14:03:46.846555"
+    "added_at": "2026-06-06T08:54:36.737921"
   },
   {
     "id": "6e06bafe8bc2",
@@ -2040,8 +2040,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,740691.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, ראשית חכמה, שפירא",
-    "lat": 32.053967,
-    "lng": 34.7732118,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": 2,
     "price": 5000.0,
@@ -2066,21 +2066,22 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:09:07.188698"
+    "added_at": "2026-06-06T09:39:29.384705"
   },
   {
     "id": "e5e346b6c50c",
@@ -2149,7 +2150,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-04T21:58:40.031755"
+    "added_at": "2026-06-06T09:27:14.349986"
   },
   {
     "id": "6b97e47e9c49",
@@ -2773,7 +2774,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-03T14:00:46.696026"
+    "added_at": "2026-06-06T08:26:35.223346"
   },
   {
     "id": "2187e8d18ed4",
@@ -2907,7 +2908,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-05T14:05:31.994797"
+    "added_at": "2026-06-06T09:11:02.730639"
   },
   {
     "id": "7e8bea2aee14",
