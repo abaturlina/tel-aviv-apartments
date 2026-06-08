@@ -64,7 +64,7 @@
     "gym": false,
     "bathtub": false,
     "furnished": true,
-    "floor": 8,
+    "floor": 2,
     "size_sqm": 100,
     "photos": [
       "https://uploads.homeless.co.il/rent/202602/1200/nvFile5183617.jpg",
@@ -77,11 +77,11 @@
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183619.jpg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183620.Jpeg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5183621.Jpeg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5138906.jpeg"
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5237238.jpeg"
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-07T15:37:09.454421"
+    "added_at": "2026-06-08T09:05:06.539491"
   },
   {
     "id": "0fe9593f928e",
@@ -268,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:12:45.560593"
+    "added_at": "2026-06-08T09:11:17.995501"
   },
   {
     "id": "da8339960936",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:12:09.822144"
+    "added_at": "2026-06-08T09:10:50.793160"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:00:33.394384"
+    "added_at": "2026-06-08T09:09:32.533965"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:10:54.126791"
+    "added_at": "2026-06-08T09:09:34.781449"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:10:58.473767"
+    "added_at": "2026-06-08T09:09:39.032624"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:11:02.556552"
+    "added_at": "2026-06-08T09:09:43.589623"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-08T00:11:08.862541"
+    "added_at": "2026-06-08T09:09:50.038786"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-08T00:11:23.946455"
+    "added_at": "2026-06-08T09:10:05.311148"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,22 +2065,22 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg"
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5269213.jpeg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-07T22:59:30.428557"
+    "added_at": "2026-06-08T09:05:30.647621"
   },
   {
     "id": "e5e346b6c50c",
@@ -2149,7 +2149,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-07T15:04:12.340825"
+    "added_at": "2026-06-08T09:03:13.144422"
   },
   {
     "id": "6b97e47e9c49",
