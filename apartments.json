@@ -268,7 +268,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:54:42.208371"
+    "added_at": "2026-06-09T14:12:17.065078"
   },
   {
     "id": "da8339960936",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:54:18.985700"
+    "added_at": "2026-06-09T14:11:50.563917"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:52:54.814158"
+    "added_at": "2026-06-09T14:10:26.437906"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:52:57.275082"
+    "added_at": "2026-06-09T14:10:28.884497"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:53:02.101907"
+    "added_at": "2026-06-09T14:10:33.712684"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:53:06.805087"
+    "added_at": "2026-06-09T14:10:39.087991"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:53:13.851637"
+    "added_at": "2026-06-09T14:10:45.729050"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-09T10:53:30.183079"
+    "added_at": "2026-06-09T14:11:01.651237"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-09T10:04:48.747231"
+    "added_at": "2026-06-09T14:06:39.877402"
   },
   {
     "id": "e5e346b6c50c",
@@ -2870,7 +2870,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-05T14:02:15.896818"
+    "added_at": "2026-06-09T14:01:50.102343"
   },
   {
     "id": "23238de8f3cb",
@@ -3469,5 +3469,139 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-06-09T10:52:32.443158"
+  },
+  {
+    "id": "ad077ec2f1a1",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/quiubsnn",
+    "source": "yad2",
+    "address": "Amir Gilboa, Nofei Yam, Tel-Aviv",
+    "lat": 32.116526,
+    "lng": 34.787865,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11000,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 6,
+    "size_sqm": 95,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010518_20260607123016.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010468_20260607123016.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010409_20260607123017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010700_20260607123017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010390_20260607123017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010483_20260607123018.jpeg",
+      "https://img.yad2.co.il/Pic/202606/07/2_2/o/y2_1pa_010407_20260607123023.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-09T14:01:40.479261"
+  },
+  {
+    "id": "18a96e5d6163",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/yfzf8xd6",
+    "source": "yad2",
+    "address": "Ben Yehuda 73, The Old North - Southern part, Tel-Aviv",
+    "lat": 32.080848,
+    "lng": 34.770204,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 10600,
+    "mamad": true,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 67,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010973_20260605183728.jpeg",
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010751_20260605184029.jpeg",
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010153_20260605184029.jpeg",
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010294_20260605184033.jpeg",
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010043_20260605184033.jpeg",
+      "https://img.yad2.co.il/Pic/202606/05/2_2/o/y2_1pa_010621_20260605184033.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-09T14:02:44.329042"
+  },
+  {
+    "id": "d3f18553d18a",
+    "url": "https://www.homeless.co.il/rent/viewad,729789.aspx",
+    "source": "homeless",
+    "address": "דירה 1 חדרים להשכרה ברמת גן, הרא\"ה 12",
+    "lat": 32.0837568,
+    "lng": 34.8172673,
+    "rooms": 1,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 1,
+    "size_sqm": 78,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202509/1200/nvFile5048455.jpg",
+      "https://uploads.homeless.co.il/rent/202509/550/nvFile5048455.jpg",
+      "https://uploads.homeless.co.il/rent/202509/550/nvFile5048456.jpg",
+      "https://uploads.homeless.co.il/rent/202509/550/nvFile5048457.jpg",
+      "https://uploads.homeless.co.il/rent/202509/550/nvFile5048458.jpg",
+      "https://uploads.homeless.co.il/rent/202509/nvFile5048455.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5048455.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5048456.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5048457.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5048458.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5275235.jpeg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5124988.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4797237.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5268328.jpeg",
+      "https://uploads.homeless.co.il/rent/202510/300/nvFile5066007.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5246879.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5165860.jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5216418.jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5231077.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272734.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5141779.jpeg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4790759.JPG"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-09T14:06:04.581057"
+  },
+  {
+    "id": "c6ee50b8c492",
+    "url": "https://www.onmap.co.il/en/listing/apartment-for-rent-tel-aviv-yafo-old-north-southern-part-symzkphwml",
+    "source": "onmap",
+    "address": "Ben Yehuda St., Old North Southern Part, Tel Aviv-Yafo",
+    "lat": 32.0809187,
+    "lng": 34.7702554,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 10600,
+    "mamad": true,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 70,
+    "photos": [
+      "https://onmap.pro/images/1780997839693-7ff86b3e-6739-4ce4-a240-2509204fb187.gallery.webp",
+      "https://onmap.pro/images/1780997839245-IMG_7566.gallery.webp",
+      "https://onmap.pro/images/1780997840013-IMG_7564.gallery.webp",
+      "https://onmap.pro/images/1780997839988-IMG_7569.gallery.webp",
+      "https://onmap.pro/images/1780997840062-IMG_7568.gallery.webp",
+      "https://onmap.pro/images/1780997840031-IMG_7567.gallery.webp",
+      "https://onmap.pro/images/1780997840131-IMG_7565.gallery.webp"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-09T14:12:07.427799"
   }
 ]
