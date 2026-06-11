@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:23:06.948268"
+    "added_at": "2026-06-11T14:12:12.357261"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:21:43.973225"
+    "added_at": "2026-06-11T14:10:49.631099"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:21:46.347365"
+    "added_at": "2026-06-11T14:10:51.867022"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:21:50.955597"
+    "added_at": "2026-06-11T14:10:56.512350"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:21:55.654065"
+    "added_at": "2026-06-11T14:11:01.161855"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:22:02.495686"
+    "added_at": "2026-06-11T14:11:08.106605"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-10T21:22:18.712907"
+    "added_at": "2026-06-11T14:11:24.349394"
   },
   {
     "id": "238cbdfcbb1c",
@@ -636,7 +636,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-07T12:04:06.009865"
+    "added_at": "2026-06-11T14:04:57.985641"
   },
   {
     "id": "6e06bafe8bc2",
@@ -2065,22 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4868433.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242947.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:18:12.455578"
+    "added_at": "2026-06-11T14:08:06.535024"
   },
   {
     "id": "e5e346b6c50c",
@@ -2974,7 +2973,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-04T22:42:54.508593"
+    "added_at": "2026-06-11T14:05:48.161149"
   },
   {
     "id": "e3686a28b9a3",
@@ -3057,7 +3056,7 @@
     "bedrooms": 2,
     "price": 12000,
     "mamad": true,
-    "parking": false,
+    "parking": true,
     "gym": false,
     "bathtub": false,
     "furnished": true,
@@ -3081,7 +3080,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-07T12:03:52.566362"
+    "added_at": "2026-06-11T14:03:42.427060"
   },
   {
     "id": "9e3123285691",
@@ -3375,7 +3374,7 @@
     "bedrooms": 2,
     "price": 12000,
     "mamad": true,
-    "parking": false,
+    "parking": true,
     "gym": false,
     "bathtub": false,
     "furnished": true,
@@ -3395,7 +3394,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-07T12:05:46.991061"
+    "added_at": "2026-06-11T14:05:18.807504"
   },
   {
     "id": "9328c1fe1c59",
@@ -3603,7 +3602,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-10T21:23:26.535905"
+    "added_at": "2026-06-11T14:12:28.226258"
   },
   {
     "id": "3f70f6d6cb71",
@@ -3677,5 +3676,74 @@
     "notes": "",
     "status": "over_budget",
     "added_at": "2026-06-10T21:16:34.735689"
+  },
+  {
+    "id": "f16c6624725a",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/5ubcypfb",
+    "source": "yad2",
+    "address": "Pinhas Sapir, Tzamarot Ayalon, Tel-Aviv",
+    "lat": 32.087667,
+    "lng": 34.797374,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9700,
+    "mamad": true,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 1,
+    "size_sqm": 75,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/08/2_6/o/y2_1pa_010057_20260608114032.jpeg",
+      "https://img.yad2.co.il/Pic/202606/08/2_6/o/y2_1pa_010478_20260608114032.jpeg",
+      "https://img.yad2.co.il/Pic/202606/08/2_6/o/y2_1pa_010471_20260608114031.jpeg",
+      "https://img.yad2.co.il/Pic/202606/08/2_6/o/y2_1pa_010121_20260608114830.jpeg",
+      "https://img.yad2.co.il/Pic/202606/08/2_6/o/y2_1pa_010107_20260608114032.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-11T14:05:41.336531"
+  },
+  {
+    "id": "f2049882bba3",
+    "url": "https://www.homeless.co.il/rent/viewad,733119.aspx",
+    "source": "homeless",
+    "address": "דירה 3.5 חדרים להשכרה בתל אביב - יפו, אליעזר ליבנה 6 , רמת הטייסים",
+    "lat": 32.0443395,
+    "lng": 34.7509908,
+    "rooms": 3.5,
+    "bedrooms": 2,
+    "price": 7000.0,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 96,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202511/1200/nvFile5079392.jpg",
+      "https://uploads.homeless.co.il/rent/202511/550/nvFile5079392.jpg",
+      "https://uploads.homeless.co.il/rent/202511/550/nvFile5079390.jpg",
+      "https://uploads.homeless.co.il/rent/202511/550/nvFile5079391.jpg",
+      "https://uploads.homeless.co.il/rent/202511/550/nvFile5079393.jpg",
+      "https://uploads.homeless.co.il/rent/202511/nvFile5079392.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079392.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079390.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079391.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079393.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079394.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079395.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079396.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079388.jpg",
+      "https://uploads.homeless.co.il/rent/202506/300/nvFile4972310.jpeg",
+      "https://uploads.homeless.co.il/rent/202501/300/nvFile4900887.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272356.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272436.jpg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-11T14:07:02.342309"
   }
 ]
