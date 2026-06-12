@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:12:15.378074"
+    "added_at": "2026-06-12T21:11:46.637009"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:10:50.643702"
+    "added_at": "2026-06-12T21:10:22.846848"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:10:52.951766"
+    "added_at": "2026-06-12T21:10:25.263501"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:10:57.831601"
+    "added_at": "2026-06-12T21:10:29.951581"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:11:02.651765"
+    "added_at": "2026-06-12T21:10:34.286122"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T14:11:06.989961"
+    "added_at": "2026-06-12T21:10:38.747317"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": 32.055902,
+    "lng": 34.7679471,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-12T14:11:23.627335"
+    "added_at": "2026-06-12T21:10:54.575971"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2148,7 +2148,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-10T21:16:26.441691"
+    "added_at": "2026-06-12T21:04:34.950874"
   },
   {
     "id": "6b97e47e9c49",
@@ -2441,8 +2441,8 @@
     "address": "ברוכים הבאים הומלסים יקרים!",
     "lat": null,
     "lng": null,
-    "rooms": 4,
-    "bedrooms": 3,
+    "rooms": 6,
+    "bedrooms": 5,
     "price": null,
     "mamad": false,
     "parking": false,
@@ -2450,27 +2450,27 @@
     "bathtub": false,
     "furnished": true,
     "floor": 3,
-    "size_sqm": 3,
+    "size_sqm": 1,
     "photos": [
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5165774.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5133669.jpg",
-      "https://uploads.homeless.co.il/rent/202307/300/nvFile4520583.jpg",
-      "https://uploads.homeless.co.il/rent/202511/300/nvFile5079392.jpg",
-      "https://uploads.homeless.co.il/rent/202509/300/nvFile5044253.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267732.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5260846.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252997.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5152340.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5271034.jpeg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4793491.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5116615.jpeg",
-      "https://uploads.homeless.co.il/rent/202509/300/nvFile5046895.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5268344.jpeg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4798486.jpg"
+      "https://uploads.homeless.co.il/rent/202505/300/nvFile4960115.jpg",
+      "https://uploads.homeless.co.il/rent/202506/300/nvFile4971008.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5251006.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5259795.Jpeg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5004721.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5275372.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5165860.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5284058.Jpeg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5101217.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5244382.jpeg",
+      "https://uploads.homeless.co.il/rent/202410/300/nvFile4841343.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5170490.Jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5257751.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5095436.jpg",
+      "https://uploads.homeless.co.il/rent/202409/300/nvFile4817870.jpg"
     ],
     "notes": "",
     "status": "new",
-    "added_at": "2026-06-12T14:09:13.048242"
+    "added_at": "2026-06-12T21:09:37.353359"
   },
   {
     "id": "9fd74741e95d",
@@ -2870,7 +2870,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-12T08:08:51.170322"
+    "added_at": "2026-06-12T21:01:37.932354"
   },
   {
     "id": "23238de8f3cb",
@@ -3602,7 +3602,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-12T14:12:31.204003"
+    "added_at": "2026-06-12T21:12:09.008771"
   },
   {
     "id": "3f70f6d6cb71",
@@ -3774,6 +3774,109 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T08:08:31.803383"
+    "added_at": "2026-06-12T21:01:11.317358"
+  },
+  {
+    "id": "a36e9f52ce4f",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/iddgx3fq",
+    "source": "yad2",
+    "address": "Menachem Begin 106, Montefiore, Tel-Aviv",
+    "lat": 32.070092,
+    "lng": 34.788593,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 10000,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": true,
+    "furnished": true,
+    "floor": 21,
+    "size_sqm": 74,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010429_20260611085504.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010785_20260611085504.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010902_20260611085504.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010870_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010402_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010847_20260611085504.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010989_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010729_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010032_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010245_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010890_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010170_20260611085505.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_6/o/y2_1pa_010595_20260611085505.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-12T21:03:03.381037"
+  },
+  {
+    "id": "f399af54ce2f",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/44motxib",
+    "source": "yad2",
+    "address": "Pinhas Sapir, Tzamarot Ayalon, Tel-Aviv",
+    "lat": 32.087667,
+    "lng": 34.797374,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 9000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 10,
+    "size_sqm": 60,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010598_20260531164431.jpeg",
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010637_20260531164431.jpeg",
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010387_20260531164430.jpeg",
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010385_20260531164431.jpeg",
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010998_20260531164431.jpeg",
+      "https://img.yad2.co.il/Pic/202605/31/2_6/o/y2_1pa_010138_20260531164521.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-12T21:05:07.450645"
+  },
+  {
+    "id": "fe6f63d76150",
+    "url": "https://www.homeless.co.il/rent/viewad,82647.aspx",
+    "source": "homeless",
+    "address": "ברוכים הבאים הומלסים יקרים!",
+    "lat": null,
+    "lng": null,
+    "rooms": 1,
+    "bedrooms": 0,
+    "price": null,
+    "mamad": false,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 2,
+    "size_sqm": 1,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202410/300/nvFile4833525.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5271510.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5262903.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5261650.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5246057.jpg",
+      "https://uploads.homeless.co.il/rent/202501/300/nvFile4886973.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5265757.jpg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5091076.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4865171.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5248905.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5281766.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5244526.jpeg",
+      "https://uploads.homeless.co.il/rent/202506/300/nvFile4979736.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5056587.jpg"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-12T21:09:24.478494"
   }
 ]
