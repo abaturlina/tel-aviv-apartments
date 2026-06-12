@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:12:12.357261"
+    "added_at": "2026-06-12T11:28:43.792693"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:10:49.631099"
+    "added_at": "2026-06-12T11:11:53.378671"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:10:51.867022"
+    "added_at": "2026-06-12T11:11:55.438106"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:10:56.512350"
+    "added_at": "2026-06-12T11:12:00.033396"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:11:01.161855"
+    "added_at": "2026-06-12T11:12:04.426426"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-11T14:11:08.106605"
+    "added_at": "2026-06-12T11:12:09.152872"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-11T14:11:24.349394"
+    "added_at": "2026-06-12T11:12:26.034019"
   },
   {
     "id": "238cbdfcbb1c",
@@ -636,7 +636,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-11T14:04:57.985641"
+    "added_at": "2026-06-12T09:26:22.054423"
   },
   {
     "id": "6e06bafe8bc2",
@@ -2870,7 +2870,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-09T14:01:50.102343"
+    "added_at": "2026-06-12T08:08:51.170322"
   },
   {
     "id": "23238de8f3cb",
@@ -3080,7 +3080,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-11T14:03:42.427060"
+    "added_at": "2026-06-12T08:54:23.699922"
   },
   {
     "id": "9e3123285691",
@@ -3527,7 +3527,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-09T14:02:44.329042"
+    "added_at": "2026-06-12T08:37:37.426170"
   },
   {
     "id": "d3f18553d18a",
@@ -3602,7 +3602,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-11T14:12:28.226258"
+    "added_at": "2026-06-12T11:40:53.197624"
   },
   {
     "id": "3f70f6d6cb71",
@@ -3745,5 +3745,33 @@
     "notes": "",
     "status": "good",
     "added_at": "2026-06-11T14:07:02.342309"
+  },
+  {
+    "id": "6fde2b685b0b",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/d2qtcrub",
+    "source": "yad2",
+    "address": "Tslilei Hanina 1, Nir Aviv, Tel-Aviv",
+    "lat": 32.047404,
+    "lng": 34.812451,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 6800,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 3,
+    "size_sqm": 88,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010069_20260611160011.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010639_20260611160011.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010361_20260611160017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010990_20260611160017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010666_20260611160017.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-12T08:08:31.803383"
   }
 ]
