@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T14:10:54.676022"
+    "added_at": "2026-06-14T23:06:58.286098"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T11:20:28.860965"
+    "added_at": "2026-06-14T23:05:40.360267"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T11:20:31.442198"
+    "added_at": "2026-06-14T23:05:42.455109"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T11:20:35.933937"
+    "added_at": "2026-06-14T23:05:46.840574"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T11:20:41.146300"
+    "added_at": "2026-06-14T23:05:51.568798"
   },
   {
     "id": "6fa86d5db2dd",
@@ -417,7 +417,7 @@
     "lng": null,
     "rooms": 3,
     "bedrooms": null,
-    "price": 9700.0,
+    "price": 9500.0,
     "mamad": true,
     "parking": false,
     "gym": false,
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T11:20:45.992761"
+    "added_at": "2026-06-14T23:05:55.950904"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-14T11:36:27.848474"
+    "added_at": "2026-06-14T23:06:11.207585"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2802,7 +2802,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-14T14:05:08.646647"
+    "added_at": "2026-06-14T23:03:32.135003"
   },
   {
     "id": "0ae1a0872487",
@@ -3602,7 +3602,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-14T14:11:12.363720"
+    "added_at": "2026-06-14T23:07:24.044808"
   },
   {
     "id": "3f70f6d6cb71",
@@ -3810,7 +3810,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-14T14:05:01.822534"
+    "added_at": "2026-06-14T23:03:12.472793"
   },
   {
     "id": "f399af54ce2f",
@@ -4505,5 +4505,39 @@
     "notes": "",
     "status": "good",
     "added_at": "2026-06-14T14:05:44.402870"
+  },
+  {
+    "id": "a8ad267b64d3",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/mvyb19om",
+    "source": "yad2",
+    "address": "Menachem Begin 106, Montefiore, Tel-Aviv",
+    "lat": 32.070092,
+    "lng": 34.788593,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 10600,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": true,
+    "furnished": true,
+    "floor": 21,
+    "size_sqm": 84,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010066_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010641_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010193_20260609081305.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010419_20260609081305.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010595_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010201_20260609081305.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010541_20260609081311.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010481_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010023_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010132_20260609081306.jpeg",
+      "https://img.yad2.co.il/Pic/202606/09/2_6/o/y2_1pa_010458_20260609081306.jpeg"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-14T23:04:16.619418"
   }
 ]
