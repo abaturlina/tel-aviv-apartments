@@ -4,8 +4,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,734801.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, דרך שלמה, מפרטי במזרח לפלורנטין ! רא...",
-    "lat": 32.0546912,
-    "lng": 34.761501,
+    "lat": 32.0548297,
+    "lng": 34.7689663,
     "rooms": 3,
     "bedrooms": 2,
     "price": 6380.0,
@@ -33,21 +33,21 @@
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115241.jpeg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5273572.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5273573.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5247959.JPG",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5286265.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5262163.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-15T14:05:58.012162"
+    "added_at": "2026-06-18T14:20:24.081162"
   },
   {
     "id": "caccfcc1d829",
@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T07:36:10.239758"
+    "added_at": "2026-06-18T17:24:48.919547"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-17T08:13:33.985769"
+    "added_at": "2026-06-18T14:47:27.260122"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T06:57:15.142830"
+    "added_at": "2026-06-18T14:47:29.587357"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T06:57:19.456082"
+    "added_at": "2026-06-18T14:50:08.669619"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T07:00:04.436018"
+    "added_at": "2026-06-18T14:50:13.248991"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-17T08:13:49.046796"
+    "added_at": "2026-06-18T14:50:17.943224"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-17T08:14:04.427034"
+    "added_at": "2026-06-18T15:20:23.150869"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2032,15 +2032,15 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-05-23T10:28:37.920245"
+    "added_at": "2026-06-18T14:14:03.957539"
   },
   {
     "id": "94d597084df0",
     "url": "https://www.homeless.co.il/rent/viewad,740691.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, ראשית חכמה, שפירא",
-    "lat": null,
-    "lng": null,
+    "lat": 32.053967,
+    "lng": 34.7732118,
     "rooms": 3,
     "bedrooms": 2,
     "price": 5000.0,
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
       "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg"
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T04:06:42.185849"
+    "added_at": "2026-06-18T14:17:24.389962"
   },
   {
     "id": "e5e346b6c50c",
@@ -2852,7 +2852,7 @@
     "lng": 34.776627,
     "rooms": 3,
     "bedrooms": 2,
-    "price": 11500,
+    "price": 10800,
     "mamad": true,
     "parking": true,
     "gym": false,
@@ -2871,7 +2871,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-12T21:01:37.932354"
+    "added_at": "2026-06-18T14:05:56.941925"
   },
   {
     "id": "23238de8f3cb",
@@ -2907,7 +2907,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-17T08:08:00.538867"
+    "added_at": "2026-06-18T14:09:05.012191"
   },
   {
     "id": "7e8bea2aee14",
@@ -3605,7 +3605,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-18T07:52:03.993719"
+    "added_at": "2026-06-18T17:25:24.050560"
   },
   {
     "id": "3f70f6d6cb71",
@@ -3614,36 +3614,36 @@
     "address": "ברוכים הבאים הומלסים יקרים!",
     "lat": null,
     "lng": null,
-    "rooms": 4.5,
-    "bedrooms": 3,
+    "rooms": 1,
+    "bedrooms": 0,
     "price": null,
     "mamad": false,
     "parking": false,
     "gym": false,
     "bathtub": false,
     "furnished": true,
-    "floor": 46,
-    "size_sqm": 12,
+    "floor": 4,
+    "size_sqm": 25,
     "photos": [
-      "https://uploads.homeless.co.il/rent/202409/300/nvFile4810810.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5235660.jpg",
-      "https://uploads.homeless.co.il/rent/202411/300/nvFile4859314.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5165774.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5239503.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5244406.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5249359.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5253282.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5181445.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5270955.jpeg",
-      "https://uploads.homeless.co.il/rent/202510/300/nvFile5062175.jpg",
-      "https://uploads.homeless.co.il/rent/202501/300/nvFile5027216.JPG",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5245659.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5241714.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg"
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5133016.JPG",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5125488.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5264874.JPG",
+      "https://uploads.homeless.co.il/rent/202405/300/nvFile5079114.Jpeg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5089062.jpeg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5127943.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5271510.jpg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5088958.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5280938.jpg",
+      "https://uploads.homeless.co.il/rent/202509/300/nvFile5051069.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5135702.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5157796.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5242124.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272734.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5254358.jpg"
     ],
     "notes": "",
     "status": "new",
-    "added_at": "2026-06-09T22:11:30.458551"
+    "added_at": "2026-06-18T14:23:15.944923"
   },
   {
     "id": "ea9f5574c13a",
@@ -3769,15 +3769,17 @@
     "floor": 3,
     "size_sqm": 88,
     "photos": [
-      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010069_20260611160011.jpeg",
+      "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_1_09155_20260613134236.jpeg",
       "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010639_20260611160011.jpeg",
-      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010361_20260611160017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_3_02920_20260613134244.jpeg",
       "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010990_20260611160017.jpeg",
-      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010666_20260611160017.jpeg"
+      "https://img.yad2.co.il/Pic/202606/11/2_2/o/y2_1pa_010666_20260611160017.jpeg",
+      "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_7_03866_20260613134633.jpeg",
+      "https://img.yad2.co.il/Pic/202606/13/2_2/o/y2_8_08541_20260613134638.jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T21:01:11.317358"
+    "added_at": "2026-06-18T14:03:46.236389"
   },
   {
     "id": "a36e9f52ce4f",
@@ -4469,8 +4471,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,741323.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, יהודה הנשיא, נוה אביבים",
-    "lat": null,
-    "lng": null,
+    "lat": 32.1164772,
+    "lng": 34.7948605,
     "rooms": 3,
     "bedrooms": 2,
     "price": 6500.0,
@@ -4492,22 +4494,22 @@
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288207.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288206.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288209.jpeg",
-      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032428.jpg",
-      "https://uploads.homeless.co.il/rent/202507/300/nvFile5000950.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5268368.jpg",
       "https://uploads.homeless.co.il/rent/202201/300/nvFile4147092.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5257287.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg",
-      "https://uploads.homeless.co.il/rent/202503/300/nvFile4934037.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5285586.jpeg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5276703.jpeg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5277206.jpeg",
+      "https://uploads.homeless.co.il/rent/202508/300/nvFile5020448.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5175497.Jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5291941.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5270153.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5264947.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5264947.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5262179.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5257287.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5276703.jpeg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5108918.jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5277206.jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T01:48:12.279768"
+    "added_at": "2026-06-18T14:15:06.004700"
   },
   {
     "id": "a8ad267b64d3",
@@ -4541,7 +4543,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-17T08:08:06.785561"
+    "added_at": "2026-06-18T14:06:26.723820"
   },
   {
     "id": "e5437df07894",
@@ -4572,7 +4574,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T07:36:31.353778"
+    "added_at": "2026-06-18T17:25:19.137329"
   },
   {
     "id": "b12f0cceebd5",
@@ -4620,7 +4622,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-18T07:36:32.197181"
+    "added_at": "2026-06-18T17:25:19.917467"
   },
   {
     "id": "9b40bab82732",
