@@ -292,15 +292,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T00:33:33.929207"
+    "added_at": "2026-06-19T14:12:48.276535"
   },
   {
     "id": "5d148c9382a7",
     "url": "https://www.janglo.net/item/jAjkHp50Y5e",
     "source": "janglo",
     "address": "Old North Tel Aviv",
-    "lat": null,
-    "lng": null,
+    "lat": 32.080927,
+    "lng": 34.7807922,
     "rooms": 3,
     "bedrooms": null,
     "price": 9900.0,
@@ -321,15 +321,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:34:58.937539"
+    "added_at": "2026-06-19T14:11:33.327774"
   },
   {
     "id": "1dd32523cff8",
     "url": "https://www.janglo.net/item/R1fOTFud454",
     "source": "janglo",
     "address": "Sderot Levi Eshkol 55 Tel Aviv-Jaffa",
-    "lat": null,
-    "lng": null,
+    "lat": 32.0443395,
+    "lng": 34.7509908,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -352,15 +352,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:35:00.998207"
+    "added_at": "2026-06-19T14:11:35.435831"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": null,
-    "lng": null,
+    "lat": 32.052493,
+    "lng": 34.7620775,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -380,15 +380,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:35:05.467981"
+    "added_at": "2026-06-19T14:11:39.686412"
   },
   {
     "id": "87f7d7b8640b",
     "url": "https://www.janglo.net/item/prMsp7LwsFS",
     "source": "janglo",
     "address": "Geula St 19 Tel Aviv-Jaffa",
-    "lat": null,
-    "lng": null,
+    "lat": 32.0443395,
+    "lng": 34.7509908,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:35:09.638299"
+    "added_at": "2026-06-19T14:11:43.971536"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:35:14.190391"
+    "added_at": "2026-06-19T14:11:48.109557"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-19T00:17:21.152638"
+    "added_at": "2026-06-19T14:12:02.969558"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2039,8 +2039,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,740691.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, ראשית חכמה, שפירא",
-    "lat": null,
-    "lng": null,
+    "lat": 32.053967,
+    "lng": 34.7732118,
     "rooms": 3,
     "bedrooms": 2,
     "price": 5000.0,
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
       "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5255831.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:32:18.903302"
+    "added_at": "2026-06-19T14:07:16.691188"
   },
   {
     "id": "e5e346b6c50c",
@@ -2803,7 +2803,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-17T08:06:20.656184"
+    "added_at": "2026-06-19T14:06:02.210494"
   },
   {
     "id": "0ae1a0872487",
@@ -2907,7 +2907,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:17:43.809418"
+    "added_at": "2026-06-19T14:04:20.348127"
   },
   {
     "id": "7e8bea2aee14",
@@ -3844,7 +3844,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-12T21:05:07.450645"
+    "added_at": "2026-06-19T14:06:46.892746"
   },
   {
     "id": "fe6f63d76150",
@@ -4471,8 +4471,8 @@
     "url": "https://www.homeless.co.il/rent/viewad,741323.aspx",
     "source": "homeless",
     "address": "דירה 3 חדרים להשכרה בתל אביב יפו, יהודה הנשיא, נוה אביבים",
-    "lat": null,
-    "lng": null,
+    "lat": 32.1164772,
+    "lng": 34.7948605,
     "rooms": 3,
     "bedrooms": 2,
     "price": 6500.0,
@@ -4494,21 +4494,21 @@
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288207.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288206.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288209.jpeg",
-      "https://uploads.homeless.co.il/rent/202507/300/nvFile5032428.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5264947.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5291941.jpg",
       "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5175497.Jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5285586.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5268368.jpg",
-      "https://uploads.homeless.co.il/rent/202503/300/nvFile4934037.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5108918.jpeg",
-      "https://uploads.homeless.co.il/rent/202508/300/nvFile5020448.jpeg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5262179.jpeg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5175497.Jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5164185.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5257287.jpeg",
-      "https://uploads.homeless.co.il/rent/202201/300/nvFile4147092.jpg"
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5277206.jpeg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5111902.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5276703.jpeg",
+      "https://uploads.homeless.co.il/rent/202507/300/nvFile5000950.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T08:30:33.180505"
+    "added_at": "2026-06-19T14:06:57.264093"
   },
   {
     "id": "a8ad267b64d3",
@@ -4573,7 +4573,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T00:33:48.294876"
+    "added_at": "2026-06-19T14:13:19.906743"
   },
   {
     "id": "b12f0cceebd5",
@@ -4621,7 +4621,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-19T00:33:51.043981"
+    "added_at": "2026-06-19T14:13:22.179650"
   },
   {
     "id": "9b40bab82732",
@@ -4903,5 +4903,68 @@
     "notes": "",
     "status": "new",
     "added_at": "2026-06-15T21:07:04.655726"
+  },
+  {
+    "id": "5ac48351cee9",
+    "url": "https://www.yad2.co.il/realestate/item/tel-aviv-area/zdkj2s7t",
+    "source": "yad2",
+    "address": "Leonardo da Vinci 17, Sarona Gardens, Tel-Aviv",
+    "lat": 32.0746577948718,
+    "lng": 34.7844830769231,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 10000,
+    "mamad": true,
+    "parking": true,
+    "gym": true,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 23,
+    "size_sqm": 75,
+    "photos": [
+      "https://img.yad2.co.il/Pic/202602/08/2_6/o/y2_1__VnTQkYOXE_20260208.jpeg",
+      "https://img.yad2.co.il/Pic/202602/08/2_6/o/y2_2_r06eaYLSbY_20260208.jpeg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-19T14:06:34.299657"
+  },
+  {
+    "id": "66ce90f6d944",
+    "url": "https://www.homeless.co.il/rent/viewad,83431.aspx",
+    "source": "homeless",
+    "address": "ברוכים הבאים הומלסים יקרים!",
+    "lat": null,
+    "lng": null,
+    "rooms": 4,
+    "bedrooms": 3,
+    "price": null,
+    "mamad": false,
+    "parking": false,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 4,
+    "size_sqm": 13,
+    "photos": [
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5165774.jpg",
+      "https://uploads.homeless.co.il/rent/202502/300/nvFile4942883.jpeg",
+      "https://uploads.homeless.co.il/rent/202510/300/nvFile5060503.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5260669.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5251273.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4788571.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5279352.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5290547.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5286502.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5256750.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5264137.jpg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5143448.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5273535.jpg",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5183617.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5287717.jpeg"
+    ],
+    "notes": "",
+    "status": "new",
+    "added_at": "2026-06-19T14:09:47.764588"
   }
 ]
