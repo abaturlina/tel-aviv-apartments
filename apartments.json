@@ -292,7 +292,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:14:38.467981"
+    "added_at": "2026-06-22T15:05:56.549416"
   },
   {
     "id": "5d148c9382a7",
@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:13:26.992714"
+    "added_at": "2026-06-22T15:04:39.982542"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:13:29.109495"
+    "added_at": "2026-06-22T15:04:42.049043"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:13:33.373530"
+    "added_at": "2026-06-22T15:04:46.400625"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:13:37.851469"
+    "added_at": "2026-06-22T15:04:50.651017"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:13:42.150125"
+    "added_at": "2026-06-22T15:04:54.856485"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-22T09:13:57.398277"
+    "added_at": "2026-06-22T15:05:09.745080"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5297454.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:10:32.517777"
+    "added_at": "2026-06-22T15:01:41.281370"
   },
   {
     "id": "e5e346b6c50c",
@@ -4493,21 +4493,21 @@
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288207.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288206.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5288209.jpeg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5291941.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5268368.jpg",
-      "https://uploads.homeless.co.il/rent/202201/300/nvFile4147092.jpg",
-      "https://uploads.homeless.co.il/rent/202601/300/nvFile5164185.jpeg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5220638.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5276703.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5291941.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5108918.jpeg",
+      "https://uploads.homeless.co.il/rent/202511/300/nvFile5111902.jpg",
       "https://uploads.homeless.co.il/rent/202507/300/nvFile5032428.jpg",
-      "https://uploads.homeless.co.il/rent/202503/300/nvFile4934037.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5270153.jpg",
+      "https://uploads.homeless.co.il/rent/202201/300/nvFile4147092.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5264947.jpg",
-      "https://uploads.homeless.co.il/rent/202507/300/nvFile5000950.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5295157.jpeg"
+      "https://uploads.homeless.co.il/rent/202508/300/nvFile5020448.jpeg",
+      "https://uploads.homeless.co.il/rent/202503/300/nvFile4934037.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-22T09:08:27.946951"
+    "added_at": "2026-06-22T14:59:41.731206"
   },
   {
     "id": "a8ad267b64d3",
@@ -5003,5 +5003,36 @@
     "notes": "",
     "status": "good",
     "added_at": "2026-06-22T09:06:32.696007"
+  },
+  {
+    "id": "308af336586c",
+    "url": "https://www.onmap.co.il/en/listing/penthouse-for-rent-tel-aviv-yafo-florentin-rkogstimgl",
+    "source": "onmap",
+    "address": "Matalon St., Florentin, Tel Aviv-Yafo",
+    "lat": 32.0589332,
+    "lng": 34.7709372,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 11000,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": 6,
+    "size_sqm": 80,
+    "photos": [
+      "https://onmap.pro/images/1782123235465-WhatsApp Image 2026-06-22 at 11.52.36 (2).gallery.webp",
+      "https://onmap.pro/images/1782123235525-WhatsApp Image 2026-06-22 at 11.52.35.gallery.webp",
+      "https://onmap.pro/images/1782123235586-WhatsApp Image 2026-06-22 at 11.52.36 (3).gallery.webp",
+      "https://onmap.pro/images/1782123235405-WhatsApp Image 2026-06-22 at 11.52.35 (1).gallery.webp",
+      "https://onmap.pro/images/1782123235768-WhatsApp Image 2026-06-22 at 11.52.35 (2).gallery.webp",
+      "https://onmap.pro/images/1782123235709-WhatsApp Image 2026-06-22 at 11.52.36 (1).gallery.webp",
+      "https://onmap.pro/images/1782123235642-WhatsApp Image 2026-06-22 at 11.52.36 (4).gallery.webp",
+      "https://onmap.pro/images/1782123235646-WhatsApp Image 2026-06-22 at 11.52.36.gallery.webp"
+    ],
+    "notes": "",
+    "status": "over_budget",
+    "added_at": "2026-06-22T15:06:06.000944"
   }
 ]
