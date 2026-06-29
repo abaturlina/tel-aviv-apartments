@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:09:47.512478"
+    "added_at": "2026-06-29T09:09:14.340166"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:09:49.832391"
+    "added_at": "2026-06-29T09:09:16.669214"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:09:54.337805"
+    "added_at": "2026-06-29T09:09:21.273348"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:09:59.022256"
+    "added_at": "2026-06-29T09:09:25.678428"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,7 +440,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:10:03.769771"
+    "added_at": "2026-06-29T09:09:30.213973"
   },
   {
     "id": "d9446912aedf",
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-28T21:10:20.469314"
+    "added_at": "2026-06-29T09:09:45.984311"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5297454.Jpeg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5297454.Jpeg"
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-06-28T21:07:02.547340"
+    "added_at": "2026-06-29T09:06:43.775060"
   },
   {
     "id": "e5e346b6c50c",
@@ -5035,7 +5035,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-28T21:11:30.829934"
+    "added_at": "2026-06-29T09:11:07.331573"
   },
   {
     "id": "3013fac0c018",
@@ -5215,7 +5215,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-28T21:11:34.335871"
+    "added_at": "2026-06-29T09:11:10.615768"
   },
   {
     "id": "bc9d4eda4d0d",
@@ -5339,7 +5339,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-06-27T15:07:52.495309"
+    "added_at": "2026-06-29T09:02:21.035503"
   },
   {
     "id": "f4dd9a3072a7",
@@ -5416,5 +5416,29 @@
     "notes": "",
     "status": "over_budget",
     "added_at": "2026-06-27T23:00:55.666488"
+  },
+  {
+    "id": "2fc135104e74",
+    "url": "https://www.craigslist.org/view/d/mamad-sheinkin-chic-comfort-city-stay/6UokpcKv7mXmYFrXP2XTEF",
+    "source": "craigslist",
+    "address": "Tel Aviv, Israel",
+    "lat": 32.1091657,
+    "lng": 34.8111176,
+    "rooms": 3,
+    "bedrooms": 2,
+    "price": 2700.0,
+    "mamad": true,
+    "parking": true,
+    "gym": false,
+    "bathtub": false,
+    "furnished": true,
+    "floor": null,
+    "size_sqm": null,
+    "photos": [
+      "https://images.craigslist.org/00B0B_1xiRNG0KS3O_0gw0b1_600x450.jpg"
+    ],
+    "notes": "",
+    "status": "good",
+    "added_at": "2026-06-29T09:10:29.134348"
   }
 ]
