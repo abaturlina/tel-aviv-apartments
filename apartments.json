@@ -299,8 +299,8 @@
     "url": "https://www.janglo.net/item/jAjkHp50Y5e",
     "source": "janglo",
     "address": "Old North Tel Aviv",
-    "lat": 32.080927,
-    "lng": 34.7807922,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9900.0,
@@ -321,15 +321,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-01T22:13:54.303266"
+    "added_at": "2026-07-02T21:27:47.959666"
   },
   {
     "id": "1dd32523cff8",
     "url": "https://www.janglo.net/item/R1fOTFud454",
     "source": "janglo",
     "address": "Sderot Levi Eshkol 55 Tel Aviv-Jaffa",
-    "lat": 32.0443395,
-    "lng": 34.7509908,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 3800.0,
@@ -352,15 +352,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-01T22:13:56.582290"
+    "added_at": "2026-07-02T21:27:50.107329"
   },
   {
     "id": "b69437dceddc",
     "url": "https://www.janglo.net/item/5mpiCrs252H",
     "source": "janglo",
     "address": "Bar Hoffman 6, American-German Tel Aviv",
-    "lat": 32.052493,
-    "lng": 34.7620775,
+    "lat": null,
+    "lng": null,
     "rooms": 3,
     "bedrooms": null,
     "price": 9700.0,
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-01T22:20:11.974879"
+    "added_at": "2026-07-02T21:27:54.695073"
   },
   {
     "id": "87f7d7b8640b",
@@ -2065,20 +2065,20 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
       "https://uploads.homeless.co.il/rent/202606/300/nvFile5297454.Jpeg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5267706.Jpeg",
       "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
-      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306765.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG"
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
+      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306765.jpg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
+      "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306859.Jpeg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-02T08:48:51.112377"
+    "added_at": "2026-07-02T21:02:18.684933"
   },
   {
     "id": "e5e346b6c50c",
