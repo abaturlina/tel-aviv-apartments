@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:05:06.057668"
+    "added_at": "2026-07-06T20:34:06.710141"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:05:08.191538"
+    "added_at": "2026-07-06T20:34:08.857123"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:05:12.389775"
+    "added_at": "2026-07-06T20:34:13.414050"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:05:16.640279"
+    "added_at": "2026-07-06T20:34:17.793402"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:05:20.831770"
+    "added_at": "2026-07-06T20:34:22.330030"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.0559973,
-    "lng": 34.7650187,
+    "lat": 32.055902,
+    "lng": 34.7679471,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-07-06T13:05:35.634593"
+    "added_at": "2026-07-06T20:34:37.647815"
   },
   {
     "id": "238cbdfcbb1c",
@@ -2065,21 +2065,21 @@
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262165.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262167.jpeg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5262166.jpeg",
-      "https://uploads.homeless.co.il/rent/202606/300/nvFile5297454.Jpeg",
       "https://uploads.homeless.co.il/rent/202602/300/nvFile5172419.jpg",
+      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
+      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306859.Jpeg",
       "https://uploads.homeless.co.il/rent/202408/300/nvFile4807636.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5272642.jpg",
-      "https://uploads.homeless.co.il/rent/202604/300/nvFile5225421.jpg",
-      "https://uploads.homeless.co.il/rent/202512/300/nvFile5115245.jpeg",
-      "https://uploads.homeless.co.il/rent/202412/300/nvFile4875617.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5305360.jpeg",
+      "https://uploads.homeless.co.il/rent/202606/300/nvFile5280143.JPG",
       "https://uploads.homeless.co.il/rent/202412/300/nvFile4864312.jpg",
       "https://uploads.homeless.co.il/rent/202605/300/nvFile5252901.jpg",
-      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306859.Jpeg",
-      "https://uploads.homeless.co.il/rent/202607/300/nvFile5306765.jpg"
+      "https://uploads.homeless.co.il/rent/202601/300/nvFile5142727.jpg"
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:02:23.781851"
+    "added_at": "2026-07-06T20:06:49.252324"
   },
   {
     "id": "e5e346b6c50c",
@@ -5441,7 +5441,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-06T13:06:21.763022"
+    "added_at": "2026-07-06T20:35:26.260957"
   },
   {
     "id": "5e226dad2a21",
