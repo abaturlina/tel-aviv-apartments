@@ -321,7 +321,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:53:04.101674"
+    "added_at": "2026-07-08T13:00:21.864119"
   },
   {
     "id": "1dd32523cff8",
@@ -352,7 +352,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:53:06.180452"
+    "added_at": "2026-07-08T13:00:23.982223"
   },
   {
     "id": "b69437dceddc",
@@ -380,7 +380,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:53:10.571278"
+    "added_at": "2026-07-08T13:00:28.166332"
   },
   {
     "id": "87f7d7b8640b",
@@ -406,7 +406,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:53:14.923877"
+    "added_at": "2026-07-08T13:00:32.346909"
   },
   {
     "id": "6fa86d5db2dd",
@@ -440,15 +440,15 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:53:19.220320"
+    "added_at": "2026-07-08T13:00:36.471245"
   },
   {
     "id": "d9446912aedf",
     "url": "https://www.janglo.net/item/CgileR6TUXj",
     "source": "janglo",
     "address": "Florentine Tel Aviv",
-    "lat": 32.055902,
-    "lng": 34.7679471,
+    "lat": 32.0559973,
+    "lng": 34.7650187,
     "rooms": 3,
     "bedrooms": null,
     "price": 12000.0,
@@ -472,7 +472,7 @@
     ],
     "notes": "",
     "status": "over_budget",
-    "added_at": "2026-07-08T07:53:33.994545"
+    "added_at": "2026-07-08T13:00:51.191504"
   },
   {
     "id": "238cbdfcbb1c",
@@ -5441,7 +5441,7 @@
     ],
     "notes": "",
     "status": "good",
-    "added_at": "2026-07-08T07:54:19.944661"
+    "added_at": "2026-07-08T13:01:39.425917"
   },
   {
     "id": "5e226dad2a21",
